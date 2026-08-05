@@ -1,0 +1,10 @@
+{
+  "name": "showsouk",
+  "version": "1.0.0",
+  "description": "Find where it's playing — compare cinema showtimes across the UAE.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
