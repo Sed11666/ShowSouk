@@ -251,7 +251,7 @@
         <a href="#">Locations</a>
       </nav>
     </div>
-    <a class="gear" href="/settings.html" aria-label="Settings" title="Settings">
+    <a class="gear" href="settings.html" aria-label="Settings" title="Settings">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H2a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 3.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H8a1.7 1.7 0 0 0 1-1.5V2a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
     </a>
   </div>
@@ -411,7 +411,8 @@
   </div>
 </footer>
 
-<script src="/theme.js"></script>
+<script src="theme.js"></script>
+<script src="search.js"></script>
 <script>
   // starfield
   const starsEl = document.getElementById('stars');
@@ -467,6 +468,19 @@
 
   input.addEventListener('keydown', e => { if(e.key === 'Enter') doSearch(); });
 
+  // The catalogue is a static file, so it is fetched once and searched in the
+  // browser — no backend, which is what lets this run on GitHub Pages.
+  // Relative path on purpose: the site is served from /ShowSouk/, not the root.
+  let cataloguePromise = null;
+  function loadCatalogue(){
+    if(!cataloguePromise){
+      cataloguePromise = fetch('data/catalogue.json')
+        .then(res => { if(!res.ok) throw new Error(`catalogue unavailable (${res.status})`); return res.json(); })
+        .catch(err => { cataloguePromise = null; throw err; });  // let a retry work
+    }
+    return cataloguePromise;
+  }
+
   async function doSearch(){
     const query = input.value.trim();
     const mode = currentMode();
@@ -479,10 +493,8 @@
     resultsSection.scrollIntoView({behavior:'smooth', block:'start'});
 
     try{
-      const res = await fetch(`/api/search?mode=${encodeURIComponent(mode)}&q=${encodeURIComponent(query)}`);
-      if(!res.ok) throw new Error(`Request failed (${res.status})`);
-      const data = await res.json();
-      render(data);
+      const catalogue = await loadCatalogue();
+      render(ShowSoukSearch.search(catalogue, {mode, query}));
     }catch(err){
       resultsTitle.textContent = 'Something went wrong';
       resultsBody.innerHTML = `<div class="empty-state">Couldn't load showtimes — ${esc(err.message)}</div>`;
