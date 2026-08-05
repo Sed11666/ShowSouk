@@ -4,28 +4,72 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ShowSouk — Find where it's playing</title>
+<!-- Runs before first paint so a dark-mode user never sees a light flash. -->
+<script>
+  (function(){
+    try{
+      var pref = localStorage.getItem('showsouk-theme') || 'system';
+      var dark = pref === 'dark' ||
+        (pref === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    }catch(e){ /* private mode / storage blocked — fall through to light */ }
+  })();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
+    /* brand palette — fixed in both themes */
     --navy:#0B1B33;
     --navy-soft:#152947;
     --gold:#E8A33D;
     --gold-deep:#412402;
-    --teal:#0E7C7B;
-    --paper:#FAFAF9;
-    --mist:#F1F3F5;
-    --slate:#5B6472;
-    --line:#E4E6EA;
     --radius:14px;
+
+    /* semantic tokens — these are what the theme swaps */
+    --bg:#FAFAF9;
+    --surface:#fff;
+    --surface-2:#F1F3F5;
+    --text:#0B1B33;
+    --text-muted:#5B6472;
+    --border:#E4E6EA;
+    --teal:#0E7C7B;
+    --stub-bg:#0B1B33;
+    --stub-text:#FAEEDA;
+    --hero-from:#152947;
+    --hero-to:#0B1B33;
+    --shadow-card:0 24px 60px -20px rgba(11,27,51,0.45);
+    --shadow-hover:0 12px 28px -14px rgba(11,27,51,0.25);
   }
+
+  :root[data-theme="dark"]{
+    --bg:#0A0F1A;
+    --surface:#121A2A;
+    --surface-2:#1A2436;
+    --text:#E8ECF3;
+    --text-muted:#9AA6B8;
+    --border:#26314A;
+    /* lifted off the navy base so it still reads against a dark surface */
+    --teal:#3FB6B4;
+    --stub-bg:#26314A;
+    --stub-text:#F3E6CE;
+    --hero-from:#111C31;
+    --hero-to:#070C15;
+    --shadow-card:0 24px 60px -20px rgba(0,0,0,0.7);
+    --shadow-hover:0 12px 28px -14px rgba(0,0,0,0.6);
+  }
+
+  /* tells the browser to theme scrollbars and form controls to match */
+  :root{color-scheme:light;}
+  :root[data-theme="dark"]{color-scheme:dark;}
   *{box-sizing:border-box; margin:0; padding:0;}
   body{
     font-family:'Inter',sans-serif;
-    background:var(--paper);
-    color:var(--navy);
+    background:var(--bg);
+    color:var(--text);
     -webkit-font-smoothing:antialiased;
+    transition:background-color .2s ease, color .2s ease;
   }
   h1,h2,h3,.display{font-family:'Space Grotesk',sans-serif;}
   .mono{font-family:'IBM Plex Mono',monospace;}
@@ -39,15 +83,20 @@
   }
   .logo{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; display:flex; align-items:center; gap:8px;}
   .logo .dot{width:8px; height:8px; border-radius:50%; background:var(--gold);}
-  nav{display:flex; gap:32px; font-size:14px; font-weight:500; color:var(--slate);}
-  nav a:hover{color:var(--navy);}
+  nav{display:flex; gap:32px; font-size:14px; font-weight:500; color:var(--text-muted);}
+  nav a:hover{color:var(--text);}
   .nav-links{display:flex; gap:28px;}
+  .header-right{display:flex; align-items:center; gap:26px;}
+  /* the gear stays put when the nav collapses, so Settings is reachable on mobile */
+  .gear{display:flex; color:var(--text-muted); transition:color .15s;}
+  .gear:hover{color:var(--text);}
+  .gear svg{width:20px; height:20px;}
   @media(max-width:760px){ .nav-links{display:none;} }
 
   /* hero */
   .hero{
     position:relative;
-    background:radial-gradient(ellipse 900px 500px at 50% -10%, var(--navy-soft), var(--navy) 65%);
+    background:radial-gradient(ellipse 900px 500px at 50% -10%, var(--hero-from), var(--hero-to) 65%);
     color:#fff;
     padding:64px 24px 120px;
     overflow:hidden;
@@ -63,30 +112,31 @@
 
   /* search card */
   .search-card{
-    background:#fff; color:var(--navy);
+    background:var(--surface); color:var(--text);
     border-radius:16px;
     max-width:760px; margin:40px auto 0;
-    box-shadow:0 24px 60px -20px rgba(11,27,51,0.45);
+    box-shadow:var(--shadow-card);
     text-align:left;
     overflow:hidden;
   }
-  .tabs{display:flex; border-bottom:1px solid var(--line); padding:0 8px;}
+  .tabs{display:flex; border-bottom:1px solid var(--border); padding:0 8px;}
   .tab{
     flex:1; text-align:center; padding:16px 12px; font-size:14px; font-weight:500;
-    color:var(--slate); cursor:pointer; border-bottom:2px solid transparent;
+    color:var(--text-muted); cursor:pointer; border-bottom:2px solid transparent;
     display:flex; align-items:center; justify-content:center; gap:8px;
     transition:color .15s;
   }
   .tab svg{width:16px; height:16px; opacity:0.7;}
-  .tab.active{color:var(--navy); border-bottom-color:var(--gold); font-weight:600;}
+  .tab.active{color:var(--text); border-bottom-color:var(--gold); font-weight:600;}
   .tab.active svg{opacity:1;}
   .search-row{display:flex; gap:12px; padding:20px;}
   .search-row input{
-    flex:1; border:1px solid var(--line); border-radius:10px; padding:14px 16px;
-    font-size:15px; font-family:'Inter',sans-serif; outline:none; background:var(--mist);
-    color: var(--navy);
+    flex:1; border:1px solid var(--border); border-radius:10px; padding:14px 16px;
+    font-size:15px; font-family:'Inter',sans-serif; outline:none; background:var(--surface-2);
+    color: var(--text);
   }
-  .search-row input:focus{border-color:var(--gold); background:#fff;}
+  .search-row input::placeholder{color:var(--text-muted);}
+  .search-row input:focus{border-color:var(--gold); background:var(--surface);}
   .search-btn{
     background:var(--gold); color:var(--gold-deep); border:none; border-radius:10px;
     padding:0 26px; font-weight:600; font-size:15px; cursor:pointer;
@@ -96,23 +146,23 @@
   .search-btn:hover{filter:brightness(0.95);}
   .quick-chips{display:flex; gap:8px; padding:0 20px 20px; flex-wrap:wrap;}
   .chip{
-    font-size:13px; color:var(--slate); background:var(--mist); border:1px solid var(--line);
+    font-size:13px; color:var(--text-muted); background:var(--surface-2); border:1px solid var(--border);
     padding:7px 14px; border-radius:999px; cursor:pointer; transition:all .15s;
   }
-  .chip:hover{background:#fff; border-color:var(--navy); color:var(--navy);}
+  .chip:hover{background:var(--surface); border-color:var(--text); color:var(--text);}
 
   /* sections */
   section.content{padding:64px 24px;}
   .section-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:28px;}
   .section-head h2{font-size:26px; font-weight:600;}
-  .section-head .sub{font-size:14px; color:var(--slate);}
+  .section-head .sub{font-size:14px; color:var(--text-muted);}
 
   .movie-row{display:flex; gap:18px; overflow-x:auto; padding-bottom:8px; scrollbar-width:thin;}
   .movie-card{
-    flex:0 0 220px; background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+    flex:0 0 220px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
     overflow:hidden; transition:transform .15s, box-shadow .15s;
   }
-  .movie-card:hover{transform:translateY(-3px); box-shadow:0 12px 28px -14px rgba(11,27,51,0.25);}
+  .movie-card:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover);}
   .poster{
     height:130px; display:flex; align-items:center; justify-content:center;
     color:#fff; position:relative;
@@ -124,54 +174,86 @@
   }
   .movie-body{padding:14px 16px 16px;}
   .movie-body h3{font-size:15px; font-weight:500; margin-bottom:4px;}
-  .movie-meta{font-size:12px; color:var(--slate); margin-bottom:12px;}
+  .movie-meta{font-size:12px; color:var(--text-muted); margin-bottom:12px;}
 
   /* ticket stub chip */
   .stub{
     position:relative; display:inline-flex; align-items:center; gap:6px;
-    background:var(--navy); color:#FAEEDA; border-radius:6px; font-size:12px;
+    background:var(--stub-bg); color:var(--stub-text); border-radius:6px; font-size:12px;
     padding:5px 10px 5px 14px; margin:2px 4px 2px 0;
   }
+  /* the ticket notch is punched out of whatever card the stub sits on */
   .stub::before{
     content:''; position:absolute; left:-3px; top:50%; transform:translateY(-50%);
-    width:7px; height:7px; background:var(--paper); border-radius:50%;
+    width:7px; height:7px; background:var(--surface); border-radius:50%;
   }
   .stub.gold{background:var(--gold); color:var(--gold-deep); font-weight:500;}
 
   /* how it works */
   .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
-  .step{background:var(--mist); border-radius:var(--radius); padding:24px;}
+  .step{background:var(--surface-2); border-radius:var(--radius); padding:24px;}
   .step .num{font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--teal); margin-bottom:10px;}
   .step h3{font-size:17px; font-weight:500; margin-bottom:8px;}
-  .step p{font-size:14px; color:var(--slate); line-height:1.5;}
+  .step p{font-size:14px; color:var(--text-muted); line-height:1.5;}
   @media(max-width:760px){ .steps{grid-template-columns:1fr;} }
 
   /* cinemas we compare */
   .cinema-strip{
-    display:flex; gap:14px; flex-wrap:wrap; padding:28px; background:var(--mist);
+    display:flex; gap:14px; flex-wrap:wrap; padding:28px; background:var(--surface-2);
     border-radius:var(--radius); align-items:center; justify-content:space-between;
   }
-  .cinema-strip .label{font-size:13px; color:var(--slate);}
+  .cinema-strip .label{font-size:13px; color:var(--text-muted);}
   .cinema-names{display:flex; gap:10px; flex-wrap:wrap;}
   .cinema-names span{
     font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px;
-    background:#fff; border:1px solid var(--line); padding:8px 16px; border-radius:8px;
+    background:var(--surface); border:1px solid var(--border); padding:8px 16px; border-radius:8px;
   }
 
-  footer{padding:40px 24px 60px; border-top:1px solid var(--line); margin-top:40px;}
-  .footer-inner{max-width:1120px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; font-size:13px; color:var(--slate);}
+  /* search results */
+  .result-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+    padding:20px; margin-bottom:16px;
+  }
+  .result-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:16px;}
+  .result-head h3{font-size:18px; font-weight:600;}
+  .result-head .meta{font-size:13px; color:var(--text-muted);}
+  .screening{
+    display:flex; align-items:baseline; gap:14px; flex-wrap:wrap;
+    padding:12px 0; border-top:1px solid var(--border);
+  }
+  .screening .venue{min-width:230px;}
+  .screening .venue .name{font-size:14px; font-weight:500;}
+  .screening .venue .where{font-size:12px; color:var(--text-muted); margin-top:2px;}
+  .screening .times{display:flex; flex-wrap:wrap; gap:2px;}
+  .format-tag{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--teal);
+    border:1px solid var(--teal); border-radius:4px; padding:2px 7px; align-self:center;
+  }
+  a.stub:hover{filter:brightness(1.15);}
+  .empty-state{
+    text-align:center; padding:48px 24px; color:var(--text-muted); font-size:15px;
+    background:var(--surface-2); border-radius:var(--radius);
+  }
+
+  footer{padding:40px 24px 60px; border-top:1px solid var(--border); margin-top:40px;}
+  .footer-inner{max-width:1120px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; font-size:13px; color:var(--text-muted);}
 </style>
 </head>
 <body>
 
 <header>
   <div class="logo"><span class="dot"></span>ShowSouk</div>
-  <div class="nav-links">
-    <nav>
-      <a href="#">Now showing</a>
-      <a href="#">Cinemas</a>
-      <a href="#">Locations</a>
-    </nav>
+  <div class="header-right">
+    <div class="nav-links">
+      <nav>
+        <a href="#">Now showing</a>
+        <a href="#">Cinemas</a>
+        <a href="#">Locations</a>
+      </nav>
+    </div>
+    <a class="gear" href="/settings.html" aria-label="Settings" title="Settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H2a2 2 0 1 1 0-4h.1A1.7 1.7 0 0 0 3.6 9a1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H8a1.7 1.7 0 0 0 1-1.5V2a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    </a>
   </div>
 </header>
 
@@ -198,7 +280,7 @@
       </div>
       <div class="search-row">
         <input id="search-input" type="text" placeholder="Search for a movie — e.g. Spider-Man: Brand New Day">
-        <button class="search-btn" onclick="alert('Step 5 will wire this up to real search results.')">
+        <button class="search-btn" onclick="doSearch()">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
           Search
         </button>
@@ -214,7 +296,15 @@
   </div>
 </section>
 
-<section class="content wrap">
+<section class="content wrap" id="results-section" hidden>
+  <div class="section-head">
+    <h2 id="results-title">Results</h2>
+    <span class="sub"><a href="#" onclick="clearSearch(); return false;">&larr; Back to browsing</a></span>
+  </div>
+  <div id="results-body"></div>
+</section>
+
+<section class="content wrap" id="browse-section">
   <div class="section-head">
     <h2>Playing across the UAE this week</h2>
     <span class="sub">Sample data — live showtimes connect in a later step</span>
@@ -321,6 +411,7 @@
   </div>
 </footer>
 
+<script src="/theme.js"></script>
 <script>
   // starfield
   const starsEl = document.getElementById('stars');
@@ -354,6 +445,88 @@
     document.querySelector('[data-mode="location"]').classList.add('active');
     input.placeholder = placeholders.location;
     input.value = city;
+    doSearch();
+  }
+
+  // search
+  const resultsSection = document.getElementById('results-section');
+  const resultsTitle = document.getElementById('results-title');
+  const resultsBody = document.getElementById('results-body');
+  const browseSection = document.getElementById('browse-section');
+
+  const currentMode = () => document.querySelector('.tab.active').dataset.mode;
+
+  // What the user gets when they click a time — cinemas don't expose per-screening
+  // URLs, so say plainly how close to the actual show the link lands.
+  const LINK_HINT = {
+    session: brand => `Books this screening on ${brand}`,
+    movie:   brand => `Opens this movie on ${brand} — pick this time there`,
+    cinema:  brand => `No page for this movie yet — opens ${brand}`,
+  };
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  input.addEventListener('keydown', e => { if(e.key === 'Enter') doSearch(); });
+
+  async function doSearch(){
+    const query = input.value.trim();
+    const mode = currentMode();
+    if(!query){ clearSearch(); return; }
+
+    resultsSection.hidden = false;
+    browseSection.hidden = true;
+    resultsTitle.textContent = 'Searching…';
+    resultsBody.innerHTML = '';
+    resultsSection.scrollIntoView({behavior:'smooth', block:'start'});
+
+    try{
+      const res = await fetch(`/api/search?mode=${encodeURIComponent(mode)}&q=${encodeURIComponent(query)}`);
+      if(!res.ok) throw new Error(`Request failed (${res.status})`);
+      const data = await res.json();
+      render(data);
+    }catch(err){
+      resultsTitle.textContent = 'Something went wrong';
+      resultsBody.innerHTML = `<div class="empty-state">Couldn't load showtimes — ${esc(err.message)}</div>`;
+    }
+  }
+
+  function render(data){
+    const noun = data.resultCount === 1 ? 'movie' : 'movies';
+    resultsTitle.textContent = `${data.resultCount} ${noun} for “${data.query}”`;
+
+    if(!data.resultCount){
+      resultsBody.innerHTML = `<div class="empty-state">No showtimes found for “${esc(data.query)}”. Try another ${esc(data.mode)}.</div>`;
+      return;
+    }
+
+    resultsBody.innerHTML = data.results.map(({movie, screenings}) => {
+      const venues = screenings.length === 1 ? '1 cinema' : `${screenings.length} cinemas`;
+      const rows = screenings.map(s => `
+        <div class="screening">
+          <div class="venue">
+            <div class="name">${esc(s.cinema.name)}</div>
+            <div class="where">${esc(s.cinema.area)}, ${esc(s.cinema.city)}</div>
+          </div>
+          <span class="format-tag">${esc(s.format)}</span>
+          <div class="times">
+            ${s.sessions.map(sn => `<a class="stub${sn.linkLevel === 'cinema' ? '' : ' gold'}" href="${esc(sn.bookingUrl)}" target="_blank" rel="noopener" title="${esc(LINK_HINT[sn.linkLevel](s.cinema.brand))}">${esc(sn.time)}</a>`).join('')}
+          </div>
+        </div>`).join('');
+
+      return `
+        <div class="result-card">
+          <div class="result-head">
+            <h3>${esc(movie.title)}</h3>
+            <span class="meta">${esc(movie.rating)} &middot; ${esc(movie.language)} &middot; ${esc(movie.genre)} &middot; ${movie.runtime} min &middot; ${venues}</span>
+          </div>
+          ${rows}
+        </div>`;
+    }).join('');
+  }
+
+  function clearSearch(){
+    resultsSection.hidden = true;
+    browseSection.hidden = false;
+    resultsBody.innerHTML = '';
   }
 </script>
 
