@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShowSouk — Find where it's playing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0B1B33;
+    --navy-soft:#152947;
+    --gold:#E8A33D;
+    --gold-deep:#412402;
+    --teal:#0E7C7B;
+    --paper:#FAFAF9;
+    --mist:#F1F3F5;
+    --slate:#5B6472;
+    --line:#E4E6EA;
+    --radius:14px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'Inter',sans-serif;
+    background:var(--paper);
+    color:var(--navy);
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{font-family:'Space Grotesk',sans-serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+
+  /* header */
+  header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:20px 24px; max-width:1120px; margin:0 auto;
+  }
+  .logo{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; display:flex; align-items:center; gap:8px;}
+  .logo .dot{width:8px; height:8px; border-radius:50%; background:var(--gold);}
+  nav{display:flex; gap:32px; font-size:14px; font-weight:500; color:var(--slate);}
+  nav a:hover{color:var(--navy);}
+  .nav-links{display:flex; gap:28px;}
+  @media(max-width:760px){ .nav-links{display:none;} }
+
+  /* hero */
+  .hero{
+    position:relative;
+    background:radial-gradient(ellipse 900px 500px at 50% -10%, var(--navy-soft), var(--navy) 65%);
+    color:#fff;
+    padding:64px 24px 120px;
+    overflow:hidden;
+  }
+  .stars{position:absolute; inset:0; opacity:0.5;}
+  .stars span{
+    position:absolute; width:2px; height:2px; background:#fff; border-radius:50%;
+  }
+  .hero-inner{max-width:1120px; margin:0 auto; text-align:center; position:relative; z-index:2;}
+  .hero h1{font-size:clamp(32px,5vw,52px); font-weight:600; line-height:1.12; letter-spacing:-0.01em;}
+  .hero h1 span{color:var(--gold);}
+  .hero p{margin-top:16px; font-size:18px; color:#C7D0DE; max-width:520px; margin-left:auto; margin-right:auto;}
+
+  /* search card */
+  .search-card{
+    background:#fff; color:var(--navy);
+    border-radius:16px;
+    max-width:760px; margin:40px auto 0;
+    box-shadow:0 24px 60px -20px rgba(11,27,51,0.45);
+    text-align:left;
+    overflow:hidden;
+  }
+  .tabs{display:flex; border-bottom:1px solid var(--line); padding:0 8px;}
+  .tab{
+    flex:1; text-align:center; padding:16px 12px; font-size:14px; font-weight:500;
+    color:var(--slate); cursor:pointer; border-bottom:2px solid transparent;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    transition:color .15s;
+  }
+  .tab svg{width:16px; height:16px; opacity:0.7;}
+  .tab.active{color:var(--navy); border-bottom-color:var(--gold); font-weight:600;}
+  .tab.active svg{opacity:1;}
+  .search-row{display:flex; gap:12px; padding:20px;}
+  .search-row input{
+    flex:1; border:1px solid var(--line); border-radius:10px; padding:14px 16px;
+    font-size:15px; font-family:'Inter',sans-serif; outline:none; background:var(--mist);
+    color: var(--navy);
+  }
+  .search-row input:focus{border-color:var(--gold); background:#fff;}
+  .search-btn{
+    background:var(--gold); color:var(--gold-deep); border:none; border-radius:10px;
+    padding:0 26px; font-weight:600; font-size:15px; cursor:pointer;
+    display:flex; align-items:center; gap:8px; white-space:nowrap;
+    transition:filter .15s;
+  }
+  .search-btn:hover{filter:brightness(0.95);}
+  .quick-chips{display:flex; gap:8px; padding:0 20px 20px; flex-wrap:wrap;}
+  .chip{
+    font-size:13px; color:var(--slate); background:var(--mist); border:1px solid var(--line);
+    padding:7px 14px; border-radius:999px; cursor:pointer; transition:all .15s;
+  }
+  .chip:hover{background:#fff; border-color:var(--navy); color:var(--navy);}
+
+  /* sections */
+  section.content{padding:64px 24px;}
+  .section-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:28px;}
+  .section-head h2{font-size:26px; font-weight:600;}
+  .section-head .sub{font-size:14px; color:var(--slate);}
+
+  .movie-row{display:flex; gap:18px; overflow-x:auto; padding-bottom:8px; scrollbar-width:thin;}
+  .movie-card{
+    flex:0 0 220px; background:#fff; border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; transition:transform .15s, box-shadow .15s;
+  }
+  .movie-card:hover{transform:translateY(-3px); box-shadow:0 12px 28px -14px rgba(11,27,51,0.25);}
+  .poster{
+    height:130px; display:flex; align-items:center; justify-content:center;
+    color:#fff; position:relative;
+  }
+  .poster svg{width:32px; height:32px; opacity:0.85;}
+  .poster::after{
+    content:attr(data-genre); position:absolute; top:10px; left:10px;
+    font-size:11px; background:rgba(255,255,255,0.18); padding:3px 9px; border-radius:999px;
+  }
+  .movie-body{padding:14px 16px 16px;}
+  .movie-body h3{font-size:15px; font-weight:500; margin-bottom:4px;}
+  .movie-meta{font-size:12px; color:var(--slate); margin-bottom:12px;}
+
+  /* ticket stub chip */
+  .stub{
+    position:relative; display:inline-flex; align-items:center; gap:6px;
+    background:var(--navy); color:#FAEEDA; border-radius:6px; font-size:12px;
+    padding:5px 10px 5px 14px; margin:2px 4px 2px 0;
+  }
+  .stub::before{
+    content:''; position:absolute; left:-3px; top:50%; transform:translateY(-50%);
+    width:7px; height:7px; background:var(--paper); border-radius:50%;
+  }
+  .stub.gold{background:var(--gold); color:var(--gold-deep); font-weight:500;}
+
+  /* how it works */
+  .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .step{background:var(--mist); border-radius:var(--radius); padding:24px;}
+  .step .num{font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--teal); margin-bottom:10px;}
+  .step h3{font-size:17px; font-weight:500; margin-bottom:8px;}
+  .step p{font-size:14px; color:var(--slate); line-height:1.5;}
+  @media(max-width:760px){ .steps{grid-template-columns:1fr;} }
+
+  /* cinemas we compare */
+  .cinema-strip{
+    display:flex; gap:14px; flex-wrap:wrap; padding:28px; background:var(--mist);
+    border-radius:var(--radius); align-items:center; justify-content:space-between;
+  }
+  .cinema-strip .label{font-size:13px; color:var(--slate);}
+  .cinema-names{display:flex; gap:10px; flex-wrap:wrap;}
+  .cinema-names span{
+    font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px;
+    background:#fff; border:1px solid var(--line); padding:8px 16px; border-radius:8px;
+  }
+
+  footer{padding:40px 24px 60px; border-top:1px solid var(--line); margin-top:40px;}
+  .footer-inner{max-width:1120px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; font-size:13px; color:var(--slate);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="dot"></span>ShowSouk</div>
+  <div class="nav-links">
+    <nav>
+      <a href="#">Now showing</a>
+      <a href="#">Cinemas</a>
+      <a href="#">Locations</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="stars" id="stars"></div>
+  <div class="hero-inner">
+    <h1>Find where it's <span>playing.</span></h1>
+    <p>Search once, compare every cinema in the UAE — then book straight from the source.</p>
+
+    <div class="search-card">
+      <div class="tabs">
+        <div class="tab active" data-mode="movie">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>
+          Movie
+        </div>
+        <div class="tab" data-mode="cinema">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v12H4z"/><path d="M8 20h8M12 16v4"/></svg>
+          Cinema
+        </div>
+        <div class="tab" data-mode="location">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.5 7-11.5a7 7 0 1 0-14 0C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.2"/></svg>
+          Location
+        </div>
+      </div>
+      <div class="search-row">
+        <input id="search-input" type="text" placeholder="Search for a movie — e.g. Spider-Man: Brand New Day">
+        <button class="search-btn" onclick="alert('Step 5 will wire this up to real search results.')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          Search
+        </button>
+      </div>
+      <div class="quick-chips">
+        <div class="chip" onclick="setLocation('Dubai')">Dubai</div>
+        <div class="chip" onclick="setLocation('Abu Dhabi')">Abu Dhabi</div>
+        <div class="chip" onclick="setLocation('Sharjah')">Sharjah</div>
+        <div class="chip" onclick="setLocation('Ajman')">Ajman</div>
+        <div class="chip" onclick="setLocation('Ras Al Khaimah')">Ras Al Khaimah</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content wrap">
+  <div class="section-head">
+    <h2>Playing across the UAE this week</h2>
+    <span class="sub">Sample data — live showtimes connect in a later step</span>
+  </div>
+  <div class="movie-row">
+
+    <div class="movie-card">
+      <div class="poster" data-genre="Action" style="background:#0C447C;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg>
+      </div>
+      <div class="movie-body">
+        <h3>Spider-Man: Brand New Day</h3>
+        <div class="movie-meta">PG13 &middot; English &middot; 4 cinemas</div>
+        <span class="stub">18:15</span><span class="stub gold">21:45</span>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <div class="poster" data-genre="Adventure" style="background:#3C3489;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>
+      </div>
+      <div class="movie-body">
+        <h3>The Odyssey</h3>
+        <div class="movie-meta">15+ &middot; English &middot; IMAX &middot; 3 cinemas</div>
+        <span class="stub">17:00</span><span class="stub gold">20:30</span>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <div class="poster" data-genre="Animation" style="background:#993C1D;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 10h.01M16 10h.01M8 15c1.5 1.3 6.5 1.3 8 0"/></svg>
+      </div>
+      <div class="movie-body">
+        <h3>Moana</h3>
+        <div class="movie-meta">PG &middot; English &middot; 4 cinemas</div>
+        <span class="stub">16:20</span><span class="stub gold">19:10</span>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <div class="poster" data-genre="Animation" style="background:#0F6E56;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10H4z"/></svg>
+      </div>
+      <div class="movie-body">
+        <h3>Toy Story 5</h3>
+        <div class="movie-meta">PG &middot; English &middot; 3 cinemas</div>
+        <span class="stub">15:00</span><span class="stub gold">18:00</span>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <div class="poster" data-genre="Comedy" style="background:#72243E;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M9 9h.01M15 9h.01M8 14c1.2 2 6.8 2 8 0"/></svg>
+      </div>
+      <div class="movie-body">
+        <h3>Khali Balak Min Nafsik</h3>
+        <div class="movie-meta">PG15 &middot; Arabic &middot; 2 cinemas</div>
+        <span class="stub">19:30</span><span class="stub gold">22:15</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="content wrap">
+  <div class="section-head">
+    <h2>How ShowSouk works</h2>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="num mono">01</div>
+      <h3>Search</h3>
+      <p>Look up a movie, a specific cinema, or just your area — one search bar, three ways in.</p>
+    </div>
+    <div class="step">
+      <div class="num mono">02</div>
+      <h3>Compare</h3>
+      <p>See every showtime across VOX, Reel, Novo, and Roxy side by side, laid out like a timetable.</p>
+    </div>
+    <div class="step">
+      <div class="num mono">03</div>
+      <h3>Book</h3>
+      <p>Pick your time — we send you straight to that cinema's own site to finish booking.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content wrap">
+  <div class="cinema-strip">
+    <span class="label">Comparing showtimes across</span>
+    <div class="cinema-names">
+      <span>VOX Cinemas</span>
+      <span>Reel Cinemas</span>
+      <span>Novo Cinemas</span>
+      <span>Roxy Cinemas</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>© 2026 ShowSouk. Not a booking platform — we point you to the cinema's own site to book.</div>
+    <div>Movies · Cinemas · Locations · About</div>
+  </div>
+</footer>
+
+<script>
+  // starfield
+  const starsEl = document.getElementById('stars');
+  for(let i=0;i<40;i++){
+    const s = document.createElement('span');
+    s.style.left = Math.random()*100+'%';
+    s.style.top = Math.random()*70+'%';
+    s.style.opacity = (Math.random()*0.6+0.2).toFixed(2);
+    starsEl.appendChild(s);
+  }
+
+  // tab switching
+  const tabs = document.querySelectorAll('.tab');
+  const input = document.getElementById('search-input');
+  const placeholders = {
+    movie: "Search for a movie — e.g. Spider-Man: Brand New Day",
+    cinema: "Search for a cinema — e.g. VOX Mall of the Emirates",
+    location: "Search by area — e.g. Dubai Marina"
+  };
+  tabs.forEach(tab=>{
+    tab.addEventListener('click', ()=>{
+      tabs.forEach(t=>t.classList.remove('active'));
+      tab.classList.add('active');
+      input.placeholder = placeholders[tab.dataset.mode];
+      input.value = '';
+    });
+  });
+
+  function setLocation(city){
+    tabs.forEach(t=>t.classList.remove('active'));
+    document.querySelector('[data-mode="location"]').classList.add('active');
+    input.placeholder = placeholders.location;
+    input.value = city;
+  }
+</script>
+
+</body>
+</html>
