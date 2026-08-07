@@ -5,6 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "scrape:vox": "node scripts/scrape-vox.js",
+    "build:data": "node scripts/build-data.js",
+    "test:scrapers": "node scrapers/vox.transform.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
   }
 }

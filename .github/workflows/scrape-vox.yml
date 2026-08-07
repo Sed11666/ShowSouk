@@ -1,0 +1,63 @@
+name: Scrape VOX showtimes
+
+# Refreshes data/catalogue.json from VOX. GitHub Pages redeploys on the
+# resulting commit, so the live site would stay current with no server.
+#
+# ⚠️ The 3-hourly schedule is intentionally DISABLED. VOX sits behind Akamai Bot
+# Manager, which rejects headless browsers at the network layer — the exact
+# environment a GitHub runner provides — so a scheduled run would fail every 3
+# hours and email a failure each time. See scrapers/vox.js for the full finding.
+#
+# To enable once VOX access is solved (partnership API key, or a verified
+# headed/xvfb runner), uncomment the two schedule lines below.
+on:
+  # schedule:
+  #   - cron: '0 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:         # manual run from the Actions tab (works for testing)
+    inputs:
+      days:
+        description: 'Days ahead to scrape (today = 1)'
+        required: false
+        default: '1'
+
+# One run at a time; don't cancel an in-progress scrape mid-write.
+concurrency:
+  group: scrape-vox
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # to commit the refreshed catalogue
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Install Playwright + only the Chromium browser it needs.
+      - name: Install dependencies
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Scrape VOX
+        env:
+          VOX_DAYS: ${{ github.event.inputs.days || '1' }}
+        run: npm run scrape:vox
+
+      # Commit only when the data actually changed, so we don't spam history
+      # with no-op commits every 3 hours.
+      - name: Commit updated catalogue
+        run: |
+          git config user.name  "showsouk-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- data/catalogue.json; then
+            echo "No showtime changes."
+          else
+            git add data/catalogue.json
+            git commit -m "data: refresh VOX showtimes ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

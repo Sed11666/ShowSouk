@@ -4,7 +4,11 @@ Each UAE cinema chain gets one module here that turns its public site into the
 shape [`data/seed.js`](../data/seed.js) already uses, so the rest of the app
 doesn't change when real data replaces the seed.
 
-Nothing here is wired into the server yet — `server.js` still reads the seed.
+**VOX is live.** `vox.js` is a working production scraper; `scripts/scrape-vox.js`
+runs it and writes `data/catalogue.json`, and a GitHub Action
+([`.github/workflows/scrape-vox.yml`](../.github/workflows/scrape-vox.yml)) runs
+it every 3 hours so the static site stays current. Reel and Novo are still
+research-only stubs.
 
 ## What a scraper returns
 
@@ -29,13 +33,37 @@ the UI uses when no per-session URL exists, which today is always.
 Researched by loading each site in a real browser and watching what it does.
 Re-check before building against any of it — these are live sites.
 
-### Deep links to a single screening are not currently possible
+### VOX has a clean JSON API behind Akamai (this is what vox.js uses)
 
-This was the goal; none of the chains support it.
+The public movie pages call `uae-apife.voxcinemas.com/v1/vox2-0/groups`:
 
-**VOX** — clicking a showtime advances through seat selection while the URL
-stays `/movies/<slug>`. The chosen screening lives in client state, so no
-address identifies it.
+- `api/MovieMatrix/NowShowingByFilter?region=UAE` — now-showing movies, with
+  `movieUrl` (the page slug), rating, languages, runtime, genres, experiences.
+- `api/Sessions/UAE/{movieCode}/{YYYY-MM-DD}` — cinemas → experience groups →
+  sessions (`sessionId`, `showtime`, availability `status`).
+
+Both are JSON and need no login **from a real browser** — but a plain Node fetch
+gets `401` (`40102 Authorization Error`). The gate is Akamai Bot Manager: the
+`_abck`/`bm_sz` cookies are only issued after Akamai's JS challenge runs in a
+browser. So `vox.js` drives Playwright Chromium, lets VOX's own scripts clear the
+challenge, then reads the API via the browser context's request client. We behave
+like a browser; we do not forge or lift any credential.
+
+Timezone gotcha: VOX returns local UAE time with a `+00:00` offset
+(`2026-08-06T21:00:00+00:00` is a 9 PM GST show). Read `HH:MM` straight from the
+string — converting time zones shifts the whole schedule.
+
+### Deep links to a single screening
+
+`robots.txt` disallows `/booking` and `/*?sessionId=`, which both fences off the
+booking funnel and reveals that per-session URLs exist. The Sessions API hands us
+`sessionId`s, so a deep link is constructable — but it targets a robots-disallowed
+path, so the scraper does not fetch it and the app defaults to the movie-page
+link. Enabling a user-clickable session link is a product decision, not a
+technical blocker.
+
+**Reel** — clicking a showtime redirects to `/en-ae/user/signin`. Booking is
+behind auth; no session URL is exposed publicly.
 
 **Reel** — clicking a showtime redirects to `/en-ae/user/signin`. Booking is
 behind auth; no session URL is exposed publicly.
