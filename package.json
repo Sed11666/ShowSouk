@@ -6,9 +6,11 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "scrape:vox": "node scripts/scrape-vox.js",
+    "scrape": "node scripts/scrape.js reel",
+    "scrape:reel": "node scripts/scrape.js reel",
+    "scrape:vox": "node scripts/scrape.js vox",
     "build:data": "node scripts/build-data.js",
-    "test:scrapers": "node scrapers/vox.transform.test.js"
+    "test:scrapers": "node scrapers/reel.transform.test.js && node scrapers/vox.transform.test.js"
   },
   "devDependencies": {
     "playwright": "^1.47.0"

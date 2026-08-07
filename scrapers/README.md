@@ -4,11 +4,32 @@ Each UAE cinema chain gets one module here that turns its public site into the
 shape [`data/seed.js`](../data/seed.js) already uses, so the rest of the app
 doesn't change when real data replaces the seed.
 
-**VOX is live.** `vox.js` is a working production scraper; `scripts/scrape-vox.js`
+**Reel is live.** `reel.js` is the production scraper; `scripts/scrape.js reel`
 runs it and writes `data/catalogue.json`, and a GitHub Action
-([`.github/workflows/scrape-vox.yml`](../.github/workflows/scrape-vox.yml)) runs
-it every 3 hours so the static site stays current. Reel and Novo are still
-research-only stubs.
+([`.github/workflows/scrape.yml`](../.github/workflows/scrape.yml)) runs it every
+3 hours so the static site stays current.
+
+**VOX is written but blocked** by Akamai — the code and tests are complete and
+run the day access exists. **Novo** is still a research-only stub.
+
+## Why Reel and not VOX
+
+VOX has the better data by far (a clean JSON API), so it was tried first. It is
+unusable without permission:
+
+| | Reel | VOX |
+|---|---|---|
+| Data source | rendered movie pages | clean JSON API |
+| robots.txt on what we read | explicitly allowed | not disallowed |
+| Headless browser | **works** | blocked at the network layer |
+| Verdict | **in production** | needs partnership access |
+
+Testing VOX with a real (non-bundled) Chrome got as far as a `200` and an
+Akamai `_abck` cookie — but the cookie stayed in its unvalidated `~-1~` state
+and the next navigation was refused outright, i.e. Akamai watched the session,
+concluded it was automated, and cut it off. Getting past that means bot-detection
+evasion, which is both fragile and a bad look while asking Majid Al Futtaim for
+a partnership. So VOX waits for legitimate access.
 
 ## What a scraper returns
 

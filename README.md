@@ -48,20 +48,28 @@ Then <http://localhost:3000>.
 `data/catalogue.json` is generated and committed, because Pages has no build
 step of its own. Two ways it gets produced:
 
-**Live — VOX (production).** [`scrapers/vox.js`](scrapers/vox.js) reads VOX's
-JSON API through a headless browser and `scripts/scrape-vox.js` writes the
-catalogue. A GitHub Action runs it every 3 hours, so the live site refreshes
-itself:
+**Live — Reel (production).** [`scrapers/reel.js`](scrapers/reel.js) drives a
+headless browser over Reel's public movie pages and `scripts/scrape.js` writes
+the catalogue. A GitHub Action runs it every 3 hours, so the site refreshes
+itself with no server:
 
 ```bash
 npm install                 # first time (pulls Playwright)
 npx playwright install chromium
-npm run scrape:vox          # writes data/catalogue.json from live VOX data
-VOX_DAYS=3 npm run scrape:vox   # optionally scrape several days ahead
+npm run scrape              # writes data/catalogue.json from live Reel data
+REEL_LIMIT=3 npm run scrape # quick partial run while developing
 ```
 
-The scraper only ever overwrites the catalogue on a validated, non-empty
-result, so a failed run leaves the last good data in place.
+A full run takes ~10 minutes: the site is client-rendered, so each movie page
+needs ~15s to hydrate before its showtimes exist. The scraper only overwrites
+the catalogue on a **validated** result, so a failed or empty run leaves the
+last good data live.
+
+**VOX is implemented but blocked.** [`scrapers/vox.js`](scrapers/vox.js) maps
+VOX's (much nicer) JSON API and is fully unit-tested, but VOX sits behind Akamai
+Bot Manager, which rejects headless browsers at the network layer. It runs the
+day access exists via partnership. Details in
+[`scrapers/README.md`](scrapers/README.md).
 
 **Fallback — seed.** For local UI work without scraping, regenerate from the
 hand-written [`data/seed.js`](data/seed.js):

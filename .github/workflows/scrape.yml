@@ -1,0 +1,69 @@
+name: Refresh showtimes
+
+# Rebuilds data/catalogue.json from live cinema data every 3 hours. Pages
+# redeploys on the resulting commit, so the site stays current with no server.
+#
+# Reel is the scraped chain: verified working headless, and its robots.txt
+# explicitly allows the movie pages we read. VOX is implemented but blocked by
+# Akamai bot protection — see scrapers/vox.js.
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:
+    inputs:
+      chain:
+        description: 'Chain to scrape'
+        required: false
+        default: 'reel'
+        type: choice
+        options: [reel, vox]
+
+# Never let two runs write the catalogue at once, and don't kill one mid-write.
+concurrency:
+  group: scrape-showtimes
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30      # a full run is ~10 min; this catches a hang
+    permissions:
+      contents: write        # to commit the refreshed catalogue
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Verify scraper logic
+        run: npm run test:scrapers     # fail fast before touching the network
+
+      - name: Scrape showtimes
+        run: node scripts/scrape.js ${{ github.event.inputs.chain || 'reel' }}
+
+      # Only commit when the showtimes actually changed. `generatedAt` differs on
+      # every run, so diffing the whole file would commit every 3 hours forever;
+      # ignore that line and revert the file when nothing real moved.
+      - name: Commit refreshed catalogue
+        run: |
+          git config user.name  "showsouk-bot"
+          git config user.email "actions@github.com"
+          REAL_CHANGES=$(git diff -U0 -- data/catalogue.json \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -v '"generatedAt"' \
+            | head -1)
+          if [ -z "$REAL_CHANGES" ]; then
+            echo "No showtime changes (timestamp only) — leaving the catalogue as-is."
+            git checkout -- data/catalogue.json
+          else
+            git add data/catalogue.json
+            git commit -m "data: refresh showtimes ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
