@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-09T09:36:56.087Z",
+  "generatedAt": "2026-08-09T12:42:58.764Z",
   "source": "reel",
   "counts": {
     "movies": 16,
     "cinemas": 3,
-    "showtimeGroups": 40,
-    "showtimes": 215
+    "showtimeGroups": 39,
+    "showtimes": 175
   },
   "cinemas": [
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "thudakkam-malayalam",
-      "title": "Thudakkam (Malayalam)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 150,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005652/thudakkam-malayalam"
-      }
-    },
-    {
       "id": "dc-tamil",
       "title": "DC (Tamil)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+      }
+    },
+    {
+      "id": "thudakkam-malayalam",
+      "title": "Thudakkam (Malayalam)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 150,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005652/thudakkam-malayalam"
       }
     },
     {
@@ -217,11 +217,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:45",
-        "14:15",
-        "14:45",
-        "15:15",
-        "15:45",
         "16:30",
         "17:00",
         "17:30",
@@ -244,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:30",
-        "14:10",
-        "14:55",
-        "15:50",
         "16:35",
         "17:15",
         "18:05",
@@ -265,8 +256,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:25",
-        "15:30",
         "17:20",
         "18:25",
         "20:15",
@@ -280,7 +269,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:55",
         "16:50",
         "19:45",
         "22:40",
@@ -292,11 +280,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:25",
-        "14:25",
-        "14:55",
-        "15:50",
-        "16:20",
         "17:20",
         "17:50",
         "18:45",
@@ -317,7 +300,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "13:55",
         "16:50",
         "19:45",
         "22:40"
@@ -328,8 +310,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:55",
-        "15:50",
         "17:50",
         "18:45",
         "20:45",
@@ -343,8 +323,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "15:20",
-        "16:10",
         "17:20",
         "18:15",
         "19:05",
@@ -377,8 +355,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "14:30",
         "17:00",
         "21:30",
         "23:20",
@@ -391,7 +367,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:40",
         "17:10",
         "20:35",
         "00:00"
@@ -402,7 +377,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:25",
         "17:50",
         "19:05",
         "21:15"
@@ -452,7 +426,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:20",
         "16:40",
         "19:00",
         "21:00",
@@ -517,7 +490,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:00",
         "17:00",
         "19:00"
       ]
@@ -527,7 +499,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "15:30",
         "19:40",
         "21:40"
       ]
@@ -587,7 +558,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:35",
         "17:00",
         "19:25",
         "20:10"
@@ -598,30 +568,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:55",
         "22:30"
-      ]
-    },
-    {
-      "movieId": "thudakkam-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:35",
-        "19:40"
-      ]
-    },
-    {
-      "movieId": "thudakkam-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "15:40",
-        "17:00",
-        "20:00",
-        "21:00",
-        "23:00"
       ]
     },
     {
@@ -638,10 +585,28 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:20",
         "16:25",
         "19:30",
         "22:40"
+      ]
+    },
+    {
+      "movieId": "thudakkam-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:40"
+      ]
+    },
+    {
+      "movieId": "thudakkam-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:00",
+        "20:00",
+        "21:00",
+        "23:00"
       ]
     },
     {
@@ -649,7 +614,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:05",
         "17:15"
       ]
     },
@@ -658,16 +622,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:20",
         "17:30"
-      ]
-    },
-    {
-      "movieId": "toy-story-5",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:55"
       ]
     },
     {
@@ -675,7 +630,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:50",
         "18:00",
         "21:50",
         "00:00",
@@ -687,7 +641,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
         "22:35"
       ]
     },
