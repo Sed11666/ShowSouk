@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-08T21:27:47.626Z",
+  "generatedAt": "2026-08-09T01:24:00.470Z",
   "source": "reel",
   "counts": {
     "movies": 16,
     "cinemas": 3,
-    "showtimeGroups": 33,
-    "showtimes": 113
+    "showtimeGroups": 42,
+    "showtimes": 267
   },
   "cinemas": [
     {
@@ -17,18 +17,18 @@
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     },
     {
-      "id": "reel-reel-the-springs-souk",
-      "brand": "Reel Cinemas",
-      "name": "Reel The Springs Souk",
-      "area": "The Springs",
-      "city": "Dubai",
-      "bookingUrl": "https://reelcinemas.com/en-ae/"
-    },
-    {
       "id": "reel-reel-dubai-marina-mall",
       "brand": "Reel Cinemas",
       "name": "Reel Dubai Marina Mall",
       "area": "Dubai Marina",
+      "city": "Dubai",
+      "bookingUrl": "https://reelcinemas.com/en-ae/"
+    },
+    {
+      "id": "reel-reel-the-springs-souk",
+      "brand": "Reel Cinemas",
+      "name": "Reel The Springs Souk",
+      "area": "The Springs",
       "city": "Dubai",
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     }
@@ -215,9 +215,58 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "10:30",
+        "11:00",
+        "11:30",
+        "12:00",
+        "12:30",
+        "13:15",
+        "13:45",
+        "14:15",
+        "14:45",
+        "15:15",
+        "15:45",
+        "16:30",
+        "17:00",
+        "17:30",
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:45",
+        "20:15",
+        "20:45",
+        "21:15",
+        "21:45",
+        "22:15",
+        "23:00",
+        "00:00",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "01:50"
+        "11:00",
+        "11:45",
+        "13:30",
+        "14:10",
+        "14:55",
+        "15:50",
+        "16:35",
+        "17:15",
+        "18:05",
+        "18:55",
+        "20:25",
+        "21:10",
+        "22:00",
+        "22:45",
+        "23:30",
+        "00:15"
       ]
     },
     {
@@ -225,7 +274,17 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "02:05"
+        "09:40",
+        "11:30",
+        "12:35",
+        "14:25",
+        "15:30",
+        "17:20",
+        "18:25",
+        "20:15",
+        "21:20",
+        "23:10",
+        "00:15"
       ]
     },
     {
@@ -233,6 +292,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "08:05",
+        "11:00",
+        "13:55",
+        "16:50",
+        "19:45",
+        "22:40",
         "01:35"
       ]
     },
@@ -241,7 +306,88 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "09:00",
+        "10:00",
+        "10:30",
+        "11:30",
+        "12:00",
+        "12:55",
+        "13:25",
+        "14:25",
+        "14:55",
+        "15:50",
+        "16:20",
+        "17:20",
+        "17:50",
+        "18:45",
+        "19:15",
+        "20:15",
+        "20:45",
+        "21:45",
+        "22:10",
+        "23:10",
+        "23:40",
+        "00:40",
+        "01:05",
         "02:05"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:00",
+        "13:55",
+        "16:50",
+        "19:45",
+        "22:40"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "12:55",
+        "14:55",
+        "15:50",
+        "17:50",
+        "18:45",
+        "20:45",
+        "21:40",
+        "23:40",
+        "00:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:30",
+        "12:25",
+        "13:15",
+        "15:20",
+        "16:10",
+        "17:20",
+        "18:15",
+        "19:05",
+        "20:20",
+        "21:10",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "23:30",
+        "00:30"
       ]
     },
     {
@@ -249,6 +395,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "10:00",
+        "13:15",
+        "16:55",
+        "20:50",
         "01:10"
       ]
     },
@@ -257,8 +407,47 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:00",
+        "11:00",
+        "13:30",
+        "14:30",
+        "17:00",
+        "21:30",
+        "23:20",
         "01:10",
         "01:50"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "12:15",
+        "13:40",
+        "17:10",
+        "20:35",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:25",
+        "17:50",
+        "19:05",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:45",
+        "00:40"
       ]
     },
     {
@@ -266,7 +455,25 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "12:00",
+        "14:20",
+        "16:40",
+        "19:00",
+        "21:00",
+        "21:20",
+        "22:50",
+        "23:40",
+        "01:00",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:40",
+        "00:00"
       ]
     },
     {
@@ -415,7 +622,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:35"
+        "19:25",
+        "20:30",
+        "21:40",
+        "23:55",
+        "00:55",
+        "02:10"
       ]
     },
     {
@@ -528,6 +740,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:15",
+        "15:50",
+        "18:00",
+        "21:50",
+        "00:00",
         "02:10"
       ]
     },
