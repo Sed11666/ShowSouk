@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-09T18:36:15.150Z",
+  "generatedAt": "2026-08-09T21:29:38.407Z",
   "source": "reel",
   "counts": {
     "movies": 15,
     "cinemas": 3,
-    "showtimeGroups": 35,
-    "showtimes": 109
+    "showtimeGroups": 29,
+    "showtimes": 104
   },
   "cinemas": [
     {
@@ -17,18 +17,18 @@
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     },
     {
-      "id": "reel-reel-dubai-marina-mall",
-      "brand": "Reel Cinemas",
-      "name": "Reel Dubai Marina Mall",
-      "area": "Dubai Marina",
-      "city": "Dubai",
-      "bookingUrl": "https://reelcinemas.com/en-ae/"
-    },
-    {
       "id": "reel-reel-the-springs-souk",
       "brand": "Reel Cinemas",
       "name": "Reel The Springs Souk",
       "area": "The Springs",
+      "city": "Dubai",
+      "bookingUrl": "https://reelcinemas.com/en-ae/"
+    },
+    {
+      "id": "reel-reel-dubai-marina-mall",
+      "brand": "Reel Cinemas",
+      "name": "Reel Dubai Marina Mall",
+      "area": "Dubai Marina",
       "city": "Dubai",
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     }
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "the-odyssey",
-      "title": "The Odyssey",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 175,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
-      }
-    },
-    {
       "id": "mutiny",
       "title": "Mutiny",
       "genre": "",
@@ -65,6 +54,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
       }
     },
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "panda-plan-the-magical-tribe",
-      "title": "Panda Plan: The Magical Tribe",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005647/panda-plan-the-magical-tribe"
-      }
-    },
-    {
       "id": "toy-story-5",
       "title": "Toy Story 5",
       "genre": "",
@@ -178,14 +167,14 @@
       }
     },
     {
-      "id": "iron-maiden-burning-ambition",
-      "title": "Iron Maiden: Burning Ambition",
+      "id": "panda-plan-the-magical-tribe",
+      "title": "Panda Plan: The Magical Tribe",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 110,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005660/iron-maiden-burning-ambition"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005647/panda-plan-the-magical-tribe"
       }
     },
     {
@@ -198,44 +187,25 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005276/obsession"
       }
+    },
+    {
+      "id": "iron-maiden-burning-ambition",
+      "title": "Iron Maiden: Burning Ambition",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005660/iron-maiden-burning-ambition"
+      }
     }
   ],
   "showtimes": [
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00",
-        "00:00",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:45",
-        "23:30",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:10",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:40",
         "01:35"
       ]
     },
@@ -244,63 +214,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:10",
-        "23:40",
-        "00:40",
-        "01:05",
         "02:05"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "22:40"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:40",
-        "00:35"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:30",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "23:20",
-        "01:10",
-        "01:50"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "00:00"
       ]
     },
     {
@@ -334,11 +248,20 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
+      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "00:40"
+        "01:10"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "01:10",
+        "01:50"
       ]
     },
     {
@@ -346,18 +269,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:50",
-        "23:40",
-        "01:00",
         "02:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "00:00"
       ]
     },
     {
@@ -473,9 +385,21 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:55",
-        "00:55",
         "02:10"
+      ]
+    },
+    {
+      "movieId": "moana",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "09:45",
+        "12:10",
+        "14:35",
+        "17:00",
+        "19:25",
+        "20:10",
+        "21:00"
       ]
     },
     {
@@ -483,7 +407,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "22:30"
+        "12:30",
+        "14:55"
       ]
     },
     {
@@ -491,6 +416,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "16:35",
         "22:45"
       ]
     },
@@ -499,7 +426,29 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "13:20",
+        "16:25",
+        "19:30",
         "22:40"
+      ]
+    },
+    {
+      "movieId": "thudakkam-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:30"
+      ]
+    },
+    {
+      "movieId": "thudakkam-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:35",
+        "19:40",
+        "01:50"
       ]
     },
     {
@@ -507,16 +456,11 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "14:00",
+        "17:00",
+        "20:00",
         "23:00"
-      ]
-    },
-    {
-      "movieId": "panda-plan-the-magical-tribe",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "00:00",
-        "02:10"
       ]
     },
     {
@@ -540,11 +484,11 @@
       ]
     },
     {
-      "movieId": "iron-maiden-burning-ambition",
+      "movieId": "panda-plan-the-magical-tribe",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:35"
+        "02:10"
       ]
     },
     {
@@ -553,6 +497,15 @@
       "format": "Platinum Suites",
       "times": [
         "19:20"
+      ]
+    },
+    {
+      "movieId": "iron-maiden-burning-ambition",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:30",
+        "22:35"
       ]
     }
   ]
