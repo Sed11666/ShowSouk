@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T04:28:32.498Z",
+  "generatedAt": "2026-08-10T07:26:14.138Z",
   "source": "reel",
   "counts": {
     "movies": 15,
     "cinemas": 3,
-    "showtimeGroups": 40,
-    "showtimes": 254
+    "showtimeGroups": 38,
+    "showtimes": 225
   },
   "cinemas": [
     {
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "mutiny",
-      "title": "Mutiny",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
-      }
-    },
-    {
       "id": "the-odyssey",
       "title": "The Odyssey",
       "genre": "",
@@ -68,14 +57,14 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
+      "id": "mutiny",
+      "title": "Mutiny",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 110,
+      "runtime": 95,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
       }
     },
     {
@@ -90,14 +79,14 @@
       }
     },
     {
-      "id": "the-end-of-oak-street",
-      "title": "The End of Oak Street",
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 100,
+      "runtime": 110,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -109,6 +98,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "the-end-of-oak-street",
+      "title": "The End of Oak Street",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
       }
     },
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "thudakkam-malayalam",
-      "title": "Thudakkam (Malayalam)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 150,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005652/thudakkam-malayalam"
-      }
-    },
-    {
       "id": "dc-tamil",
       "title": "DC (Tamil)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+      }
+    },
+    {
+      "id": "thudakkam-malayalam",
+      "title": "Thudakkam (Malayalam)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 150,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005652/thudakkam-malayalam"
       }
     },
     {
@@ -206,9 +206,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "10:30",
-        "11:00",
         "11:30",
         "12:30",
         "13:15",
@@ -235,7 +232,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
         "11:45",
         "13:30",
         "14:10",
@@ -275,7 +271,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "11:00",
         "13:55",
         "16:50",
         "19:45",
@@ -288,9 +283,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:00",
-        "10:00",
-        "10:30",
         "11:30",
         "12:00",
         "12:55",
@@ -319,7 +311,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:00",
         "13:55",
         "16:50",
         "19:45",
@@ -331,7 +322,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:00",
         "12:55",
         "14:55",
@@ -348,7 +338,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
         "11:30",
         "12:25",
         "13:15",
@@ -363,41 +352,10 @@
       ]
     },
     {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "10:00",
-        "12:20",
-        "14:40",
-        "16:55",
-        "19:10",
-        "21:30",
-        "23:45",
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:00",
-        "13:10",
-        "15:15",
-        "17:20",
-        "19:25",
-        "21:30",
-        "23:35",
-        "01:40"
-      ]
-    },
-    {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "15:15",
         "22:00",
         "23:30",
@@ -409,7 +367,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:00",
         "13:15",
         "16:55",
         "20:50",
@@ -421,8 +378,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:00",
         "13:30",
         "14:30",
         "17:00",
@@ -456,37 +411,33 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
+      "movieId": "mutiny",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Platinum Suites",
       "times": [
-        "19:45",
-        "00:40"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "14:20",
-        "16:40",
-        "19:00",
-        "21:20",
-        "22:50",
-        "23:40",
-        "01:15",
+        "10:00",
+        "12:20",
+        "14:40",
+        "16:55",
+        "19:10",
+        "21:30",
+        "23:45",
         "02:00"
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "mutiny",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:20",
-        "20:40"
+        "11:00",
+        "13:10",
+        "15:15",
+        "17:20",
+        "19:25",
+        "21:30",
+        "23:35",
+        "01:40"
       ]
     },
     {
@@ -530,32 +481,37 @@
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Premium",
       "times": [
-        "09:45",
-        "12:00",
-        "14:15",
-        "16:30",
-        "18:45",
-        "21:00",
-        "23:15",
-        "01:30"
+        "19:45",
+        "00:40"
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:15",
-        "15:30",
-        "17:45",
-        "20:00",
-        "22:15",
-        "00:30"
+        "12:00",
+        "14:20",
+        "16:40",
+        "19:00",
+        "21:20",
+        "22:50",
+        "23:40",
+        "01:15",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:20",
+        "20:40"
       ]
     },
     {
@@ -563,7 +519,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "13:00",
         "15:00",
         "17:00",
@@ -590,11 +545,18 @@
       ]
     },
     {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
       "times": [
-        "10:30"
+        "09:45",
+        "12:00",
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00",
+        "23:15",
+        "01:30"
       ]
     },
     {
@@ -615,7 +577,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:45",
         "12:10",
         "14:35",
         "17:00",
@@ -631,6 +592,26 @@
       "times": [
         "12:30",
         "14:55"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:35",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:20",
+        "16:25",
+        "19:30",
+        "22:40"
       ]
     },
     {
@@ -656,7 +637,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "14:00",
         "17:00",
         "20:00",
@@ -664,33 +644,10 @@
       ]
     },
     {
-      "movieId": "dc-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "16:35",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "dc-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "13:20",
-        "16:25",
-        "19:30",
-        "22:40"
-      ]
-    },
-    {
       "movieId": "toy-story-5",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "12:55",
         "15:05",
         "17:15"
