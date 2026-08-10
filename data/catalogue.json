@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T01:25:40.528Z",
+  "generatedAt": "2026-08-10T04:28:32.498Z",
   "source": "reel",
   "counts": {
     "movies": 15,
     "cinemas": 3,
     "showtimeGroups": 40,
-    "showtimes": 255
+    "showtimes": 254
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "el-gawahergy-arabic",
       "title": "El Gawahergy (Arabic)",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -275,7 +275,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "08:05",
         "11:00",
         "13:55",
         "16:50",
@@ -457,6 +456,40 @@
       ]
     },
     {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:45",
+        "00:40"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "12:00",
+        "14:20",
+        "16:40",
+        "19:00",
+        "21:20",
+        "22:50",
+        "23:40",
+        "01:15",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:20",
+        "20:40"
+      ]
+    },
+    {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -494,40 +527,6 @@
         "16:00",
         "18:00",
         "20:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "19:45",
-        "00:40"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "14:20",
-        "16:40",
-        "19:00",
-        "21:20",
-        "22:50",
-        "23:40",
-        "01:15",
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:20",
-        "20:40"
       ]
     },
     {
