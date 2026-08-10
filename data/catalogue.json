@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T13:00:45.298Z",
+  "generatedAt": "2026-08-10T15:59:02.374Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 54,
-    "showtimes": 252
+    "showtimeGroups": 53,
+    "showtimes": 221
   },
   "cinemas": [
     {
@@ -101,17 +101,6 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
       "id": "awarapan-2-hindi",
       "title": "Awarapan 2 (Hindi)",
       "genre": "",
@@ -120,6 +109,17 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:00",
-        "17:30",
-        "18:00",
-        "19:00",
         "19:45",
         "20:15",
         "20:45",
@@ -257,9 +253,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:15",
-        "18:05",
-        "18:55",
         "20:25",
         "21:10",
         "22:00",
@@ -273,8 +266,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:20",
-        "18:25",
         "20:15",
         "21:20",
         "23:10",
@@ -286,7 +277,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:50",
         "19:45",
         "22:40",
         "01:35"
@@ -297,10 +287,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:20",
-        "17:50",
-        "18:45",
-        "19:15",
         "20:15",
         "20:45",
         "21:45",
@@ -317,7 +303,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "16:50",
         "19:45",
         "22:40"
       ]
@@ -327,8 +312,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:50",
-        "18:45",
         "20:45",
         "21:40",
         "23:40"
@@ -339,9 +322,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:20",
-        "18:15",
-        "19:05",
         "20:20",
         "21:10",
         "22:00"
@@ -362,7 +342,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:55",
         "20:50",
         "01:10"
       ]
@@ -372,8 +351,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:00",
         "21:30",
         "23:30",
         "01:00"
@@ -384,7 +361,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:10",
         "20:35",
         "23:00"
       ]
@@ -394,7 +370,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:50",
         "21:15"
       ]
     },
@@ -561,7 +536,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:00",
         "21:20",
         "22:50",
         "23:40",
@@ -574,7 +548,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:20",
         "20:40"
       ]
     },
@@ -606,24 +579,6 @@
         "21:30",
         "23:35",
         "01:40"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "19:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:40",
-        "21:40"
       ]
     },
     {
@@ -681,6 +636,15 @@
       ]
     },
     {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "19:40",
+        "21:40"
+      ]
+    },
+    {
       "movieId": "batwara-1947-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -733,7 +697,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:25",
         "20:30",
         "21:40",
         "23:55",
@@ -746,8 +709,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:25",
         "20:10",
         "21:00"
       ]
@@ -782,7 +743,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:00",
         "20:00",
         "23:00"
       ]
@@ -812,6 +772,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:45",
+        "12:55",
+        "15:05",
         "17:15"
       ]
     },
@@ -836,7 +799,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:30",
         "22:40"
       ]
     },
