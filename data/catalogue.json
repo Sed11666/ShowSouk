@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T07:26:14.138Z",
+  "generatedAt": "2026-08-10T10:15:14.019Z",
   "source": "reel",
   "counts": {
-    "movies": 15,
+    "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 38,
-    "showtimes": 225
+    "showtimeGroups": 55,
+    "showtimes": 287
   },
   "cinemas": [
     {
@@ -57,14 +57,14 @@
       }
     },
     {
-      "id": "mutiny",
-      "title": "Mutiny",
+      "id": "the-end-of-oak-street",
+      "title": "The End of Oak Street",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 95,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
       }
     },
     {
@@ -90,6 +90,17 @@
       }
     },
     {
+      "id": "mutiny",
+      "title": "Mutiny",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+      }
+    },
+    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -101,14 +112,25 @@
       }
     },
     {
-      "id": "the-end-of-oak-street",
-      "title": "The End of Oak Street",
+      "id": "awarapan-2-hindi",
+      "title": "Awarapan 2 (Hindi)",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
-      "runtime": 100,
+      "runtime": 150,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+      }
+    },
+    {
+      "id": "batwara-1947-hindi",
+      "title": "Batwara 1947 (Hindi)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 145,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005579/batwara-1947-hindi"
       }
     },
     {
@@ -134,14 +156,14 @@
       }
     },
     {
-      "id": "dc-tamil",
-      "title": "DC (Tamil)",
+      "id": "the-rivals-of-amziah-king",
+      "title": "The Rivals of Amziah King",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 155,
+      "runtime": 130,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
       }
     },
     {
@@ -156,6 +178,17 @@
       }
     },
     {
+      "id": "vishwanath-and-sons-tamil",
+      "title": "Vishwanath And Sons (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005264/vishwanath-and-sons-tamil"
+      }
+    },
+    {
       "id": "toy-story-5",
       "title": "Toy Story 5",
       "genre": "",
@@ -164,6 +197,28 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005092/toy-story-5"
+      }
+    },
+    {
+      "id": "dc-tamil",
+      "title": "DC (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+      }
+    },
+    {
+      "id": "la-la-land-10th-anniversary",
+      "title": "La La Land - 10th Anniversary",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
       }
     },
     {
@@ -176,28 +231,6 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005647/panda-plan-the-magical-tribe"
       }
-    },
-    {
-      "id": "iron-maiden-burning-ambition",
-      "title": "Iron Maiden: Burning Ambition",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005660/iron-maiden-burning-ambition"
-      }
-    },
-    {
-      "id": "obsession",
-      "title": "Obsession",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005276/obsession"
-      }
     }
   ],
   "showtimes": [
@@ -206,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
-        "12:30",
-        "13:15",
-        "13:45",
         "14:15",
         "14:45",
         "15:45",
@@ -232,8 +261,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:45",
-        "13:30",
         "14:10",
         "14:55",
         "15:50",
@@ -254,8 +281,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
-        "12:35",
         "14:25",
         "15:30",
         "17:20",
@@ -283,10 +308,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "12:00",
-        "12:55",
-        "13:25",
         "14:25",
         "14:55",
         "15:50",
@@ -322,8 +343,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:00",
-        "12:55",
         "14:55",
         "15:50",
         "17:50",
@@ -338,9 +357,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:30",
-        "12:25",
-        "13:15",
         "15:20",
         "16:10",
         "17:20",
@@ -367,7 +383,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:15",
         "16:55",
         "20:50",
         "01:10"
@@ -378,7 +393,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
         "14:30",
         "17:00",
         "18:00",
@@ -392,8 +406,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "13:40",
         "14:55",
         "17:10",
         "20:35",
@@ -408,6 +420,188 @@
         "14:25",
         "17:50",
         "21:15"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "13:15",
+        "15:45",
+        "20:15",
+        "22:30",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:15",
+        "14:30",
+        "17:30",
+        "20:30",
+        "23:00",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "09:45",
+        "12:00",
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00",
+        "23:15",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:30",
+        "12:40",
+        "14:50"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:10",
+        "12:00",
+        "13:20",
+        "14:10",
+        "15:30",
+        "17:40",
+        "19:50",
+        "20:50",
+        "22:00",
+        "23:00",
+        "00:10"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:20",
+        "14:30",
+        "16:45",
+        "19:00",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "09:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "11:45",
+        "12:45",
+        "13:45",
+        "14:45",
+        "15:45",
+        "16:45",
+        "17:45",
+        "18:45",
+        "19:45",
+        "20:45",
+        "21:45",
+        "22:45",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "12:50",
+        "14:50",
+        "16:50",
+        "18:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
+        "20:00",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:45",
+        "00:40"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:20",
+        "16:40",
+        "19:00",
+        "21:20",
+        "22:50",
+        "23:40",
+        "01:15",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:20",
+        "20:40"
       ]
     },
     {
@@ -441,85 +635,10 @@
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:45",
-        "12:45",
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "10:45",
-        "12:45",
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "14:00",
-        "16:00",
-        "18:00",
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "19:45",
-        "00:40"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "14:20",
-        "16:40",
-        "19:00",
-        "21:20",
-        "22:50",
-        "23:40",
-        "01:15",
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:20",
-        "20:40"
-      ]
-    },
-    {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:00",
         "15:00",
         "17:00",
         "19:00"
@@ -527,36 +646,114 @@
     },
     {
       "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:20"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:20",
         "15:30",
         "19:40",
         "21:40"
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
+      "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Platinum Suites",
       "times": [
-        "09:45",
+        "20:15",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "14:00",
+        "16:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
         "12:00",
-        "14:15",
-        "16:30",
-        "18:45",
+        "15:00",
+        "18:00",
         "21:00",
-        "23:15",
-        "01:30"
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:45",
+        "17:30",
+        "19:45",
+        "20:45",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "17:30",
+        "19:30",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:15"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "20:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "14:00",
+        "17:00",
+        "22:15",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "14:40",
+        "20:30",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:15"
       ]
     },
     {
@@ -577,7 +774,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:10",
         "14:35",
         "17:00",
         "19:25",
@@ -590,36 +786,23 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:30",
         "14:55"
       ]
     },
     {
-      "movieId": "dc-tamil",
+      "movieId": "the-rivals-of-amziah-king",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:35",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "dc-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:20",
-        "16:25",
-        "19:30",
-        "22:40"
-      ]
-    },
-    {
-      "movieId": "thudakkam-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:30"
+        "10:30",
+        "11:30",
+        "13:15",
+        "16:00",
+        "18:45",
+        "21:15",
+        "00:00",
+        "00:45",
+        "02:00"
       ]
     },
     {
@@ -627,7 +810,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:35",
         "19:40",
         "01:50"
       ]
@@ -644,11 +826,30 @@
       ]
     },
     {
+      "movieId": "vishwanath-and-sons-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:45",
+        "15:15"
+      ]
+    },
+    {
+      "movieId": "vishwanath-and-sons-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "12:10",
+        "17:25",
+        "22:45"
+      ]
+    },
+    {
       "movieId": "toy-story-5",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:55",
         "15:05",
         "17:15"
       ]
@@ -658,8 +859,39 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:20",
         "17:30"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:35",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "16:25",
+        "19:30",
+        "22:40"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:00",
+        "14:00",
+        "17:30",
+        "20:25",
+        "23:15",
+        "00:40"
       ]
     },
     {
@@ -667,29 +899,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:15",
         "15:50",
         "18:00",
         "21:50",
         "00:00",
         "02:10"
-      ]
-    },
-    {
-      "movieId": "iron-maiden-burning-ambition",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "22:35"
-      ]
-    },
-    {
-      "movieId": "obsession",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:20"
       ]
     }
   ]
