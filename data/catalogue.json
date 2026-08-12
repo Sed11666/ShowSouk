@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T04:46:01.440Z",
+  "generatedAt": "2026-08-12T07:20:55.526Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 55,
-    "showtimes": 327
+    "showtimeGroups": 56,
+    "showtimes": 314
   },
   "cinemas": [
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "the-get-out",
-      "title": "The Get Out",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005517/the-get-out"
-      }
-    },
-    {
       "id": "toy-story-5",
       "title": "Toy Story 5",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005092/toy-story-5"
+      }
+    },
+    {
+      "id": "the-get-out",
+      "title": "The Get Out",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005517/the-get-out"
       }
     },
     {
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "10:30",
         "12:30",
         "13:15",
         "13:45",
@@ -318,9 +316,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:00",
-        "10:00",
-        "10:30",
         "11:30",
         "12:00",
         "12:55",
@@ -361,7 +356,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:00",
         "12:55",
         "14:55",
@@ -378,7 +372,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
         "11:30",
         "12:25",
         "13:15",
@@ -546,7 +539,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "15:15",
         "22:00",
         "23:30"
@@ -557,7 +549,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:00",
         "13:15",
         "16:55",
         "20:50",
@@ -569,8 +560,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:00",
         "13:30",
         "14:30",
         "17:00",
@@ -598,6 +587,7 @@
       "times": [
         "14:25",
         "17:50",
+        "19:05",
         "21:15"
       ]
     },
@@ -670,7 +660,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "13:00",
         "15:00",
         "17:00",
@@ -682,7 +671,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "11:20"
       ]
     },
@@ -702,7 +690,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30"
+        "13:00",
+        "17:05"
       ]
     },
     {
@@ -745,11 +734,11 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:45",
+        "11:40",
         "17:30",
         "19:45",
         "20:45",
-        "23:40"
+        "23:45"
       ]
     },
     {
@@ -789,8 +778,8 @@
       "times": [
         "10:45",
         "14:40",
-        "20:30",
-        "23:30"
+        "20:40",
+        "23:40"
       ]
     },
     {
@@ -833,7 +822,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:45",
         "12:10",
         "14:35",
         "17:00",
@@ -848,7 +836,8 @@
       "format": "Standard",
       "times": [
         "12:30",
-        "14:55"
+        "14:55",
+        "22:30"
       ]
     },
     {
@@ -881,22 +870,10 @@
       ]
     },
     {
-      "movieId": "the-get-out",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:45",
-        "21:30",
-        "23:40",
-        "01:55"
-      ]
-    },
-    {
       "movieId": "toy-story-5",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "12:55",
         "15:05",
         "17:15"
@@ -909,6 +886,25 @@
       "times": [
         "13:20",
         "17:30"
+      ]
+    },
+    {
+      "movieId": "toy-story-5",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:55"
+      ]
+    },
+    {
+      "movieId": "the-get-out",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "21:30",
+        "23:40",
+        "01:55"
       ]
     },
     {
@@ -929,7 +925,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "16:35",
         "22:45"
       ]
@@ -939,7 +934,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "13:20",
         "16:25",
         "19:30",
