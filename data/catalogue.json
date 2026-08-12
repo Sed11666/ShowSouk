@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-12T01:40:33.355Z",
+  "generatedAt": "2026-08-12T04:46:01.440Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 55,
-    "showtimes": 328
+    "showtimes": 327
   },
   "cinemas": [
     {
@@ -305,7 +305,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "08:05",
         "11:00",
         "13:55",
         "16:50",
