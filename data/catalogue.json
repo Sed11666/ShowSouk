@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-13T19:00:08.112Z",
+  "generatedAt": "2026-08-13T21:42:04.512Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 40,
-    "showtimes": 122
+    "showtimes": 153
   },
   "cinemas": [
     {
@@ -237,28 +237,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00",
-        "00:00",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:15",
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:10",
         "02:05"
       ]
     },
@@ -271,32 +251,6 @@
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "23:40",
-        "00:25",
-        "01:05"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "00:10"
-      ]
-    },
-    {
       "movieId": "the-end-of-oak-street",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -309,7 +263,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:00",
         "01:30"
       ]
     },
@@ -318,16 +271,15 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:15",
         "01:30"
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
       "times": [
-        "23:00"
+        "09:30"
       ]
     },
     {
@@ -335,8 +287,51 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:45",
-        "23:45"
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:00",
+        "12:55",
+        "15:30",
+        "17:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
+        "20:00"
       ]
     },
     {
@@ -344,8 +339,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "23:30",
-        "00:30"
+        "10:00",
+        "11:30",
+        "12:45",
+        "18:45",
+        "00:00"
       ]
     },
     {
@@ -353,7 +351,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:40"
+        "10:00",
+        "12:20",
+        "17:00",
+        "20:50"
       ]
     },
     {
@@ -361,7 +362,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:30"
+        "11:00",
+        "14:30",
+        "18:00",
+        "21:30"
       ]
     },
     {
@@ -369,7 +373,18 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "23:50"
+        "13:45",
+        "17:10",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:10",
+        "20:45"
       ]
     },
     {
@@ -449,6 +464,7 @@
         "17:30",
         "19:45",
         "20:45",
+        "22:10",
         "23:30",
         "23:45"
       ]
@@ -468,8 +484,17 @@
     {
       "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "19:35",
         "00:35"
       ]
     },
@@ -478,7 +503,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:50",
+        "14:15",
+        "16:40",
+        "19:00",
+        "21:20",
+        "23:40",
         "01:00"
       ]
     },
@@ -538,8 +567,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:40",
-        "00:55",
         "01:45"
       ]
     },
@@ -548,8 +575,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:30",
+        "18:45",
+        "21:15",
         "00:00",
-        "00:45"
+        "00:45",
+        "02:00"
       ]
     },
     {
@@ -577,7 +608,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:30"
+        "22:40",
+        "00:50"
       ]
     },
     {
@@ -610,7 +642,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:40",
         "01:55"
       ]
     },
