@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T12:58:56.892Z",
+  "generatedAt": "2026-08-14T15:48:57.453Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 48,
-    "showtimes": 162
+    "showtimeGroups": 45,
+    "showtimes": 136
   },
   "cinemas": [
     {
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "above-and-below",
-      "title": "Above And Below",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
-      }
-    },
-    {
       "id": "mahmoud-el-tany-arabic",
       "title": "Mahmoud El Tany (Arabic)",
       "genre": "",
@@ -189,14 +178,14 @@
       }
     },
     {
-      "id": "moana",
-      "title": "Moana",
+      "id": "above-and-below",
+      "title": "Above And Below",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG15",
       "language": "",
-      "runtime": 115,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005098/moana"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
       }
     },
     {
@@ -208,6 +197,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
+      }
+    },
+    {
+      "id": "moana",
+      "title": "Moana",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 115,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005098/moana"
       }
     },
     {
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "16:45",
-        "17:15",
-        "18:00",
         "19:45",
         "20:40",
         "21:15",
@@ -255,7 +252,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "18:05",
         "21:15",
         "22:10",
         "00:15",
@@ -267,7 +263,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:20",
         "20:15",
         "23:10",
         "02:05"
@@ -278,7 +273,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:45",
         "19:40",
         "22:35",
         "01:30"
@@ -289,9 +283,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:50",
-        "18:30",
-        "19:15",
         "20:45",
         "21:30",
         "22:10",
@@ -305,7 +296,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:00",
         "20:00",
         "23:00"
       ]
@@ -315,7 +305,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:45",
         "21:40"
       ]
     },
@@ -324,7 +313,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:05",
         "22:00"
       ]
     },
@@ -342,7 +330,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:30",
         "20:30",
         "23:00",
         "01:30"
@@ -353,7 +340,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "18:45",
         "21:00",
         "23:15",
         "01:30"
@@ -372,7 +358,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:55",
         "20:00"
       ]
     },
@@ -381,8 +366,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "16:45",
-        "19:00",
         "22:45"
       ]
     },
@@ -391,17 +374,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:45",
-        "18:45",
         "20:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:50"
       ]
     },
     {
@@ -409,8 +382,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "16:45",
-        "18:45",
         "20:45"
       ]
     },
@@ -419,7 +390,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:00",
         "20:00"
       ]
     },
@@ -428,7 +398,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:45",
         "00:00"
       ]
     },
@@ -437,7 +406,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:00",
         "20:50"
       ]
     },
@@ -446,7 +414,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
         "21:30"
       ]
     },
@@ -455,7 +422,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:10",
         "23:45"
       ]
     },
@@ -490,7 +456,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
         "19:40",
         "21:00",
         "22:15",
@@ -506,7 +471,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:30",
         "19:45",
         "20:45",
         "22:10",
@@ -521,7 +485,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:30",
         "19:35",
         "21:10",
         "22:00"
@@ -560,14 +523,6 @@
     {
       "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
         "19:35",
@@ -579,8 +534,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:40",
-        "19:00",
         "21:20",
         "23:55",
         "01:00"
@@ -591,6 +544,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:15",
+        "13:15",
+        "15:15",
         "17:15",
         "19:15"
       ]
@@ -600,7 +556,11 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:35"
+        "10:15",
+        "11:20",
+        "13:20",
+        "15:20",
+        "17:30"
       ]
     },
     {
@@ -609,14 +569,6 @@
       "format": "Premium",
       "times": [
         "20:00"
-      ]
-    },
-    {
-      "movieId": "batwara-1947-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00"
       ]
     },
     {
@@ -632,7 +584,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:10",
         "20:25",
         "22:40",
         "00:55"
@@ -643,7 +594,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:45",
         "21:15"
       ]
     },
@@ -652,17 +602,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:25",
         "22:45"
-      ]
-    },
-    {
-      "movieId": "above-and-below",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:40",
-        "00:50"
       ]
     },
     {
@@ -680,11 +620,12 @@
       ]
     },
     {
-      "movieId": "moana",
+      "movieId": "above-and-below",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:15"
+        "22:40",
+        "00:50"
       ]
     },
     {
@@ -698,6 +639,18 @@
         "20:25",
         "23:15",
         "00:40"
+      ]
+    },
+    {
+      "movieId": "moana",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:25",
+        "14:50",
+        "17:15",
+        "19:45"
       ]
     },
     {
