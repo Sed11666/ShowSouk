@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T15:48:57.453Z",
+  "generatedAt": "2026-08-14T18:49:38.197Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 136
+    "showtimeGroups": 41,
+    "showtimes": 125
   },
   "cinemas": [
     {
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "the-rivals-of-amziah-king",
-      "title": "The Rivals of Amziah King",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
-      }
-    },
-    {
       "id": "vishwanath-and-sons-tamil",
       "title": "Vishwanath And Sons (Tamil)",
       "genre": "",
@@ -167,6 +156,17 @@
       }
     },
     {
+      "id": "the-rivals-of-amziah-king",
+      "title": "The Rivals of Amziah King",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
+      }
+    },
+    {
       "id": "mahmoud-el-tany-arabic",
       "title": "Mahmoud El Tany (Arabic)",
       "genre": "",
@@ -175,17 +175,6 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005674/mahmoud-el-tany-arabic"
-      }
-    },
-    {
-      "id": "above-and-below",
-      "title": "Above And Below",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
       }
     },
     {
@@ -211,17 +200,6 @@
       }
     },
     {
-      "id": "the-get-out",
-      "title": "The Get Out",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005517/the-get-out"
-      }
-    },
-    {
       "id": "michael",
       "title": "Michael",
       "genre": "",
@@ -231,6 +209,28 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
       }
+    },
+    {
+      "id": "dc-tamil",
+      "title": "DC (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+      }
+    },
+    {
+      "id": "above-and-below",
+      "title": "Above And Below",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
+      }
     }
   ],
   "showtimes": [
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:45",
-        "20:40",
-        "21:15",
-        "22:00",
         "23:00",
         "00:30"
       ]
@@ -252,8 +248,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:15",
-        "22:10",
         "00:15",
         "01:10"
       ]
@@ -263,7 +257,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "20:15",
         "23:10",
         "02:05"
       ]
@@ -273,7 +266,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "19:40",
         "22:35",
         "01:30"
       ]
@@ -283,9 +275,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:45",
-        "21:30",
-        "22:10",
         "23:40",
         "00:25",
         "01:05"
@@ -296,24 +285,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "20:00",
         "23:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "21:40"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:00"
       ]
     },
     {
@@ -330,7 +302,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "20:30",
         "23:00",
         "01:30"
       ]
@@ -340,25 +311,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "21:00",
         "23:15",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:00"
       ]
     },
     {
@@ -372,9 +326,31 @@
     {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "09:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:45"
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:55",
+        "15:30",
+        "17:50"
       ]
     },
     {
@@ -382,6 +358,11 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
         "20:45"
       ]
     },
@@ -390,6 +371,11 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
         "20:00"
       ]
     },
@@ -403,22 +389,6 @@
     },
     {
       "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "20:50"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
@@ -426,19 +396,10 @@
       ]
     },
     {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:45"
-      ]
-    },
-    {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:15",
         "23:30",
         "01:00"
       ]
@@ -456,9 +417,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40",
-        "21:00",
-        "22:15",
         "22:45",
         "23:40",
         "00:00",
@@ -471,23 +429,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:45",
-        "20:45",
-        "22:10",
         "23:30",
         "23:45",
         "00:35",
         "01:10"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "19:35",
-        "21:10",
-        "22:00"
       ]
     },
     {
@@ -525,7 +470,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "19:35",
         "00:35"
       ]
     },
@@ -534,7 +478,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:20",
         "23:55",
         "01:00"
       ]
@@ -573,10 +516,29 @@
     },
     {
       "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "17:00"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "10:00",
+        "14:40",
         "20:40"
+      ]
+    },
+    {
+      "movieId": "batwara-1947-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:15"
       ]
     },
     {
@@ -584,17 +546,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:25",
         "22:40",
         "00:55"
-      ]
-    },
-    {
-      "movieId": "the-rivals-of-amziah-king",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:15"
       ]
     },
     {
@@ -603,6 +556,16 @@
       "format": "Standard",
       "times": [
         "22:45"
+      ]
+    },
+    {
+      "movieId": "the-rivals-of-amziah-king",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:45",
+        "21:15",
+        "00:00"
       ]
     },
     {
@@ -617,15 +580,6 @@
         "21:30",
         "23:45",
         "02:00"
-      ]
-    },
-    {
-      "movieId": "above-and-below",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:40",
-        "00:50"
       ]
     },
     {
@@ -654,16 +608,6 @@
       ]
     },
     {
-      "movieId": "the-get-out",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:30",
-        "23:40",
-        "01:55"
-      ]
-    },
-    {
       "movieId": "michael",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -683,6 +627,23 @@
         "19:30",
         "22:15",
         "01:00"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "14:50"
+      ]
+    },
+    {
+      "movieId": "above-and-below",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:40",
+        "00:50"
       ]
     }
   ]
