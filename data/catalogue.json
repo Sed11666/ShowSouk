@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T18:24:12.044Z",
+  "generatedAt": "2026-08-15T21:20:18.003Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 40,
-    "showtimes": 122
+    "showtimeGroups": 39,
+    "showtimes": 119
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "the-odyssey",
-      "title": "The Odyssey",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 175,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
-      }
-    },
-    {
       "id": "mutiny",
       "title": "Mutiny",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
       }
     },
     {
@@ -237,19 +237,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:55",
-        "00:15",
         "01:50"
       ]
     },
@@ -258,7 +247,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:10",
         "02:05"
       ]
     },
@@ -267,7 +255,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:35",
         "01:30"
       ]
     },
@@ -276,18 +263,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:10",
-        "23:40",
-        "00:25",
         "01:05"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:00"
       ]
     },
     {
@@ -295,7 +271,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "22:30",
         "01:30"
       ]
     },
@@ -304,7 +279,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:00",
         "01:30"
       ]
     },
@@ -313,16 +287,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:15",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:45"
       ]
     },
     {
@@ -383,22 +348,6 @@
       ]
     },
     {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:45"
-      ]
-    },
-    {
       "movieId": "mutiny",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -429,20 +378,65 @@
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
+      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "23:30",
+        "10:00",
+        "11:30",
+        "12:45",
+        "18:45",
+        "00:00",
         "01:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "10:00",
+        "12:20",
+        "17:00",
+        "20:50"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "14:30",
+        "18:00",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:45",
+        "17:10",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:00",
+        "20:45"
       ]
     },
     {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Platinum Suites",
       "times": [
-        "23:30"
+        "01:00"
       ]
     },
     {
@@ -450,9 +444,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:10",
-        "00:05",
-        "00:55",
         "01:25"
       ]
     },
@@ -461,19 +452,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:10",
-        "23:30",
-        "23:45",
-        "00:35",
         "01:10"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:35"
       ]
     },
     {
@@ -481,8 +460,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:30",
-        "00:50",
         "01:30"
       ]
     },
@@ -539,8 +516,17 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:00",
         "01:15"
+      ]
+    },
+    {
+      "movieId": "vishwanath-and-sons-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:45",
+        "15:15"
       ]
     },
     {
@@ -548,7 +534,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:45"
+        "10:25",
+        "12:10",
+        "17:25",
+        "22:50"
       ]
     },
     {
@@ -570,6 +559,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "18:45",
+        "21:15",
         "00:00"
       ]
     },
@@ -624,8 +615,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15",
-        "00:30"
+        "01:50"
       ]
     },
     {
