@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T03:37:00.342Z",
+  "generatedAt": "2026-08-15T06:32:56.055Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 52,
-    "showtimes": 256
+    "showtimeGroups": 51,
+    "showtimes": 243
   },
   "cinemas": [
     {
@@ -289,7 +289,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "08:00",
         "10:55",
         "13:50",
         "16:45",
@@ -303,8 +302,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:00",
-        "09:45",
         "10:30",
         "12:00",
         "12:40",
@@ -338,7 +335,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:55",
         "15:50",
         "18:45",
@@ -386,7 +382,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "09:45",
         "12:00",
         "14:15",
         "16:30",
@@ -441,14 +436,6 @@
     {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "09:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "10:45",
@@ -486,7 +473,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:00",
         "14:00",
         "16:00",
@@ -499,7 +485,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "11:30",
         "12:45",
         "18:45",
@@ -511,7 +496,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:00",
         "12:20",
         "17:00",
         "20:50"
@@ -603,7 +587,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:00",
         "11:00",
         "12:00",
         "13:50",
@@ -721,7 +704,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "14:40",
         "20:40"
       ]
@@ -750,7 +732,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "11:45",
         "15:15"
       ]
@@ -808,7 +789,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:25",
         "14:50",
         "17:15",
