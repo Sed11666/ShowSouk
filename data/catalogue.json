@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-15T01:02:57.481Z",
+  "generatedAt": "2026-08-15T03:37:00.342Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 52,
-    "showtimes": 255
+    "showtimes": 256
   },
   "cinemas": [
     {
@@ -211,6 +211,17 @@
       }
     },
     {
+      "id": "above-and-below",
+      "title": "Above And Below",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
+      }
+    },
+    {
       "id": "dc-tamil",
       "title": "DC (Tamil)",
       "genre": "",
@@ -219,17 +230,6 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
-      }
-    },
-    {
-      "id": "toy-story-5",
-      "title": "Toy Story 5",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005092/toy-story-5"
       }
     }
   ],
@@ -838,19 +838,20 @@
       ]
     },
     {
+      "movieId": "above-and-below",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:15",
+        "00:30"
+      ]
+    },
+    {
       "movieId": "dc-tamil",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
         "14:50"
-      ]
-    },
-    {
-      "movieId": "toy-story-5",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:30"
       ]
     }
   ]
