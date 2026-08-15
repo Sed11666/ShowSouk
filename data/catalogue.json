@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-14T21:22:49.013Z",
+  "generatedAt": "2026-08-15T01:02:57.481Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 41,
-    "showtimes": 130
+    "showtimeGroups": 52,
+    "showtimes": 255
   },
   "cinemas": [
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "above-and-below",
-      "title": "Above And Below",
+      "id": "toy-story-5",
+      "title": "Toy Story 5",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG",
       "language": "",
       "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005092/toy-story-5"
       }
     }
   ],
@@ -237,9 +237,38 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:00",
+        "12:00",
+        "13:45",
+        "14:30",
+        "15:15",
+        "16:45",
+        "17:15",
+        "18:00",
+        "19:45",
+        "20:40",
+        "21:15",
+        "22:00",
+        "23:00",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "01:10"
+        "11:45",
+        "13:30",
+        "14:55",
+        "16:30",
+        "18:05",
+        "21:15",
+        "22:55",
+        "00:15",
+        "01:50"
       ]
     },
     {
@@ -247,6 +276,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "11:30",
+        "14:25",
+        "17:20",
+        "20:15",
+        "23:10",
         "02:05"
       ]
     },
@@ -255,6 +289,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "08:00",
+        "10:55",
+        "13:50",
+        "16:45",
+        "19:40",
+        "22:35",
         "01:30"
       ]
     },
@@ -263,7 +303,58 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "09:00",
+        "09:45",
+        "10:30",
+        "12:00",
+        "12:40",
+        "13:25",
+        "14:55",
+        "15:35",
+        "16:20",
+        "17:50",
+        "18:30",
+        "19:15",
+        "20:45",
+        "21:30",
+        "22:10",
+        "23:40",
+        "00:25",
         "01:05"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "17:00",
+        "20:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:55",
+        "15:50",
+        "18:45",
+        "21:40"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "13:15",
+        "16:10",
+        "19:05",
+        "22:00"
       ]
     },
     {
@@ -271,6 +362,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:30",
+        "13:15",
+        "15:45",
+        "22:30",
         "01:30"
       ]
     },
@@ -279,6 +374,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "11:15",
+        "17:30",
+        "20:30",
+        "23:00",
         "01:30"
       ]
     },
@@ -287,7 +386,56 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "09:45",
+        "12:00",
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00",
+        "23:15",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:30",
+        "12:40",
+        "14:50"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "13:35",
+        "15:45",
+        "17:55",
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:15",
+        "14:30",
+        "16:45",
+        "19:00",
+        "22:45"
       ]
     },
     {
@@ -431,10 +579,46 @@
     {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:15",
+        "20:15",
+        "23:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "14:00",
+        "16:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:15",
-        "01:45"
+        "09:00",
+        "11:00",
+        "12:00",
+        "13:50",
+        "14:00",
+        "15:00",
+        "17:05",
+        "18:00",
+        "18:45",
+        "21:00",
+        "21:25",
+        "21:50",
+        "22:10",
+        "00:05",
+        "00:55",
+        "01:25"
       ]
     },
     {
@@ -442,7 +626,26 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "11:40",
+        "17:30",
+        "19:45",
+        "20:45",
+        "22:10",
+        "23:30",
+        "23:45",
+        "00:35",
         "01:10"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "17:20",
+        "19:30",
+        "22:00"
       ]
     },
     {
@@ -643,12 +846,11 @@
       ]
     },
     {
-      "movieId": "above-and-below",
+      "movieId": "toy-story-5",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15",
-        "00:30"
+        "13:30"
       ]
     }
   ]
