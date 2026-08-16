@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-16T09:24:59.073Z",
+  "generatedAt": "2026-08-16T12:33:04.675Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 48,
-    "showtimes": 194
+    "showtimeGroups": 44,
+    "showtimes": 152
   },
   "cinemas": [
     {
@@ -57,17 +57,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "mutiny",
       "title": "Mutiny",
       "genre": "",
@@ -76,6 +65,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
       "id": "batwara-1947-hindi",
       "title": "Batwara 1947 (Hindi)",
       "genre": "",
@@ -131,6 +120,17 @@
       "runtime": 145,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005579/batwara-1947-hindi"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "vishwanath-and-sons-tamil",
-      "title": "Vishwanath And Sons (Tamil)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 175,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005264/vishwanath-and-sons-tamil"
-      }
-    },
-    {
       "id": "the-rivals-of-amziah-king",
       "title": "The Rivals of Amziah King",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
+      }
+    },
+    {
+      "id": "vishwanath-and-sons-tamil",
+      "title": "Vishwanath And Sons (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005264/vishwanath-and-sons-tamil"
       }
     },
     {
@@ -189,6 +189,17 @@
       }
     },
     {
+      "id": "michael",
+      "title": "Michael",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+      }
+    },
+    {
       "id": "moana",
       "title": "Moana",
       "genre": "",
@@ -200,14 +211,14 @@
       }
     },
     {
-      "id": "michael",
-      "title": "Michael",
+      "id": "above-and-below",
+      "title": "Above And Below",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
-      "runtime": 130,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
       }
     },
     {
@@ -220,17 +231,6 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
       }
-    },
-    {
-      "id": "toy-story-5",
-      "title": "Toy Story 5",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005092/toy-story-5"
-      }
     }
   ],
   "showtimes": [
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:45",
-        "14:30",
-        "15:15",
         "16:45",
         "17:15",
         "18:00",
@@ -258,8 +255,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:30",
-        "14:55",
         "16:30",
         "18:05",
         "21:15",
@@ -273,7 +268,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:25",
         "17:20",
         "20:15",
         "23:10",
@@ -285,7 +279,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:50",
         "16:45",
         "19:40",
         "22:35",
@@ -297,9 +290,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:25",
-        "14:55",
-        "15:35",
         "16:20",
         "17:50",
         "18:30",
@@ -327,7 +317,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:45",
         "18:40",
         "21:35",
         "00:30"
@@ -338,8 +327,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:15",
-        "16:10",
         "19:05",
         "22:00"
       ]
@@ -349,8 +336,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:15",
-        "15:45",
         "22:30",
         "01:30"
       ]
@@ -360,7 +345,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:15",
         "16:30",
         "18:45",
         "21:00",
@@ -370,69 +354,12 @@
     },
     {
       "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "14:50"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:35"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:30",
         "16:45",
         "19:00",
         "22:40"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:45",
-        "16:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "15:30",
-        "17:50"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "16:00",
-        "18:00",
-        "20:00"
       ]
     },
     {
@@ -466,6 +393,41 @@
       ]
     },
     {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "16:45",
+        "18:45",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:00",
+        "20:00"
+      ]
+    },
+    {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -489,7 +451,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
         "18:00",
         "21:30"
       ]
@@ -499,7 +460,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:45",
         "17:10",
         "23:45"
       ]
@@ -509,7 +469,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:00",
         "20:45"
       ]
     },
@@ -528,7 +487,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:00",
         "19:50",
         "23:40"
       ]
@@ -538,8 +496,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:50",
-        "15:00",
         "16:35",
         "17:40",
         "18:00",
@@ -561,14 +517,12 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:50",
         "17:30",
         "19:00",
         "19:45",
         "20:45",
         "22:00",
-        "23:30",
-        "01:00"
+        "23:30"
       ]
     },
     {
@@ -602,30 +556,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:15",
         "19:40",
         "22:00",
         "00:25",
         "01:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:15",
-        "15:15"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "15:30",
-        "17:30"
       ]
     },
     {
@@ -641,7 +575,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:40",
         "20:40"
       ]
     },
@@ -651,6 +584,14 @@
       "format": "Standard",
       "times": [
         "21:15"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "17:30"
       ]
     },
     {
@@ -678,11 +619,13 @@
       ]
     },
     {
-      "movieId": "vishwanath-and-sons-tamil",
+      "movieId": "the-rivals-of-amziah-king",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:15"
+        "18:45",
+        "21:15",
+        "00:00"
       ]
     },
     {
@@ -695,34 +638,14 @@
       ]
     },
     {
-      "movieId": "the-rivals-of-amziah-king",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "18:45",
-        "21:15",
-        "00:00"
-      ]
-    },
-    {
       "movieId": "la-la-land-10th-anniversary",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:00",
         "17:30",
         "20:25",
         "23:15",
         "00:40"
-      ]
-    },
-    {
-      "movieId": "moana",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:50",
-        "17:15"
       ]
     },
     {
@@ -748,20 +671,27 @@
       ]
     },
     {
+      "movieId": "moana",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "17:15"
+      ]
+    },
+    {
+      "movieId": "above-and-below",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "01:50"
+      ]
+    },
+    {
       "movieId": "dc-tamil",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:50"
-      ]
-    },
-    {
-      "movieId": "toy-story-5",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:45",
-        "16:00"
+        "23:45"
       ]
     }
   ]
