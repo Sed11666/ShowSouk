@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-16T21:17:50.254Z",
+  "generatedAt": "2026-08-17T01:04:26.398Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 34,
-    "showtimes": 113
+    "showtimeGroups": 51,
+    "showtimes": 238
   },
   "cinemas": [
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "the-rivals-of-amziah-king",
-      "title": "The Rivals of Amziah King",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
-      }
-    },
-    {
       "id": "vishwanath-and-sons-tamil",
       "title": "Vishwanath And Sons (Tamil)",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 175,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005264/vishwanath-and-sons-tamil"
+      }
+    },
+    {
+      "id": "the-rivals-of-amziah-king",
+      "title": "The Rivals of Amziah King",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
       }
     },
     {
@@ -237,8 +237,35 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:00",
+        "13:45",
+        "14:30",
+        "15:15",
+        "17:15",
+        "18:00",
+        "19:45",
+        "20:40",
+        "21:15",
+        "22:00",
+        "23:00",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "11:45",
+        "13:30",
+        "14:55",
+        "16:30",
+        "18:05",
+        "21:15",
+        "22:10",
+        "00:15",
         "01:10"
       ]
     },
@@ -247,6 +274,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "11:30",
+        "14:25",
+        "17:20",
+        "20:15",
+        "23:10",
         "02:05"
       ]
     },
@@ -255,6 +287,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "10:50",
+        "13:50",
+        "16:45",
+        "19:40",
+        "22:35",
         "01:30"
       ]
     },
@@ -263,7 +300,59 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "09:00",
+        "09:45",
+        "10:30",
+        "12:00",
+        "12:40",
+        "13:25",
+        "14:55",
+        "15:35",
+        "16:20",
+        "17:50",
+        "18:30",
+        "19:15",
+        "20:45",
+        "21:30",
+        "22:10",
+        "23:40",
+        "00:25",
         "01:05"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "17:00",
+        "20:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:55",
+        "15:50",
+        "18:45",
+        "21:40",
+        "00:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "13:15",
+        "16:10",
+        "19:05",
+        "22:00"
       ]
     },
     {
@@ -301,6 +390,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:30",
+        "13:15",
         "01:30"
       ]
     },
@@ -309,7 +400,58 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "09:45",
+        "12:00",
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00",
+        "23:15",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:30",
+        "12:40",
+        "14:50"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "13:35",
+        "15:45",
+        "17:55",
+        "20:00",
+        "22:10",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:15",
+        "14:30",
+        "16:45",
+        "19:00",
+        "22:40"
       ]
     },
     {
@@ -377,7 +519,58 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "01:00"
+        "10:00",
+        "11:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "10:00",
+        "12:20",
+        "17:00",
+        "20:50"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "14:30",
+        "18:00",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:45",
+        "17:10",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "16:00"
       ]
     },
     {
@@ -385,7 +578,49 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:00"
+        "12:00",
+        "15:00",
+        "18:00",
+        "21:00",
+        "00:05"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:20",
+        "17:25",
+        "19:45",
+        "20:45",
+        "23:50"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "19:30",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:30"
       ]
     },
     {
@@ -393,6 +628,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "14:15",
+        "16:40",
+        "19:00",
+        "21:20",
+        "23:40",
         "01:00"
       ]
     },
@@ -484,20 +724,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:50"
-      ]
-    },
-    {
-      "movieId": "the-rivals-of-amziah-king",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "18:45",
-        "21:15",
-        "00:00",
-        "00:45",
-        "02:00"
+        "18:10",
+        "20:25",
+        "22:40",
+        "00:55"
       ]
     },
     {
@@ -518,6 +748,19 @@
         "12:10",
         "17:25",
         "22:50"
+      ]
+    },
+    {
+      "movieId": "the-rivals-of-amziah-king",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "18:45",
+        "21:15",
+        "00:00",
+        "00:45",
+        "02:00"
       ]
     },
     {
@@ -572,7 +815,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:50"
+        "22:15",
+        "00:30"
       ]
     },
     {
