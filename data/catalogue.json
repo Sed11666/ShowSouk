@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T12:38:05.831Z",
+  "generatedAt": "2026-08-17T15:23:21.624Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 58,
-    "showtimes": 226
+    "showtimeGroups": 55,
+    "showtimes": 187
   },
   "cinemas": [
     {
@@ -57,6 +57,17 @@
       }
     },
     {
+      "id": "insidious-out-of-the-further",
+      "title": "Insidious: Out Of The Further",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
+      }
+    },
+    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -76,17 +87,6 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
-      }
-    },
-    {
-      "id": "insidious-out-of-the-further",
-      "title": "Insidious: Out Of The Further",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
       }
     },
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "khalifa-the-bloodline-malayalam",
-      "title": "Khalifa: The Bloodline (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
-      }
-    },
-    {
       "id": "aks-sir-arabic",
       "title": "Aks Sir (Arabic)",
       "genre": "",
@@ -131,28 +120,6 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005653/aks-sir-arabic"
-      }
-    },
-    {
-      "id": "la-la-land-10th-anniversary",
-      "title": "La La Land - 10th Anniversary",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -178,14 +145,58 @@
       }
     },
     {
-      "id": "lumivia-the-five-magical-wishes",
-      "title": "Lumivia: The Five Magical Wishes",
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
       "genre": "",
       "rating": "PG",
       "language": "",
-      "runtime": 100,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005468/lumivia-the-five-magical-wishes"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "khalifa-the-bloodline-malayalam",
+      "title": "Khalifa: The Bloodline (Malayalam)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 170,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
+      }
+    },
+    {
+      "id": "la-la-land-10th-anniversary",
+      "title": "La La Land - 10th Anniversary",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
+      }
+    },
+    {
+      "id": "detective-conan-fallen-rider-of-highway-japanese",
+      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
+      }
+    },
+    {
+      "id": "the-magic-faraway-tree",
+      "title": "The Magic Faraway Tree",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005482/the-magic-faraway-tree"
       }
     },
     {
@@ -200,6 +211,17 @@
       }
     },
     {
+      "id": "lumivia-the-five-magical-wishes",
+      "title": "Lumivia: The Five Magical Wishes",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005468/lumivia-the-five-magical-wishes"
+      }
+    },
+    {
       "id": "khali-balak-min-nafsik-arabic",
       "title": "Khali Balak Min Nafsik (Arabic)",
       "genre": "",
@@ -209,28 +231,6 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005604/khali-balak-min-nafsik-arabic"
       }
-    },
-    {
-      "id": "the-dog-stars",
-      "title": "The Dog Stars",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
-      }
-    },
-    {
-      "id": "batwara-1947-hindi",
-      "title": "Batwara 1947 (Hindi)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 145,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005579/batwara-1947-hindi"
-      }
     }
   ],
   "showtimes": [
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "16:45",
-        "17:15",
-        "18:00",
         "19:45",
         "20:40",
         "21:15",
@@ -255,8 +252,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:30",
-        "18:05",
         "21:15",
         "22:10",
         "00:15",
@@ -268,7 +263,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:20",
         "20:15",
         "23:10",
         "02:05"
@@ -279,7 +273,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:45",
         "19:40",
         "22:35",
         "01:30"
@@ -290,9 +283,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:20",
-        "17:50",
-        "18:30",
         "19:15",
         "20:45",
         "21:30",
@@ -307,7 +297,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:00",
         "20:00",
         "23:00"
       ]
@@ -317,7 +306,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:45",
         "21:40",
         "00:35"
       ]
@@ -402,93 +390,6 @@
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:50"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "16:45",
-        "18:45",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:00",
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "20:15",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "18:00",
-        "21:00",
-        "00:05",
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:25",
-        "19:45",
-        "20:45",
-        "23:50"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "19:30",
-        "22:00"
-      ]
-    },
-    {
       "movieId": "insidious-out-of-the-further",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -564,11 +465,81 @@
       ]
     },
     {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "20:15",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "21:00",
+        "00:05",
+        "01:10"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "19:45",
+        "20:45",
+        "23:50"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:30",
+        "22:00"
+      ]
+    },
+    {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:45",
         "00:00",
         "01:00"
       ]
@@ -578,7 +549,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:00",
         "19:55",
         "20:50",
         "23:45"
@@ -589,7 +559,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
         "21:30"
       ]
     },
@@ -598,7 +567,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:10",
         "23:45"
       ]
     },
@@ -615,8 +583,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "16:30",
-        "18:45",
         "21:00",
         "23:15",
         "01:30"
@@ -635,7 +601,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:55",
         "20:00",
         "22:10"
       ]
@@ -645,37 +610,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "16:45",
-        "19:00",
         "22:40"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "13:40",
-        "18:35",
-        "21:55",
-        "22:55"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "12:40",
-        "13:50",
-        "16:00",
-        "17:10",
-        "19:20",
-        "20:30",
-        "22:40",
-        "23:50"
       ]
     },
     {
@@ -686,42 +621,6 @@
         "20:30",
         "22:45",
         "01:00"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "17:30",
-        "20:25",
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:00",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:15",
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:30"
       ]
     },
     {
@@ -766,7 +665,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:15",
         "19:35",
         "21:20",
         "23:40",
@@ -774,24 +672,85 @@
       ]
     },
     {
-      "movieId": "lumivia-the-five-magical-wishes",
+      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "13:45",
-        "16:00",
-        "18:15"
+        "19:15"
       ]
     },
     {
-      "movieId": "lumivia-the-five-magical-wishes",
-      "cinemaId": "reel-reel-the-springs-souk",
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "10:15",
-        "12:25",
-        "16:30"
+        "13:40",
+        "18:35",
+        "21:55",
+        "22:55"
+      ]
+    },
+    {
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "12:40",
+        "13:50",
+        "16:00",
+        "17:10",
+        "19:20",
+        "20:30",
+        "22:40",
+        "23:50"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "20:25",
+        "23:15"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:00",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:30",
+        "14:55"
+      ]
+    },
+    {
+      "movieId": "the-magic-faraway-tree",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:30",
+        "13:30",
+        "16:00"
+      ]
+    },
+    {
+      "movieId": "the-magic-faraway-tree",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:00"
       ]
     },
     {
@@ -817,53 +776,34 @@
       ]
     },
     {
+      "movieId": "lumivia-the-five-magical-wishes",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:45",
+        "16:00",
+        "18:15"
+      ]
+    },
+    {
+      "movieId": "lumivia-the-five-magical-wishes",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:25",
+        "16:30"
+      ]
+    },
+    {
       "movieId": "khali-balak-min-nafsik-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:10",
         "20:25",
         "22:40",
         "00:55"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "10:30",
-        "12:45",
-        "15:00",
-        "17:15",
-        "19:30",
-        "21:45",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "batwara-1947-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "batwara-1947-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:30",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "batwara-1947-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "21:15"
       ]
     }
   ]
