@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T01:04:26.398Z",
+  "generatedAt": "2026-08-17T06:48:13.150Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 51,
-    "showtimes": 238
+    "showtimes": 231
   },
   "cinemas": [
     {
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "khali-balak-min-nafsik-arabic",
-      "title": "Khali Balak Min Nafsik (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005604/khali-balak-min-nafsik-arabic"
-      }
-    },
-    {
       "id": "vishwanath-and-sons-tamil",
       "title": "Vishwanath And Sons (Tamil)",
       "genre": "",
@@ -164,17 +153,6 @@
       "runtime": 175,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005264/vishwanath-and-sons-tamil"
-      }
-    },
-    {
-      "id": "the-rivals-of-amziah-king",
-      "title": "The Rivals of Amziah King",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
       }
     },
     {
@@ -189,6 +167,17 @@
       }
     },
     {
+      "id": "khali-balak-min-nafsik-arabic",
+      "title": "Khali Balak Min Nafsik (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005604/khali-balak-min-nafsik-arabic"
+      }
+    },
+    {
       "id": "michael",
       "title": "Michael",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+      }
+    },
+    {
+      "id": "the-rivals-of-amziah-king",
+      "title": "The Rivals of Amziah King",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005363/the-rivals-of-amziah-king"
       }
     },
     {
@@ -211,6 +211,17 @@
       }
     },
     {
+      "id": "dc-tamil",
+      "title": "DC (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005667/dc-tamil"
+      }
+    },
+    {
       "id": "above-and-below",
       "title": "Above And Below",
       "genre": "",
@@ -219,17 +230,6 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005658/above-and-below"
-      }
-    },
-    {
-      "id": "the-get-out",
-      "title": "The Get Out",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005517/the-get-out"
       }
     }
   ],
@@ -240,9 +240,11 @@
       "format": "Platinum Suites",
       "times": [
         "11:00",
+        "12:00",
         "13:45",
         "14:30",
         "15:15",
+        "16:45",
         "17:15",
         "18:00",
         "19:45",
@@ -300,8 +302,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:00",
-        "09:45",
         "10:30",
         "12:00",
         "12:40",
@@ -335,7 +335,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:55",
         "15:50",
         "18:45",
@@ -348,7 +347,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
         "13:15",
         "16:10",
         "19:05",
@@ -392,6 +390,8 @@
       "times": [
         "10:30",
         "13:15",
+        "15:45",
+        "22:30",
         "01:30"
       ]
     },
@@ -400,7 +400,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "09:45",
         "12:00",
         "14:15",
         "16:30",
@@ -438,8 +437,7 @@
         "15:45",
         "17:55",
         "20:00",
-        "22:10",
-        "00:15"
+        "22:10"
       ]
     },
     {
@@ -452,14 +450,6 @@
         "16:45",
         "19:00",
         "22:40"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "09:30"
       ]
     },
     {
@@ -481,7 +471,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "11:00",
         "12:55",
         "15:30",
@@ -506,7 +495,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:00",
         "14:00",
         "16:00",
@@ -519,9 +507,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "11:30",
-        "00:00"
+        "12:45",
+        "18:45",
+        "00:00",
+        "01:00"
       ]
     },
     {
@@ -529,10 +519,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:00",
         "12:20",
         "17:00",
-        "20:50"
+        "19:55",
+        "20:50",
+        "23:45"
       ]
     },
     {
@@ -567,10 +558,20 @@
     {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "20:15",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
         "13:00",
-        "16:00"
+        "16:00",
+        "00:30"
       ]
     },
     {
@@ -579,10 +580,13 @@
       "format": "Standard",
       "times": [
         "12:00",
+        "14:10",
         "15:00",
+        "17:00",
         "18:00",
         "21:00",
-        "00:05"
+        "00:05",
+        "01:10"
       ]
     },
     {
@@ -628,9 +632,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:15",
-        "16:40",
-        "19:00",
+        "17:15",
+        "19:35",
         "21:20",
         "23:40",
         "01:00"
@@ -653,7 +656,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
         "17:30"
       ]
     },
@@ -668,22 +670,11 @@
     {
       "movieId": "batwara-1947-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "19:55",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "batwara-1947-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "11:00",
         "14:00",
-        "17:00",
-        "22:15",
-        "01:15"
+        "22:15"
       ]
     },
     {
@@ -720,24 +711,13 @@
       ]
     },
     {
-      "movieId": "khali-balak-min-nafsik-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "18:10",
-        "20:25",
-        "22:40",
-        "00:55"
-      ]
-    },
-    {
       "movieId": "vishwanath-and-sons-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "11:45",
-        "15:15"
+        "15:15",
+        "21:30"
       ]
     },
     {
@@ -751,19 +731,6 @@
       ]
     },
     {
-      "movieId": "the-rivals-of-amziah-king",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "18:45",
-        "21:15",
-        "00:00",
-        "00:45",
-        "02:00"
-      ]
-    },
-    {
       "movieId": "la-la-land-10th-anniversary",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -772,8 +739,27 @@
         "14:00",
         "17:30",
         "20:25",
-        "23:15",
-        "00:40"
+        "23:15"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:00",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "khali-balak-min-nafsik-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:10",
+        "20:25",
+        "22:40",
+        "00:55"
       ]
     },
     {
@@ -799,15 +785,32 @@
       ]
     },
     {
+      "movieId": "the-rivals-of-amziah-king",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "18:45",
+        "00:45"
+      ]
+    },
+    {
       "movieId": "moana",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:25",
         "14:50",
         "17:15",
         "19:45"
+      ]
+    },
+    {
+      "movieId": "dc-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "14:50"
       ]
     },
     {
@@ -817,16 +820,6 @@
       "times": [
         "22:15",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "the-get-out",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:30",
-        "23:40",
-        "01:55"
       ]
     }
   ]
