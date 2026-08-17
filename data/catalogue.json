@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-17T18:35:04.749Z",
+  "generatedAt": "2026-08-17T21:25:59.489Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 47,
-    "showtimes": 154
+    "showtimes": 193
   },
   "cinemas": [
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "khalifa-the-bloodline-malayalam",
       "title": "Khalifa: The Bloodline (Malayalam)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 170,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -307,18 +307,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "00:15",
         "01:10"
       ]
     },
@@ -327,7 +317,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:10",
         "02:05"
       ]
     },
@@ -336,7 +325,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:35",
         "01:30"
       ]
     },
@@ -345,25 +333,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:40",
-        "00:25",
         "01:05"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "00:35"
       ]
     },
     {
@@ -444,42 +414,69 @@
     {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "09:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
         "22:45"
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "00:05",
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "23:50"
+        "10:15",
+        "11:00",
+        "12:55",
+        "15:30",
+        "17:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "01:10"
       ]
     },
     {
@@ -487,6 +484,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:00",
+        "11:30",
+        "12:45",
+        "18:45",
         "00:00",
         "01:00"
       ]
@@ -496,7 +497,23 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "10:00",
+        "12:20",
+        "17:00",
+        "19:55",
+        "20:50",
         "23:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "14:30",
+        "18:00",
+        "21:30"
       ]
     },
     {
@@ -504,15 +521,17 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "13:45",
+        "17:20",
         "23:45"
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
       "times": [
-        "22:30"
+        "14:00"
       ]
     },
     {
@@ -520,16 +539,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:15",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:40"
       ]
     },
     {
@@ -564,15 +574,6 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "23:40",
-        "01:00"
-      ]
-    },
-    {
       "movieId": "khalifa-the-bloodline-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -601,6 +602,35 @@
       ]
     },
     {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:30"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:15",
+        "16:40",
+        "19:00",
+        "21:20",
+        "23:40",
+        "01:00"
+      ]
+    },
+    {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -626,7 +656,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:15"
+        "11:00",
+        "14:00",
+        "17:30",
+        "20:25",
+        "23:15",
+        "00:40"
       ]
     },
     {
@@ -634,6 +669,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "19:15",
+        "22:00",
         "00:45"
       ]
     },
@@ -713,6 +750,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "18:10",
+        "20:25",
         "22:40",
         "00:55"
       ]
