@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T09:30:08.459Z",
+  "generatedAt": "2026-08-18T12:39:05.481Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 59,
-    "showtimes": 254
+    "showtimeGroups": 56,
+    "showtimes": 217
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "awarapan-2-hindi",
       "title": "Awarapan 2 (Hindi)",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "khali-balak-min-nafsik-arabic",
-      "title": "Khali Balak Min Nafsik (Arabic)",
+      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 105,
+      "runtime": 205,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005604/khali-balak-min-nafsik-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
       }
     }
   ],
@@ -310,9 +310,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:45",
-        "14:30",
-        "15:15",
         "16:45",
         "17:15",
         "18:00",
@@ -328,8 +325,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:30",
-        "14:55",
         "16:30",
         "18:05",
         "21:15",
@@ -343,7 +338,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:25",
         "17:20",
         "20:15",
         "23:10",
@@ -355,7 +349,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:50",
         "16:45",
         "19:40",
         "22:35",
@@ -367,9 +360,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:25",
-        "14:55",
-        "15:35",
         "16:20",
         "17:50",
         "18:30",
@@ -394,7 +384,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:20",
         "00:35"
       ]
     },
@@ -403,8 +392,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:15",
-        "16:10",
         "19:05",
         "22:00"
       ]
@@ -485,49 +472,6 @@
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "15:30",
-        "17:50"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "16:00",
-        "18:00",
-        "20:00"
-      ]
-    },
-    {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -539,17 +483,8 @@
     {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "16:00"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:05",
         "18:10",
         "21:15",
         "00:20"
@@ -560,7 +495,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:55",
         "17:30",
         "19:45",
         "21:45",
@@ -574,6 +508,44 @@
       "times": [
         "19:30",
         "22:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:45",
+        "18:45",
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "16:45",
+        "18:45",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:00",
+        "20:00"
       ]
     },
     {
@@ -602,7 +574,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
         "18:00",
         "21:30"
       ]
@@ -612,17 +583,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:45",
         "17:20",
         "23:45"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:00"
       ]
     },
     {
@@ -630,8 +592,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:15",
-        "15:45",
         "22:30",
         "00:30"
       ]
@@ -641,7 +601,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:15",
         "16:30",
         "18:45",
         "21:00",
@@ -660,17 +619,8 @@
     {
       "movieId": "the-end-of-oak-street",
       "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "14:50"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:10",
         "00:45"
       ]
     },
@@ -679,7 +629,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:30",
         "16:45",
         "19:00",
         "22:40"
@@ -715,7 +664,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:15",
         "16:40",
         "19:00",
         "21:20",
@@ -782,8 +730,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:15",
         "17:15",
         "19:15"
       ]
@@ -811,7 +757,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:00",
         "17:30",
         "20:25",
         "23:15",
@@ -891,14 +836,11 @@
       ]
     },
     {
-      "movieId": "khali-balak-min-nafsik-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
       "times": [
-        "18:10",
-        "20:25",
-        "22:40",
-        "00:55"
+        "02:00"
       ]
     }
   ]
