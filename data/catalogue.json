@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-18T06:37:46.031Z",
+  "generatedAt": "2026-08-18T09:30:08.459Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 59,
-    "showtimes": 282
+    "showtimes": 254
   },
   "cinemas": [
     {
@@ -310,8 +310,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
-        "12:00",
         "13:45",
         "14:30",
         "15:15",
@@ -330,7 +328,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:45",
         "13:30",
         "14:55",
         "16:30",
@@ -346,7 +343,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
         "14:25",
         "17:20",
         "20:15",
@@ -359,7 +355,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "10:50",
         "13:50",
         "16:45",
         "19:40",
@@ -372,9 +367,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "12:00",
-        "12:40",
         "13:25",
         "14:55",
         "15:35",
@@ -402,7 +394,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:55",
         "15:20",
         "00:35"
       ]
@@ -498,8 +489,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "12:45",
         "14:45",
         "16:45",
         "18:45",
@@ -512,8 +501,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "12:55",
         "15:30",
         "17:50"
       ]
@@ -523,8 +510,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "10:45",
-        "12:45",
         "14:45",
         "16:45",
         "18:45",
@@ -536,7 +521,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:00",
         "14:00",
         "16:00",
         "18:00",
@@ -557,7 +541,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:00",
         "16:00"
       ]
     },
@@ -566,7 +549,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:05",
         "18:10",
         "21:15",
@@ -578,7 +560,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:20",
         "15:55",
         "17:30",
         "19:45",
@@ -591,7 +572,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:50",
         "19:30",
         "22:00"
       ]
@@ -601,8 +581,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
-        "12:45",
         "18:45",
         "00:00",
         "01:00"
@@ -613,7 +591,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:20",
         "17:00",
         "19:55",
         "20:50",
@@ -625,7 +602,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "14:30",
         "18:00",
         "21:30"
@@ -665,7 +641,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:00",
         "14:15",
         "16:30",
         "18:45",
@@ -687,8 +662,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:30",
-        "12:40",
         "14:50"
       ]
     },
@@ -697,7 +670,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:05",
         "13:10",
         "00:45"
       ]
@@ -707,7 +679,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:15",
         "14:30",
         "16:45",
         "19:00",
@@ -759,10 +730,13 @@
       "times": [
         "10:15",
         "13:40",
+        "18:00",
         "18:35",
         "19:35",
+        "21:20",
         "21:55",
-        "22:55"
+        "22:55",
+        "00:40"
       ]
     },
     {
@@ -808,7 +782,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:15",
         "13:15",
         "15:15",
         "17:15",
@@ -838,7 +811,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
         "14:00",
         "17:30",
         "20:25",
