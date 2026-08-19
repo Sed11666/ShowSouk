@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T18:31:34.472Z",
+  "generatedAt": "2026-08-19T21:38:26.870Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 48,
-    "showtimes": 158
+    "showtimeGroups": 45,
+    "showtimes": 187
   },
   "cinemas": [
     {
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "the-end-of-oak-street",
-      "title": "The End of Oak Street",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
-      }
-    },
-    {
       "id": "detective-conan-fallen-rider-of-highway-japanese",
       "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "the-end-of-oak-street",
+      "title": "The End of Oak Street",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
       }
     },
     {
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "la-la-land-10th-anniversary",
-      "title": "La La Land - 10th Anniversary",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
-      }
-    },
-    {
       "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
       "genre": "",
@@ -230,6 +219,17 @@
       "runtime": 205,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
+      }
+    },
+    {
+      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 205,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
       }
     }
   ],
@@ -308,26 +308,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:15",
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:10",
         "02:05"
       ]
     },
@@ -336,25 +318,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:35",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "23:40",
-        "00:20"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:00"
       ]
     },
     {
@@ -438,7 +402,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "23:30"
+        "11:30"
       ]
     },
     {
@@ -446,7 +410,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "00:30"
+        "12:00",
+        "15:45",
+        "18:00",
+        "19:00",
+        "22:30"
       ]
     },
     {
@@ -454,7 +422,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:05"
+        "11:45",
+        "14:50",
+        "17:50",
+        "20:55",
+        "00:00",
+        "01:15"
       ]
     },
     {
@@ -462,7 +435,26 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "23:50"
+        "09:30",
+        "11:20",
+        "12:35",
+        "14:25",
+        "15:40",
+        "17:30",
+        "18:45",
+        "21:50",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:00",
+        "19:05",
+        "20:10",
+        "22:10"
       ]
     },
     {
@@ -470,7 +462,37 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "15:45",
+        "17:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
         "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "11:30",
+        "12:00",
+        "13:30",
+        "14:00",
+        "15:30",
+        "17:30"
       ]
     },
     {
@@ -478,8 +500,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "00:00",
-        "01:00"
+        "15:00",
+        "18:45",
+        "21:00",
+        "23:15"
       ]
     },
     {
@@ -487,15 +511,17 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:45"
+        "16:45",
+        "20:45"
       ]
     },
     {
       "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:45"
+        "22:05",
+        "01:30"
       ]
     },
     {
@@ -565,43 +591,18 @@
     {
       "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Premium",
       "times": [
-        "23:40",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:30",
+        "22:00",
         "00:30"
       ]
     },
     {
-      "movieId": "the-end-of-oak-street",
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:15",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "the-end-of-oak-street",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
+        "19:40",
         "22:40"
       ]
     },
@@ -631,6 +632,14 @@
         "14:30",
         "18:35",
         "20:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "01:30"
       ]
     },
     {
@@ -696,23 +705,6 @@
       ]
     },
     {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:15",
-        "01:00"
-      ]
-    },
-    {
       "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -724,6 +716,22 @@
       "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
       "times": [
         "02:00"
       ]
