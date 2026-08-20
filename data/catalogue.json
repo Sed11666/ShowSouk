@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-19T21:38:26.870Z",
+  "generatedAt": "2026-08-20T01:02:35.447Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 187
+    "showtimeGroups": 52,
+    "showtimes": 227
   },
   "cinemas": [
     {
@@ -308,9 +308,27 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "12:00",
+        "13:45",
+        "16:15",
+        "17:15",
+        "19:35",
+        "20:30",
+        "22:45",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "02:05"
+        "11:30",
+        "14:25",
+        "17:20",
+        "20:15"
       ]
     },
     {
@@ -318,7 +336,58 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "10:55",
+        "13:50",
+        "16:45",
+        "19:40",
+        "22:35",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:10",
+        "15:05",
+        "15:55",
+        "18:50",
+        "21:50",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:20",
+        "13:15",
+        "16:10",
+        "19:05"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "15:45",
+        "23:10"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:45",
+        "16:40",
+        "19:35",
+        "22:30"
       ]
     },
     {
@@ -637,9 +706,29 @@
     {
       "movieId": "the-end-of-oak-street",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "15:45"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "09:45",
+        "14:15",
+        "23:15",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "the-end-of-oak-street",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:50",
+        "16:25"
       ]
     },
     {
