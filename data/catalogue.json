@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T01:02:35.447Z",
+  "generatedAt": "2026-08-20T06:40:22.678Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 52,
-    "showtimes": 227
+    "showtimes": 215
   },
   "cinemas": [
     {
@@ -239,7 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "11:00",
         "12:20",
         "13:00",
@@ -282,7 +281,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "09:00",
         "11:05",
         "13:10",
         "15:15",
@@ -349,7 +347,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:10",
         "15:05",
         "15:55",
@@ -450,7 +447,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "09:00",
         "11:15",
         "13:30",
         "18:40",
@@ -504,7 +500,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "09:30",
         "11:20",
         "12:35",
         "14:25",
@@ -555,7 +550,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
         "11:30",
         "12:00",
         "13:30",
@@ -598,7 +592,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "13:40",
         "18:00",
         "18:35",
@@ -614,8 +607,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "08:00",
-        "09:20",
         "10:30",
         "12:40",
         "13:50",
@@ -680,7 +671,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:25",
         "14:50"
       ]
@@ -716,7 +706,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "09:45",
         "14:15",
         "23:15",
         "01:30"
@@ -788,7 +777,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
         "12:25",
         "16:30"
       ]
