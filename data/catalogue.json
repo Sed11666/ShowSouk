@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T15:31:16.596Z",
+  "generatedAt": "2026-08-20T18:35:20.822Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 44,
-    "showtimes": 107
+    "showtimeGroups": 42,
+    "showtimes": 75
   },
   "cinemas": [
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "mahmoud-el-tany-arabic",
-      "title": "Mahmoud El Tany (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005674/mahmoud-el-tany-arabic"
-      }
-    },
-    {
       "id": "aks-sir-arabic",
       "title": "Aks Sir (Arabic)",
       "genre": "",
@@ -145,14 +134,14 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
+      "id": "mahmoud-el-tany-arabic",
+      "title": "Mahmoud El Tany (Arabic)",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
-      "runtime": 90,
+      "runtime": 105,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005674/mahmoud-el-tany-arabic"
       }
     },
     {
@@ -178,6 +167,17 @@
       }
     },
     {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
       "id": "the-end-of-oak-street",
       "title": "The End of Oak Street",
       "genre": "",
@@ -186,17 +186,6 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
-      }
-    },
-    {
-      "id": "the-magic-faraway-tree",
-      "title": "The Magic Faraway Tree",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005482/the-magic-faraway-tree"
       }
     },
     {
@@ -222,6 +211,17 @@
       }
     },
     {
+      "id": "the-magic-faraway-tree",
+      "title": "The Magic Faraway Tree",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005482/the-magic-faraway-tree"
+      }
+    },
+    {
       "id": "lumivia-the-five-magical-wishes",
       "title": "Lumivia: The Five Magical Wishes",
       "genre": "",
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:00",
-        "21:30",
         "22:20",
         "23:45",
         "00:45"
@@ -251,9 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:25",
-        "20:25",
-        "21:30",
         "22:30",
         "23:35",
         "00:35",
@@ -265,8 +260,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:25",
-        "21:25",
         "23:30"
       ]
     },
@@ -275,7 +268,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:30",
         "23:15"
       ]
     },
@@ -284,8 +276,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:35",
-        "20:30",
         "22:45",
         "00:15"
       ]
@@ -293,17 +283,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "20:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "19:40",
         "22:35",
         "01:30"
       ]
@@ -313,7 +294,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:50",
         "00:45"
       ]
     },
@@ -330,7 +310,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:35",
         "22:30"
       ]
     },
@@ -347,7 +326,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:15",
         "00:00"
       ]
     },
@@ -356,7 +334,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "21:00",
         "23:20",
         "01:40"
       ]
@@ -366,7 +343,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:25",
         "22:40",
         "00:55"
       ]
@@ -376,16 +352,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "22:00",
         "00:15"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:55"
       ]
     },
     {
@@ -393,7 +360,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "21:45",
         "22:30"
       ]
     },
@@ -410,7 +376,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:55",
         "00:00",
         "01:15"
       ]
@@ -420,17 +385,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "21:50",
         "00:15"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:10",
-        "22:10"
       ]
     },
     {
@@ -438,7 +393,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:45",
         "22:45"
       ]
     },
@@ -447,16 +401,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "21:00",
         "23:15"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "20:45"
       ]
     },
     {
@@ -464,7 +409,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:05",
         "01:30"
       ]
     },
@@ -473,9 +417,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:35",
-        "21:20",
-        "21:55",
         "22:55",
         "00:40"
       ]
@@ -485,30 +426,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:20",
-        "20:30",
-        "20:55",
         "22:40",
         "23:50"
-      ]
-    },
-    {
-      "movieId": "mahmoud-el-tany-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "mahmoud-el-tany-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15",
-        "21:30",
-        "23:45",
-        "02:00"
       ]
     },
     {
@@ -516,7 +435,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:30",
         "01:00"
       ]
     },
@@ -525,7 +443,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:00",
         "00:30"
       ]
     },
@@ -534,16 +451,24 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40",
         "22:40"
       ]
     },
     {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
+      "movieId": "mahmoud-el-tany-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "mahmoud-el-tany-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:30"
+        "23:45",
+        "02:00"
       ]
     },
     {
@@ -573,11 +498,31 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "10:45",
         "12:30",
         "15:50",
         "17:00",
         "19:10",
+        "20:45",
         "22:30"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:45"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:30",
+        "18:35",
+        "20:30"
       ]
     },
     {
@@ -590,43 +535,52 @@
       ]
     },
     {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "the-magic-faraway-tree",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:30",
+        "16:00"
+      ]
+    },
+    {
       "movieId": "the-magic-faraway-tree",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
+        "19:00"
       ]
     },
     {
