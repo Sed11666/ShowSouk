@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T18:35:20.822Z",
+  "generatedAt": "2026-08-20T21:25:17.940Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 42,
-    "showtimes": 75
+    "showtimeGroups": 29,
+    "showtimes": 78
   },
   "cinemas": [
     {
@@ -17,18 +17,18 @@
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     },
     {
-      "id": "reel-reel-dubai-marina-mall",
-      "brand": "Reel Cinemas",
-      "name": "Reel Dubai Marina Mall",
-      "area": "Dubai Marina",
-      "city": "Dubai",
-      "bookingUrl": "https://reelcinemas.com/en-ae/"
-    },
-    {
       "id": "reel-reel-the-springs-souk",
       "brand": "Reel Cinemas",
       "name": "Reel The Springs Souk",
       "area": "The Springs",
+      "city": "Dubai",
+      "bookingUrl": "https://reelcinemas.com/en-ae/"
+    },
+    {
+      "id": "reel-reel-dubai-marina-mall",
+      "brand": "Reel Cinemas",
+      "name": "Reel Dubai Marina Mall",
+      "area": "Dubai Marina",
       "city": "Dubai",
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     }
@@ -123,17 +123,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "mahmoud-el-tany-arabic",
       "title": "Mahmoud El Tany (Arabic)",
       "genre": "",
@@ -145,14 +134,14 @@
       }
     },
     {
-      "id": "detective-conan-fallen-rider-of-highway-japanese",
-      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
       "genre": "",
       "rating": "PG13",
       "language": "",
       "runtime": 110,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -164,6 +153,17 @@
       "runtime": 165,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
+      }
+    },
+    {
+      "id": "detective-conan-fallen-rider-of-highway-japanese",
+      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
       }
     },
     {
@@ -237,47 +237,9 @@
     {
       "movieId": "mutiny",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:20",
-        "23:45",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:30",
-        "23:35",
-        "00:35",
         "01:40"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:45",
-        "00:15"
       ]
     },
     {
@@ -285,32 +247,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:35",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:10"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:30"
       ]
     },
     {
@@ -324,68 +261,28 @@
     {
       "movieId": "insidious-out-of-the-further",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:20",
         "01:40"
       ]
     },
     {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:40",
-        "00:55"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:00",
         "01:15"
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:15"
+        "11:00",
+        "13:00",
+        "15:00",
+        "17:00"
       ]
     },
     {
@@ -393,15 +290,27 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
         "22:45"
       ]
     },
     {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
       "times": [
-        "23:15"
+        "10:00",
+        "11:30",
+        "12:00",
+        "13:30",
+        "14:00",
+        "15:30",
+        "17:30"
       ]
     },
     {
@@ -417,7 +326,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:55",
+        "10:15",
+        "13:40",
+        "18:35",
+        "21:55",
+        "23:00",
         "00:40"
       ]
     },
@@ -426,8 +339,14 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:40",
-        "23:50"
+        "10:15",
+        "11:20",
+        "13:40",
+        "14:45",
+        "18:10",
+        "20:20",
+        "21:30",
+        "23:40"
       ]
     },
     {
@@ -435,30 +354,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:40"
-      ]
-    },
-    {
-      "movieId": "mahmoud-el-tany-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
+        "20:30",
         "01:00"
       ]
     },
@@ -467,18 +363,25 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:45",
         "02:00"
       ]
     },
     {
-      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:00",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:30",
-        "14:55"
+        "19:40",
+        "22:40"
       ]
     },
     {
@@ -508,6 +411,16 @@
       ]
     },
     {
+      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:30",
+        "14:55"
+      ]
+    },
+    {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -530,7 +443,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:15",
         "01:30"
       ]
     },
