@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T06:40:40.328Z",
+  "generatedAt": "2026-08-21T09:34:21.183Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 50,
-    "showtimes": 206
+    "showtimeGroups": 48,
+    "showtimes": 167
   },
   "cinemas": [
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "detective-conan-fallen-rider-of-highway-japanese",
-      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
-      }
-    },
-    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "detective-conan-fallen-rider-of-highway-japanese",
+      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
       }
     },
     {
@@ -200,17 +200,6 @@
       }
     },
     {
-      "id": "the-end-of-oak-street",
-      "title": "The End of Oak Street",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
-      }
-    },
-    {
       "id": "the-magic-faraway-tree",
       "title": "The Magic Faraway Tree",
       "genre": "",
@@ -219,6 +208,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005482/the-magic-faraway-tree"
+      }
+    },
+    {
+      "id": "the-end-of-oak-street",
+      "title": "The End of Oak Street",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005327/the-end-of-oak-street"
       }
     },
     {
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
-        "12:20",
-        "13:00",
         "14:40",
         "15:20",
         "16:55",
@@ -259,9 +256,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "12:00",
-        "13:10",
         "14:10",
         "15:15",
         "16:15",
@@ -281,8 +275,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:20",
-        "11:20",
         "13:15",
         "15:25",
         "17:30",
@@ -296,7 +288,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:45",
         "13:50",
         "15:55",
         "18:00",
@@ -309,7 +300,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
         "13:45",
         "16:15",
         "17:15",
@@ -324,7 +314,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
         "14:25",
         "17:20",
         "20:15"
@@ -335,7 +324,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "10:45",
         "13:45",
         "16:45",
         "19:40",
@@ -348,7 +336,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "14:55",
         "17:50",
         "00:00"
@@ -359,7 +346,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:30",
         "13:25",
         "16:20",
         "19:15"
@@ -370,7 +356,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:45",
         "16:40",
         "19:35",
@@ -382,7 +367,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "13:25",
         "18:15",
         "01:15"
@@ -393,7 +377,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "15:15",
         "21:15"
       ]
@@ -403,7 +386,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:00",
         "16:30",
         "18:45",
         "21:00",
@@ -416,7 +398,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "13:15",
         "15:30",
         "17:45",
@@ -439,7 +420,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "19:45"
       ]
     },
@@ -455,18 +435,8 @@
     {
       "movieId": "awarapan-2-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "11:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
-        "13:00",
         "15:45",
         "18:00",
         "19:00",
@@ -478,7 +448,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:45",
         "14:50",
         "17:50",
         "20:55",
@@ -516,8 +485,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:00",
         "15:00",
         "17:00"
       ]
@@ -527,8 +494,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "10:45",
-        "12:45",
         "14:45",
         "16:45",
         "18:45",
@@ -541,8 +506,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:30",
-        "12:00",
         "13:30",
         "14:00",
         "15:30",
@@ -595,7 +558,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:20",
         "13:40",
         "14:45",
         "18:10",
@@ -656,8 +618,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:50",
-        "13:10",
         "15:15",
         "16:35",
         "19:40"
@@ -668,30 +628,11 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "12:30",
         "15:50",
         "17:00",
         "19:10",
         "20:45",
         "22:30"
-      ]
-    },
-    {
-      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:30",
-        "14:55"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:45"
       ]
     },
     {
@@ -705,6 +646,14 @@
       ]
     },
     {
+      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:55"
+      ]
+    },
+    {
       "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -734,6 +683,23 @@
       "format": "Dolby Cinema",
       "times": [
         "02:00"
+      ]
+    },
+    {
+      "movieId": "the-magic-faraway-tree",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:30",
+        "16:00"
+      ]
+    },
+    {
+      "movieId": "the-magic-faraway-tree",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:00"
       ]
     },
     {
@@ -755,28 +721,10 @@
       ]
     },
     {
-      "movieId": "the-magic-faraway-tree",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:30",
-        "16:00"
-      ]
-    },
-    {
-      "movieId": "the-magic-faraway-tree",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:00"
-      ]
-    },
-    {
       "movieId": "lumivia-the-five-magical-wishes",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "16:00",
         "18:15"
       ]
@@ -786,7 +734,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:25",
         "16:30"
       ]
     }
