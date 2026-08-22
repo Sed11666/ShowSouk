@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T01:02:24.827Z",
+  "generatedAt": "2026-08-22T03:40:34.504Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "mahmoud-el-tany-arabic",
       "title": "Mahmoud El Tany (Arabic)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005674/mahmoud-el-tany-arabic"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -652,24 +652,6 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:00",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:40",
-        "22:40"
-      ]
-    },
-    {
       "movieId": "mahmoud-el-tany-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -687,6 +669,24 @@
         "21:30",
         "23:45",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:00",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:40",
+        "22:40"
       ]
     },
     {
