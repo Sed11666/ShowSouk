@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-23T03:48:09.972Z",
+  "generatedAt": "2026-08-23T06:36:15.862Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 50,
-    "showtimes": 218
+    "showtimeGroups": 51,
+    "showtimes": 210
   },
   "cinemas": [
     {
@@ -101,17 +101,6 @@
       }
     },
     {
-      "id": "khalifa-the-bloodline-malayalam",
-      "title": "Khalifa: The Bloodline (Malayalam)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
-      }
-    },
-    {
       "id": "bethlehem-kudumba-unit-malayalam",
       "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
@@ -120,6 +109,17 @@
       "runtime": 165,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
+      }
+    },
+    {
+      "id": "khalifa-the-bloodline-malayalam",
+      "title": "Khalifa: The Bloodline (Malayalam)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 170,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
       }
     },
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 205,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
-      }
-    },
-    {
       "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
       "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 205,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
+      }
+    },
+    {
+      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 205,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
       }
     },
     {
@@ -239,7 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "11:00",
         "12:20",
         "13:00",
@@ -347,7 +346,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "13:00",
         "15:55",
         "18:50",
@@ -538,7 +536,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
         "11:30",
         "12:00",
         "13:30",
@@ -585,35 +582,6 @@
       ]
     },
     {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "13:40",
-        "15:55",
-        "18:35",
-        "19:15",
-        "21:55",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "08:00",
-        "10:15",
-        "11:20",
-        "13:40",
-        "14:45",
-        "18:10",
-        "20:20",
-        "23:40"
-      ]
-    },
-    {
       "movieId": "bethlehem-kudumba-unit-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -623,8 +591,10 @@
         "13:45",
         "15:15",
         "17:00",
+        "17:15",
         "19:40",
         "20:15",
+        "22:35",
         "23:30"
       ]
     },
@@ -633,9 +603,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "08:10",
-        "10:00",
-        "10:00",
         "11:20",
         "12:30",
         "14:35",
@@ -644,8 +611,34 @@
         "17:50",
         "19:10",
         "21:05",
+        "21:30",
         "22:30",
+        "23:40",
         "00:20"
+      ]
+    },
+    {
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:40",
+        "15:55",
+        "18:35",
+        "19:15",
+        "21:55"
+      ]
+    },
+    {
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:20",
+        "13:40",
+        "14:45",
+        "18:10",
+        "20:20"
       ]
     },
     {
@@ -653,23 +646,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
+        "01:15"
       ]
     },
     {
@@ -684,6 +661,30 @@
       "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
       "times": [
         "02:00"
       ]
@@ -701,11 +702,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:15",
-        "21:30",
-        "23:45",
-        "02:00"
+        "20:30",
+        "22:45",
+        "01:00",
+        "01:50"
       ]
     },
     {
@@ -723,7 +723,7 @@
       "format": "Standard",
       "times": [
         "19:40",
-        "22:40"
+        "22:55"
       ]
     },
     {
@@ -731,7 +731,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "12:30",
         "14:55"
       ]
