@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-23T15:19:31.379Z",
+  "generatedAt": "2026-08-23T18:25:04.703Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 47,
-    "showtimes": 111
+    "showtimeGroups": 46,
+    "showtimes": 87
   },
   "cinemas": [
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
-      }
-    },
-    {
       "id": "khalifa-the-bloodline-malayalam",
       "title": "Khalifa: The Bloodline (Malayalam)",
       "genre": "",
@@ -156,14 +145,14 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
+      "id": "bethlehem-kudumba-unit-malayalam",
+      "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 110,
+      "runtime": 165,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
       }
     },
     {
@@ -178,6 +167,17 @@
       }
     },
     {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+      }
+    },
+    {
       "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
       "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
       "genre": "",
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
       "id": "detective-conan-fallen-rider-of-highway-japanese",
       "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:10",
-        "20:00",
-        "21:30",
         "22:20",
         "23:45",
         "00:45"
@@ -252,9 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:25",
-        "20:25",
-        "21:30",
         "22:30",
         "23:35",
         "00:35",
@@ -266,7 +260,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:00",
         "00:45"
       ]
     },
@@ -275,7 +268,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:30",
         "23:15"
       ]
     },
@@ -284,8 +276,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:35",
-        "20:30",
         "22:45",
         "00:15"
       ]
@@ -293,17 +283,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "20:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "19:40",
         "22:35",
         "01:30"
       ]
@@ -313,7 +294,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:50",
         "00:45"
       ]
     },
@@ -322,7 +302,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:15",
         "00:25"
       ]
     },
@@ -331,7 +310,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:35",
         "22:30"
       ]
     },
@@ -348,7 +326,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:15",
         "00:00"
       ]
     },
@@ -366,7 +343,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
         "22:15",
         "00:30"
       ]
@@ -384,7 +360,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:45",
         "00:05"
       ]
     },
@@ -393,7 +368,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "21:45",
         "22:30"
       ]
     },
@@ -402,7 +376,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "19:00",
         "22:30"
       ]
     },
@@ -411,7 +384,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:55",
         "00:00",
         "01:15"
       ]
@@ -421,7 +393,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:40",
         "22:50"
       ]
     },
@@ -430,8 +401,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:05",
-        "20:10",
         "22:10"
       ]
     },
@@ -440,16 +409,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "21:00",
         "23:15"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "20:45"
       ]
     },
     {
@@ -465,7 +425,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:20",
         "00:45"
       ]
     },
@@ -474,7 +433,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:45",
         "22:45"
       ]
     },
@@ -527,12 +485,36 @@
       ]
     },
     {
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "13:40",
+        "18:35",
+        "21:55",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "khalifa-the-bloodline-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:20",
+        "13:40",
+        "14:45",
+        "18:10",
+        "20:20",
+        "23:40"
+      ]
+    },
+    {
       "movieId": "bethlehem-kudumba-unit-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40",
-        "20:15",
         "22:35",
         "23:30"
       ]
@@ -542,47 +524,9 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:10",
-        "21:05",
-        "21:30",
         "22:30",
         "23:40",
         "00:20"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15",
-        "21:55"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:20"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:00",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:40",
-        "22:55"
       ]
     },
     {
@@ -598,10 +542,25 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:30",
         "22:45",
         "01:00",
         "01:50"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:55"
       ]
     },
     {
@@ -622,14 +581,6 @@
       ]
     },
     {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:30"
-      ]
-    },
-    {
       "movieId": "detective-conan-fallen-rider-of-highway-japanese",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -637,6 +588,24 @@
         "10:00",
         "12:30",
         "14:55"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:45"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:30",
+        "18:35",
+        "20:30"
       ]
     },
     {
