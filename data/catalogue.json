@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T06:52:29.938Z",
+  "generatedAt": "2026-08-24T09:43:57.973Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 49,
-    "showtimes": 209
+    "showtimes": 173
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "the-odyssey",
       "title": "The Odyssey",
       "genre": "",
@@ -101,14 +90,25 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "bethlehem-kudumba-unit-malayalam",
+      "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 205,
+      "runtime": 165,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
       }
     },
     {
@@ -123,14 +123,14 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
+      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 165,
+      "runtime": 205,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
       }
     },
     {
@@ -156,14 +156,14 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG",
       "language": "",
-      "runtime": 205,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "the-dog-stars",
-      "title": "The Dog Stars",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
-      }
-    },
-    {
       "id": "detective-conan-fallen-rider-of-highway-japanese",
       "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
       "genre": "",
@@ -208,17 +197,6 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -231,6 +209,28 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
       }
+    },
+    {
+      "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 205,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
+      }
+    },
+    {
+      "id": "michael",
+      "title": "Michael",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+      }
     }
   ],
   "showtimes": [
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
-        "12:20",
-        "13:00",
         "14:40",
         "15:20",
         "16:55",
@@ -259,9 +256,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "12:00",
-        "13:10",
         "14:10",
         "15:15",
         "16:15",
@@ -281,8 +275,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:20",
-        "13:15",
         "15:25",
         "17:30",
         "22:00",
@@ -294,7 +286,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:45",
         "13:50",
         "15:55",
         "18:00",
@@ -307,7 +298,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
         "13:45",
         "16:15",
         "17:15",
@@ -322,7 +312,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
         "14:25",
         "17:20",
         "20:15"
@@ -333,7 +322,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "10:45",
         "13:45",
         "16:40",
         "19:35",
@@ -346,8 +334,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:15",
-        "13:00",
         "15:10",
         "15:55",
         "18:50",
@@ -370,7 +356,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:45",
         "16:40",
         "19:35",
@@ -392,7 +377,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "15:15",
         "21:15",
         "00:00"
@@ -403,7 +387,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:00",
         "16:30",
         "18:45",
         "23:15",
@@ -415,8 +398,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:15",
         "15:30",
         "17:45",
         "20:00",
@@ -438,7 +419,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "19:45",
         "21:30"
       ]
@@ -457,8 +437,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
-        "13:00",
         "15:45",
         "18:00",
         "19:00",
@@ -470,7 +448,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:45",
         "14:50",
         "17:50",
         "20:55",
@@ -483,7 +460,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:10",
         "13:30",
         "15:55",
         "16:40",
@@ -500,44 +476,6 @@
         "19:05",
         "20:10",
         "22:10"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:00",
-        "13:00",
-        "15:00",
-        "17:00"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "10:45",
-        "12:45",
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "12:00",
-        "13:30",
-        "14:00",
-        "15:30",
-        "17:30"
       ]
     },
     {
@@ -578,43 +516,35 @@
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "15:00",
+        "17:00"
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "02:00"
+        "13:30",
+        "14:00",
+        "15:30",
+        "17:30"
       ]
     },
     {
@@ -622,7 +552,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:50",
         "15:15",
         "18:05",
         "19:40",
@@ -635,13 +564,52 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:30",
         "14:15",
         "17:00",
         "17:35",
         "19:10",
         "20:50",
         "22:30"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
       ]
     },
     {
@@ -669,7 +637,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:20",
         "13:40",
         "14:45",
         "18:10",
@@ -678,20 +645,13 @@
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "02:00",
-        "02:00"
+        "14:30",
+        "18:35",
+        "20:30"
       ]
     },
     {
@@ -733,44 +693,11 @@
       ]
     },
     {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "10:15",
-        "12:45",
-        "15:15",
-        "17:45",
-        "20:15",
-        "22:45",
-        "01:15"
-      ]
-    },
-    {
       "movieId": "detective-conan-fallen-rider-of-highway-japanese",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
         "14:55"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:45"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "18:35",
-        "20:30"
       ]
     },
     {
@@ -784,6 +711,43 @@
         "18:45",
         "21:15",
         "23:45"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "michael",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:15",
+        "15:15",
+        "18:15",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "michael",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "19:30",
+        "22:15"
       ]
     }
   ]
