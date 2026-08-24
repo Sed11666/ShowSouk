@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-24T09:43:57.973Z",
+  "generatedAt": "2026-08-24T12:42:43.308Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 49,
-    "showtimes": 173
+    "showtimeGroups": 57,
+    "showtimes": 189
   },
   "cinemas": [
     {
@@ -57,6 +57,28 @@
       }
     },
     {
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "the-dog-stars",
+      "title": "The Dog Stars",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
+      }
+    },
+    {
       "id": "insidious-out-of-the-further",
       "title": "Insidious: Out Of The Further",
       "genre": "",
@@ -65,17 +87,6 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
-      }
-    },
-    {
-      "id": "awarapan-2-hindi",
-      "title": "Awarapan 2 (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 155,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
       }
     },
     {
@@ -90,17 +101,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "bethlehem-kudumba-unit-malayalam",
       "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
@@ -112,47 +112,14 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
       "genre": "",
-      "rating": "PG13",
+      "rating": "G",
       "language": "",
-      "runtime": 205,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
-      }
-    },
-    {
-      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 205,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
-      }
-    },
-    {
-      "id": "aks-sir-arabic",
-      "title": "Aks Sir (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005653/aks-sir-arabic"
-      }
-    },
-    {
-      "id": "khalifa-the-bloodline-malayalam",
-      "title": "Khalifa: The Bloodline (Malayalam)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -167,14 +134,47 @@
       }
     },
     {
-      "id": "mahmoud-el-tany-arabic",
-      "title": "Mahmoud El Tany (Arabic)",
+      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 105,
+      "runtime": 205,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005674/mahmoud-el-tany-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
+      }
+    },
+    {
+      "id": "michael",
+      "title": "Michael",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+      }
+    },
+    {
+      "id": "awarapan-2-hindi",
+      "title": "Awarapan 2 (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+      }
+    },
+    {
+      "id": "shark-attack",
+      "title": "Shark Attack",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 85,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005691/shark-attack"
       }
     },
     {
@@ -189,47 +189,47 @@
       }
     },
     {
-      "id": "detective-conan-fallen-rider-of-highway-japanese",
-      "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
+      "id": "khalifa-the-bloodline-malayalam",
+      "title": "Khalifa: The Bloodline (Malayalam)",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
-      "runtime": 110,
+      "runtime": 170,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
       }
     },
     {
-      "id": "sb19-wakas-at-simula-the-trilogy-concert",
-      "title": "SB19 Wakas At Simula: The Trilogy Concert",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
-      }
-    },
-    {
-      "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
+      "id": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Kannada)",
       "genre": "",
       "rating": "PG13",
       "language": "",
       "runtime": 205,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005240/toxic-a-fairy-tale-for-grown-ups-kannada"
       }
     },
     {
-      "id": "michael",
-      "title": "Michael",
+      "id": "el-set-lamma-arabic",
+      "title": "El Set Lamma (Arabic)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 130,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005649/el-set-lamma-arabic"
+      }
+    },
+    {
+      "id": "harry-potter-and-the-philosopher-s-stone-rerelease",
+      "title": "Harry Potter And The Philosopher's Stone-ReRelease",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00002664/harry-potter-and-the-philosopher-s-stone-rerelease"
       }
     }
   ],
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:40",
-        "15:20",
         "16:55",
         "17:45",
         "19:10",
@@ -256,9 +254,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:10",
-        "15:15",
-        "16:15",
         "17:20",
         "18:20",
         "19:25",
@@ -275,7 +270,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:25",
         "17:30",
         "22:00",
         "00:05"
@@ -286,8 +280,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:50",
-        "15:55",
         "18:00",
         "19:30",
         "23:15"
@@ -298,8 +290,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:45",
-        "16:15",
         "17:15",
         "19:35",
         "20:30",
@@ -312,7 +302,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:25",
         "17:20",
         "20:15"
       ]
@@ -322,7 +311,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:45",
         "16:40",
         "19:35",
         "22:35",
@@ -334,8 +322,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:10",
-        "15:55",
         "18:50",
         "21:50",
         "00:45"
@@ -346,8 +332,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "13:25",
-        "16:20",
         "19:15"
       ]
     },
@@ -356,9 +340,123 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:45",
         "16:40",
         "19:35",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "13:30",
+        "15:45",
+        "18:00",
+        "20:15",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "11:00",
+        "12:15",
+        "13:15",
+        "15:30",
+        "17:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "11:30",
+        "17:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "20:45",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:30",
+        "22:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:15",
+        "15:30",
+        "17:30",
+        "18:30",
+        "20:30",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:40",
+        "15:15",
+        "17:45",
+        "20:15",
+        "22:45",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "21:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "17:15",
+        "20:30",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "13:00",
+        "15:30",
         "22:30"
       ]
     },
@@ -367,7 +465,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:25",
         "18:15",
         "01:15"
       ]
@@ -377,7 +474,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "15:15",
         "21:15",
         "00:00"
       ]
@@ -398,7 +494,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:30",
         "17:45",
         "20:00",
         "22:15",
@@ -433,57 +528,10 @@
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "15:45",
-        "18:00",
-        "19:00",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:50",
-        "17:50",
-        "20:55",
-        "00:00",
-        "01:15"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "15:55",
-        "16:40",
-        "19:40",
-        "00:05"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:00",
-        "19:05",
-        "20:10",
-        "22:10"
-      ]
-    },
-    {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:00",
         "18:45",
         "21:00",
         "23:15"
@@ -516,35 +564,12 @@
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:00",
-        "17:00"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "14:00",
-        "15:30",
-        "17:30"
+        "22:45",
+        "23:40"
       ]
     },
     {
@@ -552,7 +577,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:15",
         "18:05",
         "19:40",
         "21:25",
@@ -564,84 +588,39 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:15",
         "17:00",
         "17:35",
         "19:10",
         "20:50",
-        "22:30"
+        "22:30",
+        "23:45"
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "17:00"
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "16:45",
+        "18:45",
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "aks-sir-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:40",
-        "18:35",
-        "21:55",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "khalifa-the-bloodline-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:40",
-        "14:45",
-        "18:10",
-        "20:20",
-        "23:50"
+        "17:30"
       ]
     },
     {
@@ -649,29 +628,115 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:30",
         "18:35",
         "20:30"
       ]
     },
     {
-      "movieId": "mahmoud-el-tany-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "mahmoud-el-tany-arabic",
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:15",
-        "21:30",
-        "23:45",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "michael",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "12:00",
+        "14:15",
+        "19:35",
+        "23:15",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "michael",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:15",
+        "15:15",
+        "18:15",
+        "19:35",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "michael",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:15",
+        "19:30",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "18:00",
+        "19:00",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "17:50",
+        "20:55",
+        "00:00",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "19:40",
+        "00:05"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:05",
+        "20:10",
+        "22:10"
+      ]
+    },
+    {
+      "movieId": "shark-attack",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "13:00",
+        "15:00",
+        "17:00",
+        "19:00",
+        "21:00",
+        "23:00",
+        "01:00"
       ]
     },
     {
@@ -693,61 +758,68 @@
       ]
     },
     {
-      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "movieId": "khalifa-the-bloodline-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:55"
+        "18:35",
+        "21:55",
+        "23:00"
       ]
     },
     {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "11:15",
-        "13:45",
-        "16:15",
-        "18:45",
-        "21:15",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "movieId": "khalifa-the-bloodline-malayalam",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "02:00",
+        "18:10",
+        "20:20"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
         "02:00"
       ]
     },
     {
-      "movieId": "michael",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
       "times": [
-        "12:15",
-        "15:15",
-        "18:15",
-        "21:15"
+        "02:00"
       ]
     },
     {
-      "movieId": "michael",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
       "times": [
-        "19:30",
-        "22:15"
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "el-set-lamma-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:50",
+        "19:00",
+        "21:10",
+        "23:20",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "harry-potter-and-the-philosopher-s-stone-rerelease",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "16:45",
+        "22:45"
       ]
     }
   ]
