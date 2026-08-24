@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T01:05:03.428Z",
+  "generatedAt": "2026-08-24T03:53:10.800Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 205,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
-      }
-    },
-    {
       "id": "bethlehem-kudumba-unit-malayalam",
       "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
@@ -164,6 +153,17 @@
       "runtime": 165,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
+      }
+    },
+    {
+      "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 205,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
       }
     },
     {
@@ -178,17 +178,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "detective-conan-fallen-rider-of-highway-japanese",
       "title": "Detective Conan: Fallen Rider Of Highway(Japanese)",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005630/detective-conan-fallen-rider-of-highway-japanese"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -658,23 +658,6 @@
       ]
     },
     {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "02:00",
-        "02:00"
-      ]
-    },
-    {
       "movieId": "bethlehem-kudumba-unit-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -700,6 +683,23 @@
       ]
     },
     {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "02:00",
+        "02:00"
+      ]
+    },
+    {
       "movieId": "mahmoud-el-tany-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -720,6 +720,16 @@
       ]
     },
     {
+      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:30",
+        "14:55"
+      ]
+    },
+    {
       "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -735,16 +745,6 @@
       "times": [
         "19:40",
         "22:40"
-      ]
-    },
-    {
-      "movieId": "detective-conan-fallen-rider-of-highway-japanese",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:30",
-        "14:55"
       ]
     },
     {
