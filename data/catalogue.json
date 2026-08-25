@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T09:33:18.008Z",
+  "generatedAt": "2026-08-25T12:42:04.181Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 55,
-    "showtimes": 220
+    "showtimeGroups": 54,
+    "showtimes": 182
   },
   "cinemas": [
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "awarapan-2-hindi",
-      "title": "Awarapan 2 (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 155,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
-      }
-    },
-    {
       "id": "el-gawahergy-arabic",
       "title": "El Gawahergy (Arabic)",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+      }
+    },
+    {
+      "id": "awarapan-2-hindi",
+      "title": "Awarapan 2 (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
       }
     },
     {
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:40",
-        "15:20",
         "16:55",
         "17:45",
         "19:10",
@@ -256,9 +254,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:10",
-        "15:15",
-        "16:15",
         "17:20",
         "18:20",
         "19:25",
@@ -274,8 +269,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:25",
         "17:30",
         "22:00"
       ]
@@ -285,7 +278,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:50",
         "18:00",
         "19:30",
         "23:15"
@@ -296,8 +288,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:45",
-        "16:15",
         "17:15",
         "19:35",
         "20:30",
@@ -310,7 +300,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:25",
         "17:20",
         "20:15"
       ]
@@ -320,7 +309,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:50",
         "16:45",
         "19:40",
         "22:35",
@@ -332,8 +320,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:10",
-        "15:50",
         "17:10",
         "20:05",
         "23:00",
@@ -345,8 +331,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "13:25",
-        "16:20",
         "19:15"
       ]
     },
@@ -355,7 +339,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:45",
         "16:40",
         "19:35",
         "22:30"
@@ -481,7 +464,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:25",
         "18:15",
         "01:15"
       ]
@@ -491,7 +473,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "15:15",
         "21:15",
         "00:00"
       ]
@@ -511,8 +492,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:30",
         "17:45",
         "20:00",
         "22:15",
@@ -551,7 +530,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:15",
         "17:50",
         "18:30",
         "19:40",
@@ -566,9 +544,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "14:45",
-        "15:50",
         "16:45",
         "17:00",
         "18:00",
@@ -584,7 +559,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:00",
         "18:45",
         "21:00",
         "23:15"
@@ -613,7 +587,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:00",
         "17:00"
       ]
     },
@@ -622,7 +595,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "14:45",
         "16:45",
         "18:45",
         "20:45",
@@ -634,9 +606,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:30",
-        "14:00",
-        "15:30",
         "17:30"
       ]
     },
@@ -696,8 +665,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:30",
-        "16:00",
         "18:35",
         "20:30"
       ]
@@ -754,48 +721,6 @@
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "15:45",
-        "18:00",
-        "19:00",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:50",
-        "16:00"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "16:40",
-        "19:40",
-        "22:50"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:00",
-        "19:05",
-        "20:10",
-        "22:10"
-      ]
-    },
-    {
       "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -810,6 +735,36 @@
       "format": "Standard",
       "times": [
         "19:40"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "18:00",
+        "19:00",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "19:40",
+        "22:50"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:05",
+        "20:10",
+        "22:10"
       ]
     },
     {
