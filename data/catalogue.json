@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T15:40:06.168Z",
+  "generatedAt": "2026-08-25T18:36:11.562Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 51,
-    "showtimes": 148
+    "showtimeGroups": 45,
+    "showtimes": 120
   },
   "cinemas": [
     {
@@ -17,18 +17,18 @@
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     },
     {
-      "id": "reel-reel-dubai-marina-mall",
-      "brand": "Reel Cinemas",
-      "name": "Reel Dubai Marina Mall",
-      "area": "Dubai Marina",
-      "city": "Dubai",
-      "bookingUrl": "https://reelcinemas.com/en-ae/"
-    },
-    {
       "id": "reel-reel-the-springs-souk",
       "brand": "Reel Cinemas",
       "name": "Reel The Springs Souk",
       "area": "The Springs",
+      "city": "Dubai",
+      "bookingUrl": "https://reelcinemas.com/en-ae/"
+    },
+    {
+      "id": "reel-reel-dubai-marina-mall",
+      "brand": "Reel Cinemas",
+      "name": "Reel Dubai Marina Mall",
+      "area": "Dubai Marina",
       "city": "Dubai",
       "bookingUrl": "https://reelcinemas.com/en-ae/"
     }
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "awarapan-2-hindi",
-      "title": "Awarapan 2 (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 155,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
-      }
-    },
-    {
       "id": "toxic-a-fairy-tale-for-grown-ups-tamil",
       "title": "Toxic - A Fairy Tale For Grown Ups (Tamil)",
       "genre": "",
@@ -231,6 +220,17 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005242/toxic-a-fairy-tale-for-grown-ups-tamil"
       }
+    },
+    {
+      "id": "awarapan-2-hindi",
+      "title": "Awarapan 2 (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+      }
     }
   ],
   "showtimes": [
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:00",
-        "21:30",
         "22:20",
         "23:45",
         "00:45"
@@ -251,9 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:25",
-        "20:25",
-        "21:30",
         "22:30",
         "23:35",
         "00:35"
@@ -261,18 +256,9 @@
     },
     {
       "movieId": "mutiny",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "mutiny",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:30",
         "23:15"
       ]
     },
@@ -281,8 +267,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:35",
-        "20:30",
         "22:45",
         "00:15"
       ]
@@ -290,17 +274,8 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "20:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "19:40",
         "22:35",
         "01:30"
       ]
@@ -310,7 +285,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:05",
         "23:00",
         "23:30"
       ]
@@ -320,7 +294,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:35",
         "22:30"
       ]
     },
@@ -452,7 +425,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:15",
         "00:00"
       ]
     },
@@ -469,8 +441,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
-        "22:15",
         "23:00",
         "00:30",
         "01:15"
@@ -478,26 +448,9 @@
     },
     {
       "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "22:10"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "21:45",
         "22:30"
       ]
     },
@@ -506,9 +459,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40",
-        "21:05",
-        "21:45",
         "00:20",
         "01:00"
       ]
@@ -518,8 +468,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "20:00",
-        "21:15",
         "22:30",
         "23:15"
       ]
@@ -529,16 +477,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "21:00",
         "23:15"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "20:45"
       ]
     },
     {
@@ -546,7 +485,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:20",
         "00:45"
       ]
     },
@@ -555,7 +493,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:45",
         "22:45"
       ]
     },
@@ -612,10 +549,22 @@
     },
     {
       "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:45"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "20:30"
+        "10:00",
+        "11:55",
+        "14:30",
+        "16:00",
+        "18:35"
       ]
     },
     {
@@ -674,16 +623,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:00",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:40"
       ]
     },
     {
@@ -694,32 +634,6 @@
         "13:00",
         "16:45",
         "22:45"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "19:40",
-        "22:50"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:10",
-        "22:10"
       ]
     },
     {
@@ -737,6 +651,22 @@
       "times": [
         "02:00",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "awarapan-2-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "22:50"
       ]
     }
   ]
