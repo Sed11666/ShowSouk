@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T21:25:38.977Z",
+  "generatedAt": "2026-08-26T01:05:59.762Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 47,
-    "showtimes": 181
+    "showtimeGroups": 56,
+    "showtimes": 253
   },
   "cinemas": [
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "harry-potter-and-the-philosopher-s-stone-rerelease",
       "title": "Harry Potter And The Philosopher's Stone-ReRelease",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00002664/harry-potter-and-the-philosopher-s-stone-rerelease"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -294,9 +294,76 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "12:00",
+        "13:45",
+        "16:15",
+        "17:15",
+        "19:35",
+        "20:30",
+        "22:45",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:30",
+        "14:25",
+        "17:20",
+        "20:15"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "10:45",
+        "13:45",
+        "16:45",
+        "19:40",
+        "22:35",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "13:00",
+        "15:55",
+        "18:50",
+        "21:50",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:35",
+        "16:25",
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:45",
+        "16:40",
+        "19:35",
+        "22:30"
       ]
     },
     {
@@ -419,7 +486,31 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:30",
+        "13:25",
+        "18:15",
         "01:15"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:30",
+        "15:15",
+        "21:15",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:15",
+        "23:15",
+        "01:30"
       ]
     },
     {
@@ -427,7 +518,30 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:15"
+        "11:00",
+        "13:15",
+        "15:30",
+        "17:45",
+        "20:00",
+        "22:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "19:45"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:45"
       ]
     },
     {
@@ -534,9 +648,11 @@
     {
       "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Dolby Cinema",
       "times": [
-        "02:00"
+        "16:45",
+        "20:45",
+        "00:45"
       ]
     },
     {
@@ -544,7 +660,20 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "11:50",
+        "15:50",
+        "19:45",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:05",
+        "20:10",
+        "20:40"
       ]
     },
     {
@@ -632,25 +761,36 @@
     {
       "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "11:00",
+        "12:00",
+        "16:00",
+        "19:00",
+        "20:00",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "06:00",
+        "10:00",
+        "13:55",
+        "17:50",
+        "21:45"
+      ]
+    },
+    {
+      "movieId": "harry-potter-and-the-philosopher-s-stone-rerelease",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "16:45",
+        "22:45"
       ]
     },
     {
@@ -671,21 +811,13 @@
       ]
     },
     {
-      "movieId": "harry-potter-and-the-philosopher-s-stone-rerelease",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:00",
-        "16:45",
-        "22:45"
-      ]
-    },
-    {
       "movieId": "toxic-a-fairy-tale-for-grown-ups-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Standard",
       "times": [
-        "02:00"
+        "15:00",
+        "23:00",
+        "01:05"
       ]
     },
     {
@@ -693,8 +825,11 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "02:00",
-        "02:00"
+        "07:00",
+        "11:00",
+        "15:00",
+        "18:55",
+        "22:50"
       ]
     },
     {
