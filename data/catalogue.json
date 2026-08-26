@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T16:16:29.864Z",
+  "generatedAt": "2026-08-26T19:45:25.036Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 49,
-    "showtimes": 139
+    "showtimeGroups": 42,
+    "showtimes": 122
   },
   "cinemas": [
     {
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:00",
-        "21:30",
-        "22:20",
         "23:45",
         "00:45"
       ]
@@ -251,25 +248,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:30",
         "23:35",
         "01:40"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "00:50"
-      ]
-    },
-    {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "23:15"
       ]
     },
     {
@@ -391,17 +371,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:30",
-        "22:45",
         "00:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "20:15"
       ]
     },
     {
@@ -409,24 +379,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "22:35",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:50"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:30"
       ]
     },
     {
@@ -434,7 +387,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "20:45",
         "00:45"
       ]
     },
@@ -443,7 +395,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:35",
         "00:45",
         "01:05"
       ]
@@ -454,15 +405,6 @@
       "format": "Standard",
       "times": [
         "23:40"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:10",
-        "20:40"
       ]
     },
     {
@@ -478,7 +420,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:15",
         "00:00"
       ]
     },
@@ -487,7 +428,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:15",
         "01:30"
       ]
     },
@@ -496,34 +436,15 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
-        "22:15",
         "00:30"
       ]
     },
     {
       "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-springs-souk",
+      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "21:45"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "21:00",
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "20:45"
+        "00:50"
       ]
     },
     {
@@ -531,7 +452,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:20",
         "00:45"
       ]
     },
@@ -540,7 +460,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:45",
         "01:00"
       ]
     },
@@ -549,8 +468,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "20:45",
-        "22:10",
         "00:00"
       ]
     },
@@ -591,11 +508,36 @@
     },
     {
       "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "12:30",
+        "14:30",
+        "16:30",
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:45",
-        "22:45"
+        "13:45",
+        "15:45",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:45",
+        "16:45",
+        "18:45"
       ]
     },
     {
@@ -668,7 +610,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:00",
         "00:30"
       ]
     },
@@ -677,16 +618,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
         "00:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-kannada",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "21:45"
       ]
     },
     {
@@ -705,7 +637,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:00"
+        "11:15",
+        "14:40"
       ]
     },
     {
@@ -713,7 +646,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "21:30"
+        "13:55",
+        "20:00"
       ]
     }
   ]
