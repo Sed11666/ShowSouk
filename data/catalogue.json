@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-26T06:43:21.260Z",
+  "generatedAt": "2026-08-26T09:38:24.467Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 56,
-    "showtimes": 245
+    "showtimeGroups": 52,
+    "showtimes": 204
   },
   "cinemas": [
     {
@@ -90,17 +90,6 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
-      }
-    },
-    {
       "id": "the-odyssey",
       "title": "The Odyssey",
       "genre": "",
@@ -112,14 +101,25 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
+      "id": "bethlehem-kudumba-unit-malayalam",
+      "title": "Bethlehem Kudumba Unit (Malayalam)",
       "genre": "",
-      "rating": "G",
+      "rating": "PG13",
       "language": "",
-      "runtime": 90,
+      "runtime": 165,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
+      }
+    },
+    {
+      "id": "michael",
+      "title": "Michael",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
       }
     },
     {
@@ -134,14 +134,14 @@
       }
     },
     {
-      "id": "michael",
-      "title": "Michael",
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
       "genre": "",
-      "rating": "PG13",
+      "rating": "G",
       "language": "",
-      "runtime": 130,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004593/michael"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "awarapan-2-hindi",
-      "title": "Awarapan 2 (Hindi)",
+      "id": "khalifa-the-bloodline-malayalam",
+      "title": "Khalifa: The Bloodline (Malayalam)",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
-      "runtime": 155,
+      "runtime": 170,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005659/awarapan-2-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005254/khalifa-the-bloodline-malayalam"
       }
     }
   ],
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
-        "12:20",
-        "13:00",
         "14:40",
         "15:20",
         "16:55",
@@ -259,8 +256,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:10",
         "15:15",
         "17:20",
         "19:25",
@@ -274,7 +269,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:15",
         "15:25",
         "00:50"
       ]
@@ -295,7 +289,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
         "13:45",
         "16:15",
         "17:15",
@@ -310,7 +303,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
         "14:25",
         "17:20",
         "20:15"
@@ -321,7 +313,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "10:45",
         "13:45",
         "16:45",
         "19:40",
@@ -334,7 +325,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:00",
         "15:55",
         "18:50",
         "21:50",
@@ -346,7 +336,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:35",
         "16:25",
         "19:15"
@@ -357,7 +346,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:45",
         "16:40",
         "19:35",
@@ -484,7 +472,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "13:25",
         "18:15",
         "01:15"
@@ -495,7 +482,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "15:15",
         "21:15",
         "00:00"
@@ -506,7 +492,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:15",
         "23:15",
         "01:30"
       ]
@@ -516,8 +501,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:15",
         "15:30",
         "17:45",
         "20:00",
@@ -530,7 +513,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "19:45"
       ]
     },
@@ -540,38 +522,6 @@
       "format": "Standard",
       "times": [
         "21:45"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:50",
-        "15:15",
-        "16:00",
-        "18:30",
-        "19:15",
-        "19:40",
-        "21:45",
-        "22:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:45",
-        "13:20",
-        "15:00",
-        "16:30",
-        "17:30",
-        "18:15",
-        "20:45",
-        "22:10",
-        "00:00"
       ]
     },
     {
@@ -604,72 +554,33 @@
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
+      "movieId": "bethlehem-kudumba-unit-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:00",
-        "15:00",
-        "17:00"
+        "15:15",
+        "16:00",
+        "18:30",
+        "19:15",
+        "19:40",
+        "21:45",
+        "22:30",
+        "01:00"
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "10:45",
-        "12:45",
-        "14:45",
-        "16:45",
-        "18:45",
-        "20:45",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "12:00",
-        "13:30",
-        "14:00",
-        "15:30",
-        "17:30"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "16:45",
-        "20:45",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "movieId": "bethlehem-kudumba-unit-malayalam",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:50",
-        "15:50",
-        "19:45",
-        "23:40"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:05",
-        "20:10",
-        "20:40"
+        "13:20",
+        "15:00",
+        "16:30",
+        "17:30",
+        "18:15",
+        "20:45",
+        "22:10",
+        "00:00"
       ]
     },
     {
@@ -708,11 +619,65 @@
       ]
     },
     {
-      "movieId": "minions-and-monsters",
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "16:45",
+        "20:45",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "15:50",
+        "19:45",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:05",
+        "20:10",
+        "20:40"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:45"
+        "15:00",
+        "17:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "14:45",
+        "16:45",
+        "18:45",
+        "20:45",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "13:30",
+        "14:00",
+        "15:30",
+        "17:30"
       ]
     },
     {
@@ -720,7 +685,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:55",
         "14:30",
         "16:00",
         "18:35"
@@ -758,8 +722,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "12:00",
         "16:00",
         "19:00",
         "20:00",
@@ -818,57 +780,26 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "15:00",
         "18:55",
         "22:50"
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "11:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:00",
-        "13:00",
-        "15:45",
-        "18:00",
-        "19:00",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
+      "movieId": "khalifa-the-bloodline-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "14:35",
-        "17:35"
+        "13:40",
+        "23:00"
       ]
     },
     {
-      "movieId": "awarapan-2-hindi",
+      "movieId": "khalifa-the-bloodline-malayalam",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "awarapan-2-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:10"
+        "21:30"
       ]
     }
   ]
