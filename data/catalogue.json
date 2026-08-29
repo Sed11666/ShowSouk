@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-28T23:51:54.850Z",
+  "generatedAt": "2026-08-29T05:30:18.640Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 48,
-    "showtimes": 213
+    "showtimes": 215
   },
   "cinemas": [
     {
@@ -90,17 +90,6 @@
       }
     },
     {
-      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 205,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
-      }
-    },
-    {
       "id": "the-odyssey",
       "title": "The Odyssey",
       "genre": "",
@@ -142,6 +131,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "title": "Toxic - A Fairy Tale For Grown Ups (Hindi)",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 205,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005241/toxic-a-fairy-tale-for-grown-ups-hindi"
       }
     },
     {
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "shark-attack",
-      "title": "Shark Attack",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 85,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005691/shark-attack"
-      }
-    },
-    {
       "id": "la-la-land-10th-anniversary",
       "title": "La La Land - 10th Anniversary",
       "genre": "",
@@ -230,6 +219,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005688/la-la-land-10th-anniversary"
+      }
+    },
+    {
+      "id": "shark-attack",
+      "title": "Shark Attack",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 85,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005691/shark-attack"
       }
     }
   ],
@@ -387,7 +387,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15"
+        "22:15",
+        "01:40"
       ]
     },
     {
@@ -434,7 +435,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "09:00",
         "10:00",
         "10:45",
         "12:00",
@@ -446,58 +446,6 @@
         "21:15",
         "23:20",
         "00:40"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "22:45",
-        "00:55"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "13:55",
-        "16:00",
-        "17:50",
-        "20:00",
-        "21:45",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "11:50",
-        "23:40"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "16:50",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:00",
-        "21:30"
       ]
     },
     {
@@ -609,7 +557,9 @@
       "times": [
         "10:30",
         "12:30",
+        "14:00",
         "14:30",
+        "15:55",
         "16:30",
         "18:30"
       ]
@@ -634,6 +584,57 @@
         "14:45",
         "16:45",
         "18:45"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "22:45",
+        "00:55"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "16:00",
+        "17:50",
+        "20:00",
+        "21:45",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:50",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "14:00",
+        "16:50",
+        "20:45"
+      ]
+    },
+    {
+      "movieId": "toxic-a-fairy-tale-for-grown-ups-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:00",
+        "21:30"
       ]
     },
     {
@@ -713,7 +714,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40"
+        "19:40",
+        "23:00",
+        "00:15"
       ]
     },
     {
@@ -753,16 +756,6 @@
       ]
     },
     {
-      "movieId": "shark-attack",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "21:00",
-        "23:00",
-        "01:00"
-      ]
-    },
-    {
       "movieId": "la-la-land-10th-anniversary",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -781,6 +774,15 @@
         "12:20",
         "22:40",
         "01:25"
+      ]
+    },
+    {
+      "movieId": "shark-attack",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "21:00",
+        "01:20"
       ]
     }
   ]
