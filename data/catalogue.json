@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T22:59:39.925Z",
+  "generatedAt": "2026-08-30T03:27:08.526Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "el-set-lamma-arabic",
-      "title": "El Set Lamma (Arabic)",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005649/el-set-lamma-arabic"
-      }
-    },
-    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -186,6 +175,17 @@
       "runtime": 180,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005231/im-game-malayalam"
+      }
+    },
+    {
+      "id": "el-set-lamma-arabic",
+      "title": "El Set Lamma (Arabic)",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005649/el-set-lamma-arabic"
       }
     },
     {
@@ -694,18 +694,6 @@
       ]
     },
     {
-      "movieId": "el-set-lamma-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:50",
-        "19:00",
-        "21:10",
-        "23:20",
-        "01:30"
-      ]
-    },
-    {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -755,6 +743,18 @@
         "16:00",
         "19:30",
         "23:00"
+      ]
+    },
+    {
+      "movieId": "el-set-lamma-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:50",
+        "19:00",
+        "21:10",
+        "23:20",
+        "01:30"
       ]
     },
     {
