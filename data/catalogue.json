@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T23:00:52.251Z",
+  "generatedAt": "2026-09-02T02:43:57.976Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "the-dog-stars",
-      "title": "The Dog Stars",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
-      }
-    },
-    {
       "id": "colony-korean",
       "title": "Colony (Korean)",
       "genre": "",
@@ -186,6 +175,17 @@
       "runtime": 125,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
+      }
+    },
+    {
+      "id": "the-dog-stars",
+      "title": "The Dog Stars",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
       }
     },
     {
@@ -730,6 +730,16 @@
       ]
     },
     {
+      "movieId": "colony-korean",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:25",
+        "00:15",
+        "01:00"
+      ]
+    },
+    {
       "movieId": "the-dog-stars",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -776,16 +786,6 @@
         "13:00",
         "15:30",
         "22:30"
-      ]
-    },
-    {
-      "movieId": "colony-korean",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:25",
-        "00:15",
-        "01:00"
       ]
     },
     {
