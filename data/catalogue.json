@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T07:36:28.787Z",
+  "generatedAt": "2026-09-02T13:13:43.514Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 53,
-    "showtimes": 237
+    "showtimeGroups": 52,
+    "showtimes": 176
   },
   "cinemas": [
     {
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
-      }
-    },
-    {
       "id": "insidious-out-of-the-further",
       "title": "Insidious: Out Of The Further",
       "genre": "",
@@ -164,6 +153,17 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
+      }
+    },
+    {
+      "id": "bethlehem-kudumba-unit-malayalam",
+      "title": "Bethlehem Kudumba Unit (Malayalam)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
       }
     },
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "id": "it-ends",
+      "title": "It Ends",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005661/it-ends"
+      }
+    },
+    {
       "id": "the-dog-stars",
       "title": "The Dog Stars",
       "genre": "",
@@ -186,6 +197,17 @@
       "runtime": 120,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
+      }
+    },
+    {
+      "id": "by-any-means",
+      "title": "By Any Means",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005602/by-any-means"
       }
     },
     {
@@ -200,17 +222,6 @@
       }
     },
     {
-      "id": "it-ends",
-      "title": "It Ends",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005661/it-ends"
-      }
-    },
-    {
       "id": "harry-potter-and-the-philosopher-s-stone-rerelease",
       "title": "Harry Potter And The Philosopher's Stone-ReRelease",
       "genre": "",
@@ -219,17 +230,6 @@
       "runtime": 155,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00002664/harry-potter-and-the-philosopher-s-stone-rerelease"
-      }
-    },
-    {
-      "id": "by-any-means",
-      "title": "By Any Means",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005602/by-any-means"
       }
     }
   ],
@@ -312,10 +312,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
-        "12:30",
-        "13:45",
-        "16:15",
         "17:15",
         "20:30",
         "22:45",
@@ -327,8 +323,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:55",
-        "16:50",
         "19:45",
         "22:40",
         "01:35"
@@ -339,10 +333,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
-        "12:55",
-        "14:50",
-        "15:50",
         "17:40",
         "20:30",
         "23:20",
@@ -354,10 +344,9 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:10",
         "17:15",
         "20:15",
-        "23:15"
+        "23:10"
       ]
     },
     {
@@ -365,8 +354,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:40",
-        "16:40",
         "19:40"
       ]
     },
@@ -375,8 +362,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "15:45",
         "18:00",
         "20:15",
         "22:30"
@@ -387,9 +372,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:15",
-        "13:15",
-        "15:30",
         "17:45"
       ]
     },
@@ -398,7 +380,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:30",
         "17:45"
       ]
     },
@@ -407,8 +388,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:30",
-        "14:45",
         "17:00",
         "19:15",
         "20:45",
@@ -420,8 +399,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:15",
-        "14:40",
         "16:55",
         "17:45",
         "19:10",
@@ -437,10 +414,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:25",
-        "14:30",
-        "16:35",
-        "00:00"
+        "01:00"
       ]
     },
     {
@@ -456,7 +430,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:00",
         "18:45",
         "21:00"
       ]
@@ -466,8 +439,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
-        "16:00",
         "20:00"
       ]
     },
@@ -476,7 +447,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:30",
         "17:55",
         "21:20"
       ]
@@ -581,9 +551,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
-        "14:30",
-        "16:30",
         "18:30"
       ]
     },
@@ -592,8 +559,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:45",
-        "15:45",
         "22:00"
       ]
     },
@@ -602,9 +567,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:45",
-        "14:45",
-        "16:45",
         "18:45"
       ]
     },
@@ -618,44 +580,10 @@
     },
     {
       "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:25"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
         "20:00"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:10",
-        "14:30",
-        "15:25",
-        "18:40",
-        "21:55",
-        "01:10"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "13:55",
-        "15:15",
-        "18:00",
-        "21:15",
-        "23:20"
       ]
     },
     {
@@ -671,7 +599,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "21:15",
         "23:45"
       ]
@@ -681,7 +608,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:00",
         "17:15",
         "00:50"
       ]
@@ -705,6 +631,26 @@
       ]
     },
     {
+      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:40",
+        "21:55",
+        "01:10"
+      ]
+    },
+    {
+      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:00",
+        "21:15",
+        "22:30"
+      ]
+    },
+    {
       "movieId": "colony-korean",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -712,81 +658,6 @@
         "20:25",
         "00:15",
         "01:00"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "12:40",
-        "15:15",
-        "17:45",
-        "20:15",
-        "22:45",
-        "01:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "17:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:00",
-        "15:30",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:45",
-        "16:20",
-        "19:15",
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:40",
-        "14:30",
-        "15:20",
-        "17:10",
-        "18:00",
-        "19:50",
-        "20:40",
-        "23:20"
       ]
     },
     {
@@ -810,16 +681,47 @@
       ]
     },
     {
-      "movieId": "harry-potter-and-the-philosopher-s-stone-rerelease",
+      "movieId": "the-dog-stars",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
-        "13:00",
-        "15:30",
-        "16:45",
-        "19:00",
-        "22:45"
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "17:45",
+        "20:15",
+        "22:45",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "22:30"
       ]
     },
     {
@@ -840,6 +742,36 @@
         "10:45",
         "13:15",
         "15:40"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:15",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "la-la-land-10th-anniversary",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "17:10",
+        "18:00",
+        "19:50",
+        "20:40",
+        "23:20"
+      ]
+    },
+    {
+      "movieId": "harry-potter-and-the-philosopher-s-stone-rerelease",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:00",
+        "22:45"
       ]
     }
   ]
