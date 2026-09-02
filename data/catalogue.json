@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T13:13:43.514Z",
+  "generatedAt": "2026-09-02T18:25:44.135Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 52,
-    "showtimes": 176
+    "showtimeGroups": 45,
+    "showtimes": 154
   },
   "cinemas": [
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "el-gawahergy-arabic",
       "title": "El Gawahergy (Arabic)",
       "genre": "",
@@ -134,6 +123,17 @@
       }
     },
     {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -142,17 +142,6 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
-      "id": "insidious-out-of-the-further",
-      "title": "Insidious: Out Of The Further",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
       }
     },
     {
@@ -189,17 +178,6 @@
       }
     },
     {
-      "id": "the-dog-stars",
-      "title": "The Dog Stars",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
-      }
-    },
-    {
       "id": "by-any-means",
       "title": "By Any Means",
       "genre": "",
@@ -208,6 +186,28 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005602/by-any-means"
+      }
+    },
+    {
+      "id": "insidious-out-of-the-further",
+      "title": "Insidious: Out Of The Further",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
+      }
+    },
+    {
+      "id": "the-dog-stars",
+      "title": "The Dog Stars",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
       }
     },
     {
@@ -304,7 +304,8 @@
         "15:10",
         "17:20",
         "19:30",
-        "21:40"
+        "21:40",
+        "22:20"
       ]
     },
     {
@@ -312,8 +313,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:15",
-        "20:30",
         "22:45",
         "00:15"
       ]
@@ -323,7 +322,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "19:45",
         "22:40",
         "01:35"
       ]
@@ -333,8 +331,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:40",
-        "20:30",
         "23:20",
         "00:15"
       ]
@@ -344,17 +340,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "17:15",
-        "20:15",
         "23:10"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "19:40"
       ]
     },
     {
@@ -362,35 +348,14 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
-        "20:15",
         "22:30"
       ]
     },
     {
       "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "17:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:15",
-        "20:45",
         "23:00"
       ]
     },
@@ -399,11 +364,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "16:55",
-        "17:45",
-        "19:10",
-        "20:00",
-        "21:30",
         "22:20",
         "23:45",
         "01:15"
@@ -418,19 +378,15 @@
       ]
     },
     {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "22:00"
-      ]
-    },
-    {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:45",
+        "10:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "17:15",
         "21:00"
       ]
     },
@@ -439,16 +395,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:55",
-        "21:20"
+        "20:30"
       ]
     },
     {
@@ -547,10 +494,25 @@
       ]
     },
     {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:40",
+        "20:50",
+        "23:10",
+        "00:15"
+      ]
+    },
+    {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "12:30",
+        "14:30",
+        "16:30",
         "18:30"
       ]
     },
@@ -559,7 +521,10 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "22:00"
+        "13:40",
+        "15:40",
+        "17:40",
+        "21:40"
       ]
     },
     {
@@ -567,15 +532,20 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:45"
+        "10:15",
+        "12:15",
+        "14:15",
+        "16:15",
+        "18:15",
+        "20:15"
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
+      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:40"
+        "11:00"
       ]
     },
     {
@@ -583,51 +553,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:15"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "21:15",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "17:15",
-        "00:50"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:00",
-        "20:15",
-        "22:40"
+        "19:40"
       ]
     },
     {
@@ -635,8 +561,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:40",
-        "21:55",
         "01:10"
       ]
     },
@@ -645,8 +569,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:00",
-        "21:15",
         "22:30"
       ]
     },
@@ -655,7 +577,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:25",
         "00:15",
         "01:00"
       ]
@@ -681,50 +602,6 @@
       ]
     },
     {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "17:45",
-        "20:15",
-        "22:45",
-        "01:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:15"
-      ]
-    },
-    {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
       "movieId": "by-any-means",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -745,11 +622,68 @@
       ]
     },
     {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "00:50"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "22:40"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "22:45",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "22:30"
+      ]
+    },
+    {
       "movieId": "la-la-land-10th-anniversary",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "19:15",
         "22:15"
       ]
     },
@@ -758,10 +692,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:10",
-        "18:00",
-        "19:50",
-        "20:40",
         "23:20"
       ]
     },
@@ -770,7 +700,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "19:00",
         "22:45"
       ]
     }
