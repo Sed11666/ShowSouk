@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-04T13:08:34.410Z",
+  "generatedAt": "2026-09-04T18:04:16.825Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 38,
-    "showtimes": 108
+    "showtimes": 77
   },
   "cinemas": [
     {
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:45",
-        "18:45",
-        "20:15",
-        "21:30",
         "23:00",
         "00:00",
         "01:30"
@@ -253,11 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:15",
-        "19:15",
-        "20:30",
-        "21:30",
         "22:45",
         "23:45",
         "01:00",
@@ -269,8 +260,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:00",
-        "20:10",
         "22:20",
         "01:00"
       ]
@@ -280,7 +269,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "20:30",
         "22:35"
       ]
     },
@@ -289,18 +277,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:00",
-        "20:15",
         "22:30"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:05"
       ]
     },
     {
@@ -308,8 +285,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:15",
-        "19:15",
         "22:00",
         "00:35"
       ]
@@ -319,8 +294,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:50",
-        "19:45",
         "22:40",
         "01:35"
       ]
@@ -330,17 +303,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:50",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:30"
       ]
     },
     {
@@ -356,8 +319,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:45",
-        "20:30",
         "23:45",
         "00:30"
       ]
@@ -367,7 +328,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:15",
         "23:15"
       ]
     },
@@ -376,20 +336,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "20:15",
         "22:40",
         "00:15"
-      ]
-    },
-    {
-      "movieId": "mirzapur-the-movie-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:15",
-        "18:45",
-        "20:20",
-        "21:15"
       ]
     },
     {
@@ -405,9 +353,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:20",
-        "19:25",
-        "21:30",
         "23:35",
         "01:40"
       ]
@@ -417,6 +362,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "12:00",
+        "14:00",
         "17:15",
         "21:00"
       ]
@@ -434,9 +381,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:30",
-        "20:00",
-        "21:00",
         "00:30"
       ]
     },
@@ -445,10 +389,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:00",
-        "20:30",
-        "21:30",
         "00:00"
       ]
     },
@@ -457,8 +397,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:00",
-        "20:50",
         "23:10",
         "23:35",
         "02:00"
@@ -469,6 +407,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "12:30",
+        "14:30",
+        "16:30",
         "18:30"
       ]
     },
@@ -477,7 +419,31 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
+        "10:40",
         "19:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:10",
+        "11:15",
+        "12:05",
+        "12:45",
+        "13:15",
+        "14:45",
+        "15:15",
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00"
       ]
     },
     {
@@ -485,7 +451,17 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
+        "14:50",
         "21:00"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:35",
+        "12:30"
       ]
     },
     {
@@ -493,7 +469,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:30",
         "01:30"
       ]
     },
@@ -502,7 +477,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:30",
         "22:45"
       ]
     },
@@ -511,7 +485,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "18:00",
         "00:15",
         "01:15"
       ]
@@ -521,7 +494,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:25",
         "01:00"
       ]
     },
@@ -538,8 +510,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "21:30",
         "23:30",
         "01:30"
       ]
@@ -549,7 +519,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "18:25",
         "23:30"
       ]
     },
@@ -578,7 +547,17 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "16:00",
         "18:15"
+      ]
+    },
+    {
+      "movieId": "insidious-out-of-the-further",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:05"
       ]
     },
     {
@@ -586,7 +565,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:30",
         "00:00",
         "00:45"
       ]
@@ -594,17 +572,8 @@
     {
       "movieId": "la-la-land-10th-anniversary",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "la-la-land-10th-anniversary",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "19:15",
         "22:10"
       ]
     }
