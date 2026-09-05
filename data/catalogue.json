@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-05T19:54:35.768Z",
+  "generatedAt": "2026-09-05T22:39:03.154Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 35,
-    "showtimes": 86
+    "showtimeGroups": 47,
+    "showtimes": 198
   },
   "cinemas": [
     {
@@ -178,17 +178,6 @@
       }
     },
     {
-      "id": "colony-korean",
-      "title": "Colony (Korean)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 125,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
-      }
-    },
-    {
       "id": "it-ends",
       "title": "It Ends",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005661/it-ends"
+      }
+    },
+    {
+      "id": "colony-korean",
+      "title": "Colony (Korean)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 125,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
       }
     },
     {
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "the-dog-stars",
-      "title": "The Dog Stars",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
-      }
-    },
-    {
       "id": "batman-begins-2005",
       "title": "Batman Begins (2005)",
       "genre": "",
@@ -231,6 +220,17 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004357/batman-begins-2005"
       }
+    },
+    {
+      "id": "the-dog-stars",
+      "title": "The Dog Stars",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
+      }
     }
   ],
   "showtimes": [
@@ -239,6 +239,15 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:30",
+        "11:30",
+        "15:15",
+        "16:45",
+        "17:45",
+        "18:45",
+        "20:15",
+        "21:30",
+        "23:00",
         "00:00",
         "01:30"
       ]
@@ -248,9 +257,42 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "11:30",
+        "12:30",
+        "13:45",
+        "14:45",
+        "16:00",
+        "17:00",
+        "18:15",
+        "19:15",
+        "20:30",
+        "21:30",
+        "22:45",
         "23:45",
         "01:00",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "15:50",
+        "18:00",
+        "20:10",
+        "22:20",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:30"
       ]
     },
     {
@@ -307,7 +349,21 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "11:00",
+        "16:00",
+        "18:15",
+        "19:15",
+        "22:00",
         "00:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:00",
+        "13:00"
       ]
     },
     {
@@ -315,7 +371,43 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "11:00",
+        "13:55",
+        "16:50",
+        "19:45",
+        "22:40",
         "01:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:25",
+        "17:55",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:50",
+        "20:40",
+        "21:55"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "13:00",
+        "14:30",
+        "23:30"
       ]
     },
     {
@@ -323,16 +415,23 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "11:45",
+        "15:45",
+        "19:45",
+        "20:30",
         "23:45",
         "00:30"
       ]
     },
     {
       "movieId": "mirzapur-the-movie-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
       "times": [
-        "01:35"
+        "11:15",
+        "15:15",
+        "19:15",
+        "23:15"
       ]
     },
     {
@@ -340,8 +439,32 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "00:00",
-        "00:30"
+        "12:15",
+        "16:15",
+        "20:15",
+        "20:45",
+        "22:45",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "13:15",
+        "17:15",
+        "18:45",
+        "20:20",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "mutiny",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "22:30"
       ]
     },
     {
@@ -349,6 +472,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "13:10",
+        "15:15",
+        "17:20",
+        "19:25",
+        "21:30",
         "23:35",
         "01:40"
       ]
@@ -377,6 +506,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "14:00",
+        "17:30",
+        "21:00",
         "00:30"
       ]
     },
@@ -385,7 +518,15 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "01:00"
+        "10:00",
+        "11:00",
+        "13:30",
+        "14:30",
+        "17:00",
+        "18:00",
+        "20:30",
+        "21:30",
+        "00:00"
       ]
     },
     {
@@ -393,6 +534,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "19:40",
+        "20:50",
+        "23:10",
         "00:15"
       ]
     },
@@ -461,10 +605,30 @@
     },
     {
       "movieId": "by-any-means",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "15:00",
+        "18:25",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "by-any-means",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:15",
+        "15:40"
+      ]
+    },
+    {
+      "movieId": "by-any-means",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "00:30"
+        "13:35"
       ]
     },
     {
@@ -492,7 +656,42 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "14:15",
+        "17:30",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "09:00",
+        "10:05",
+        "14:45",
+        "16:15",
+        "19:30"
+      ]
+    },
+    {
+      "movieId": "it-ends",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "it-ends",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:00",
+        "18:00",
+        "20:00",
+        "22:00",
+        "00:00"
       ]
     },
     {
@@ -500,6 +699,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "12:15",
+        "13:15",
+        "18:00",
         "00:15",
         "01:15"
       ]
@@ -509,14 +711,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "it-ends",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
+        "20:25",
         "01:00"
       ]
     },
@@ -539,15 +734,6 @@
       ]
     },
     {
-      "movieId": "the-dog-stars",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "00:00",
-        "01:45"
-      ]
-    },
-    {
       "movieId": "batman-begins-2005",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -563,6 +749,16 @@
       "times": [
         "10:15",
         "19:25"
+      ]
+    },
+    {
+      "movieId": "the-dog-stars",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "21:30",
+        "00:00",
+        "00:30"
       ]
     }
   ]
