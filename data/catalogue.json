@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-06T12:36:26.239Z",
+  "generatedAt": "2026-09-06T17:30:49.562Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 42,
-    "showtimes": 115
+    "showtimeGroups": 40,
+    "showtimes": 88
   },
   "cinemas": [
     {
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
       "id": "coyote-vs-acme",
       "title": "Coyote VS Acme",
       "genre": "",
@@ -65,6 +54,17 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
       }
     },
     {
@@ -101,17 +101,6 @@
       }
     },
     {
-      "id": "im-game-malayalam",
-      "title": "IM Game (Malayalam)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 180,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005231/im-game-malayalam"
-      }
-    },
-    {
       "id": "el-gawahergy-arabic",
       "title": "El Gawahergy (Arabic)",
       "genre": "",
@@ -123,25 +112,14 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
+      "id": "im-game-malayalam",
+      "title": "IM Game (Malayalam)",
       "genre": "",
-      "rating": "G",
+      "rating": "PG15",
       "language": "",
-      "runtime": 90,
+      "runtime": 180,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005231/im-game-malayalam"
       }
     },
     {
@@ -156,6 +134,28 @@
       }
     },
     {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
       "id": "by-any-means",
       "title": "By Any Means",
       "genre": "",
@@ -164,17 +164,6 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005602/by-any-means"
-      }
-    },
-    {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
       }
     },
     {
@@ -189,17 +178,6 @@
       }
     },
     {
-      "id": "colony-korean",
-      "title": "Colony (Korean)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 125,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
-      }
-    },
-    {
       "id": "batman-begins-2005",
       "title": "Batman Begins (2005)",
       "genre": "",
@@ -208,6 +186,17 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004357/batman-begins-2005"
+      }
+    },
+    {
+      "id": "bethlehem-kudumba-unit-malayalam",
+      "title": "Bethlehem Kudumba Unit (Malayalam)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
       }
     },
     {
@@ -231,6 +220,17 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005331/the-dog-stars"
       }
+    },
+    {
+      "id": "colony-korean",
+      "title": "Colony (Korean)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 125,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
+      }
     }
   ],
   "showtimes": [
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "16:45",
-        "17:45",
-        "18:45",
-        "20:15",
         "21:30",
         "00:00",
         "01:00"
@@ -253,10 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:15",
-        "19:15",
-        "20:30",
         "21:30",
         "22:45",
         "23:45",
@@ -269,8 +261,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:00",
-        "20:10",
         "22:20",
         "01:00"
       ]
@@ -284,12 +274,19 @@
       ]
     },
     {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:10",
+        "23:00"
+      ]
+    },
+    {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:15",
-        "19:15",
         "22:00",
         "00:35"
       ]
@@ -299,8 +296,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:50",
-        "19:45",
         "22:40",
         "01:35"
       ]
@@ -310,7 +305,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:55",
         "00:30"
       ]
     },
@@ -319,39 +313,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "16:50",
-        "18:25",
         "22:00"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "17:30",
-        "19:15",
-        "19:50",
-        "22:10",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "16:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:05",
-        "19:40"
       ]
     },
     {
@@ -368,8 +330,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:45",
-        "20:30",
         "23:45",
         "00:30"
       ]
@@ -379,7 +339,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
         "22:00",
         "00:00"
       ]
@@ -389,7 +348,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:15",
         "23:15"
       ]
     },
@@ -398,8 +356,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "20:15",
-        "20:45",
         "00:15"
       ]
     },
@@ -408,9 +364,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:15",
-        "18:45",
-        "20:20",
         "21:15"
       ]
     },
@@ -427,8 +380,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:20",
-        "19:25",
         "21:30",
         "23:35",
         "01:40"
@@ -437,19 +388,20 @@
     {
       "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "format": "Premium",
       "times": [
-        "17:15",
-        "21:00"
+        "00:15"
       ]
     },
     {
-      "movieId": "the-odyssey",
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Standard",
       "times": [
-        "20:30",
-        "00:15"
+        "21:20",
+        "23:40",
+        "00:15",
+        "01:00"
       ]
     },
     {
@@ -457,8 +409,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:30",
-        "21:00",
         "00:30"
       ]
     },
@@ -467,64 +417,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "18:00",
-        "20:30",
         "21:30",
         "00:00"
-      ]
-    },
-    {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:40",
-        "21:20",
-        "23:40",
-        "00:15",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:30",
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:00"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:45"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "21:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:30"
       ]
     },
     {
@@ -548,11 +442,71 @@
       ]
     },
     {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "14:50",
+        "21:00"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:35",
+        "12:30",
+        "16:50"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "12:30",
+        "14:30",
+        "16:30",
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "10:40",
+        "19:00"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:10",
+        "10:50",
+        "12:05",
+        "12:35",
+        "14:35",
+        "16:35"
+      ]
+    },
+    {
       "movieId": "by-any-means",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "18:25",
         "23:30"
       ]
     },
@@ -565,45 +519,21 @@
       ]
     },
     {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "movieId": "insidious-out-of-the-further",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Dolby Cinema",
       "times": [
-        "17:30",
-        "20:45"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "19:30",
-        "22:45"
+        "16:00",
+        "18:15"
       ]
     },
     {
       "movieId": "insidious-out-of-the-further",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "18:15"
-      ]
-    },
-    {
-      "movieId": "colony-korean",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "18:00"
-      ]
-    },
-    {
-      "movieId": "colony-korean",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:25"
+        "10:45",
+        "13:05"
       ]
     },
     {
@@ -625,6 +555,14 @@
       ]
     },
     {
+      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "22:45"
+      ]
+    },
+    {
       "movieId": "it-ends",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -641,6 +579,27 @@
         "00:00",
         "00:30",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "colony-korean",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:15",
+        "13:15",
+        "18:00",
+        "00:15",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "colony-korean",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:25",
+        "01:00"
       ]
     }
   ]
