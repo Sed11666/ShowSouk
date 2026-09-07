@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-07T07:54:46.486Z",
+  "generatedAt": "2026-09-07T14:46:33.933Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 47,
-    "showtimes": 162
+    "showtimeGroups": 50,
+    "showtimes": 157
   },
   "cinemas": [
     {
@@ -46,25 +46,14 @@
       }
     },
     {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
+      "id": "the-uprising",
+      "title": "The Uprising",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG15",
       "language": "",
-      "runtime": 105,
+      "runtime": 130,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
-      }
-    },
-    {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
       }
     },
     {
@@ -79,14 +68,58 @@
       }
     },
     {
-      "id": "mutiny",
-      "title": "Mutiny",
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "practical-magic-2",
+      "title": "Practical Magic 2",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 95,
+      "runtime": 130,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005687/practical-magic-2"
+      }
+    },
+    {
+      "id": "cats-in-the-museum-treasures-of-egypt",
+      "title": "Cats In The Museum: Treasures Of Egypt",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005646/cats-in-the-museum-treasures-of-egypt"
+      }
+    },
+    {
+      "id": "hanuman-ansh-hindi",
+      "title": "Hanuman Ansh (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
       }
     },
     {
@@ -101,25 +134,58 @@
       }
     },
     {
-      "id": "interstellar-2014",
-      "title": "Interstellar (2014)",
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
       "genre": "",
-      "rating": "PG13",
+      "rating": "G",
       "language": "",
-      "runtime": 170,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
-      "id": "im-game-malayalam",
-      "title": "IM Game (Malayalam)",
+      "id": "mutiny",
+      "title": "Mutiny",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 180,
+      "runtime": 95,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005231/im-game-malayalam"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
+      }
+    },
+    {
+      "id": "the-bay",
+      "title": "The Bay",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005707/the-bay"
+      }
+    },
+    {
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+      }
+    },
+    {
+      "id": "spider-island",
+      "title": "Spider Island",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005699/spider-island"
       }
     },
     {
@@ -134,25 +200,14 @@
       }
     },
     {
-      "id": "by-any-means",
-      "title": "By Any Means",
+      "id": "im-game-malayalam",
+      "title": "IM Game (Malayalam)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 110,
+      "runtime": 180,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005602/by-any-means"
-      }
-    },
-    {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005231/im-game-malayalam"
       }
     },
     {
@@ -167,69 +222,14 @@
       }
     },
     {
-      "id": "batman-begins-2005",
-      "title": "Batman Begins (2005)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004357/batman-begins-2005"
-      }
-    },
-    {
-      "id": "it-ends",
-      "title": "It Ends",
+      "id": "haiwaan-hindi",
+      "title": "Haiwaan (Hindi)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 90,
+      "runtime": 175,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005661/it-ends"
-      }
-    },
-    {
-      "id": "bethlehem-kudumba-unit-malayalam",
-      "title": "Bethlehem Kudumba Unit (Malayalam)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005478/bethlehem-kudumba-unit-malayalam"
-      }
-    },
-    {
-      "id": "insidious-out-of-the-further",
-      "title": "Insidious: Out Of The Further",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005319/insidious-out-of-the-further"
-      }
-    },
-    {
-      "id": "colony-korean",
-      "title": "Colony (Korean)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 125,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005631/colony-korean"
-      }
-    },
-    {
-      "id": "the-dark-knight-2008",
-      "title": "The Dark Knight (2008)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 155,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00003012/the-dark-knight-2008"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005697/haiwaan-hindi"
       }
     }
   ],
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:15",
-        "16:45",
-        "17:45",
         "18:45",
         "20:15",
         "21:30",
@@ -254,12 +251,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
-        "13:45",
-        "14:45",
-        "16:00",
-        "17:00",
-        "18:15",
         "19:15",
         "20:30",
         "21:30",
@@ -274,9 +265,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:40",
-        "15:50",
-        "18:00",
         "20:10",
         "22:20"
       ]
@@ -290,100 +278,48 @@
       ]
     },
     {
-      "movieId": "coyote-vs-acme",
+      "movieId": "the-uprising",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Premium",
       "times": [
-        "12:30",
-        "13:30",
-        "14:45",
-        "15:45",
-        "17:00",
-        "18:00",
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "12:30",
-        "14:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "12:40",
-        "17:05"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:35",
-        "14:50",
-        "15:50",
-        "18:25",
-        "19:10",
-        "22:35"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:00",
-        "18:15",
-        "19:15",
+        "19:00",
         "22:00",
-        "00:35"
+        "01:00"
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "the-uprising",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Standard",
       "times": [
-        "13:00"
+        "10:15",
+        "11:15",
+        "13:00",
+        "14:00",
+        "20:40",
+        "23:20",
+        "02:00"
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "13:55",
-        "16:50",
-        "19:45",
-        "22:40",
-        "01:35"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "the-uprising",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:25",
-        "17:00",
-        "19:45"
+        "13:30",
+        "16:05",
+        "18:40",
+        "21:15",
+        "23:50"
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "the-uprising",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:00",
-        "17:30",
-        "21:30"
+        "18:20",
+        "22:30"
       ]
     },
     {
@@ -391,8 +327,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:00",
-        "14:30",
         "23:30"
       ]
     },
@@ -401,8 +335,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:45",
-        "15:45",
         "19:45",
         "20:30",
         "23:45",
@@ -414,7 +346,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:15",
         "19:15"
       ]
     },
@@ -423,8 +354,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:15",
-        "16:15",
         "20:15",
         "22:30"
       ]
@@ -434,33 +363,209 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:25",
-        "16:50",
         "18:35",
         "20:25",
         "20:50"
       ]
     },
     {
-      "movieId": "mutiny",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "mutiny",
+      "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:10",
-        "15:15",
-        "17:20",
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:10",
+        "22:35"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "13:30",
+        "16:00",
+        "18:15",
+        "19:45",
+        "23:15"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "23:00",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:15",
+        "13:00",
+        "15:45",
+        "20:45",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:40",
+        "14:05",
         "19:25",
+        "00:05"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:25",
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "cats-in-the-museum-treasures-of-egypt",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "12:45",
+        "14:40",
+        "16:40",
+        "18:40",
+        "19:45"
+      ]
+    },
+    {
+      "movieId": "cats-in-the-museum-treasures-of-egypt",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "11:30",
+        "13:15",
+        "15:10",
+        "17:10"
+      ]
+    },
+    {
+      "movieId": "cats-in-the-museum-treasures-of-egypt",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "11:15",
+        "13:15",
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "cats-in-the-museum-treasures-of-egypt",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:25",
+        "12:15",
+        "14:10",
+        "14:50",
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "17:15",
+        "18:45",
+        "23:45",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:10",
+        "11:30",
+        "14:45",
+        "16:00",
+        "18:00",
+        "19:15",
+        "21:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:00",
+        "19:30",
         "21:30",
-        "23:35",
-        "01:40"
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:40",
+        "21:50"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:15",
+        "22:00",
+        "00:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "19:45",
+        "22:40",
+        "01:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "19:45"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:30"
       ]
     },
     {
@@ -468,9 +573,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
-        "14:00",
-        "17:15",
         "21:00"
       ]
     },
@@ -483,47 +585,101 @@
       ]
     },
     {
-      "movieId": "interstellar-2014",
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "19:25"
+      ]
+    },
+    {
+      "movieId": "mutiny",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "mutiny",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:25",
+        "21:30",
+        "23:35",
+        "01:40"
+      ]
+    },
+    {
+      "movieId": "the-bay",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "22:45",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "the-bay",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:45"
+        "18:00",
+        "20:00"
       ]
     },
     {
-      "movieId": "interstellar-2014",
+      "movieId": "the-bay",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "14:20",
-        "17:40",
-        "21:00",
-        "00:20"
+        "10:00",
+        "14:05",
+        "18:10",
+        "22:15",
+        "02:20"
       ]
     },
     {
-      "movieId": "im-game-malayalam",
+      "movieId": "red-flag-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:00",
-        "17:30",
-        "21:00",
-        "00:30"
+        "16:45",
+        "18:55",
+        "21:10",
+        "22:30",
+        "23:20",
+        "01:30"
       ]
     },
     {
-      "movieId": "im-game-malayalam",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "spider-island",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "18:30",
+        "01:45"
+      ]
+    },
+    {
+      "movieId": "spider-island",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "15:30",
-        "17:00",
-        "19:00",
-        "20:30",
-        "22:30"
+        "12:00",
+        "16:05",
+        "20:10",
+        "00:15"
       ]
     },
     {
@@ -538,60 +694,21 @@
       ]
     },
     {
-      "movieId": "by-any-means",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "15:00",
-        "18:25",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "by-any-means",
+      "movieId": "im-game-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:40"
+        "21:00",
+        "00:30"
       ]
     },
     {
-      "movieId": "by-any-means",
+      "movieId": "im-game-malayalam",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:15"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:30",
-        "14:30",
-        "16:30",
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:25"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "12:25",
-        "14:35",
-        "16:35"
+        "19:00",
+        "20:30"
       ]
     },
     {
@@ -599,130 +716,29 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "15:00",
         "21:30"
       ]
     },
     {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:45",
-        "17:10"
-      ]
-    },
-    {
-      "movieId": "batman-begins-2005",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:00",
-        "01:15"
-      ]
-    },
-    {
-      "movieId": "batman-begins-2005",
+      "movieId": "haiwaan-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "19:25"
+        "12:30",
+        "13:45",
+        "17:15",
+        "00:00",
+        "00:40"
       ]
     },
     {
-      "movieId": "it-ends",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "it-ends",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "19:00",
-        "21:00",
-        "23:00",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:15",
-        "17:30",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "bethlehem-kudumba-unit-malayalam",
+      "movieId": "haiwaan-hindi",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "16:15",
-        "19:30",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "16:00",
-        "18:15"
-      ]
-    },
-    {
-      "movieId": "insidious-out-of-the-further",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:05"
-      ]
-    },
-    {
-      "movieId": "colony-korean",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:15",
-        "13:15",
-        "18:00",
-        "00:15",
-        "01:15"
-      ]
-    },
-    {
-      "movieId": "colony-korean",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:25",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "the-dark-knight-2008",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "15:00"
-      ]
-    },
-    {
-      "movieId": "the-dark-knight-2008",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "13:05",
-        "22:15"
+        "14:00",
+        "20:30",
+        "23:50"
       ]
     }
   ]
