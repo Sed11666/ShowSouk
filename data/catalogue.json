@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-08T18:18:00.493Z",
+  "generatedAt": "2026-09-08T23:10:59.338Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 148
+    "showtimeGroups": 55,
+    "showtimes": 241
   },
   "cinemas": [
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "mutiny",
-      "title": "Mutiny",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
-      }
-    },
-    {
       "id": "red-flag-arabic",
       "title": "Red Flag (Arabic)",
       "genre": "",
@@ -153,6 +142,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+      }
+    },
+    {
+      "id": "mutiny",
+      "title": "Mutiny",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005299/mutiny"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "the-bay",
       "title": "The Bay",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005707/the-bay"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -239,6 +239,14 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:30",
+        "11:30",
+        "15:15",
+        "16:45",
+        "17:45",
+        "18:45",
+        "20:15",
+        "21:30",
         "23:00",
         "00:00"
       ]
@@ -248,6 +256,17 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "11:30",
+        "12:30",
+        "13:45",
+        "14:45",
+        "16:00",
+        "17:00",
+        "18:15",
+        "19:15",
+        "20:30",
+        "21:30",
         "22:45",
         "23:45",
         "01:00",
@@ -259,7 +278,22 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "23:15"
+        "11:30",
+        "13:40",
+        "15:50",
+        "18:00",
+        "20:10",
+        "22:20",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:40",
+        "22:50"
       ]
     },
     {
@@ -303,8 +337,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:20",
-        "22:30"
+        "18:15",
+        "21:20"
       ]
     },
     {
@@ -357,8 +391,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:25",
-        "22:00"
+        "19:50",
+        "22:25"
       ]
     },
     {
@@ -391,9 +425,9 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:15",
-        "13:15",
-        "19:15"
+        "11:25",
+        "13:25",
+        "19:25"
       ]
     },
     {
@@ -401,10 +435,46 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:25",
-        "12:15",
-        "14:10",
-        "14:50",
+        "10:50",
+        "12:10",
+        "14:05",
+        "14:40",
+        "16:35"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:15",
+        "12:30",
+        "13:30",
+        "14:45",
+        "15:45",
+        "17:00",
+        "18:00",
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "11:10",
+        "12:30",
+        "14:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "12:35",
         "16:45"
       ]
     },
@@ -413,6 +483,11 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:25",
+        "11:20",
+        "15:50",
+        "18:05",
+        "19:20",
         "22:35"
       ]
     },
@@ -421,6 +496,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:00",
+        "13:00",
+        "14:30",
         "22:00",
         "23:30"
       ]
@@ -430,8 +508,19 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:45",
+        "20:30",
+        "21:30",
         "00:30"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:15",
+        "15:15",
+        "19:15"
       ]
     },
     {
@@ -439,7 +528,23 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:45"
+        "12:15",
+        "16:15",
+        "19:05",
+        "20:15",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:50",
+        "16:50",
+        "18:35",
+        "20:25",
+        "20:50"
       ]
     },
     {
@@ -484,8 +589,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:40",
-        "21:50"
+        "18:30",
+        "21:40"
       ]
     },
     {
@@ -512,7 +617,20 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "11:00",
+        "16:00",
+        "18:15",
+        "19:15",
         "00:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:00",
+        "13:00"
       ]
     },
     {
@@ -520,8 +638,46 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
+        "11:00",
+        "13:55",
+        "16:50",
+        "19:45",
         "22:40",
         "01:35"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:25",
+        "17:00",
+        "19:45"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "13:25",
+        "16:20",
+        "17:30",
+        "21:45"
+      ]
+    },
+    {
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:45",
+        "18:55",
+        "21:10",
+        "22:30",
+        "23:20",
+        "01:30"
       ]
     },
     {
@@ -537,21 +693,14 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "13:10",
+        "15:15",
+        "17:20",
+        "19:25",
+        "21:30",
         "23:35",
         "01:40"
-      ]
-    },
-    {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "18:55",
-        "21:10",
-        "22:30",
-        "23:20",
-        "01:30"
       ]
     },
     {
@@ -621,15 +770,6 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "23:10",
-        "00:15"
-      ]
-    },
-    {
       "movieId": "the-bay",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -660,11 +800,33 @@
       ]
     },
     {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:40",
+        "20:50",
+        "23:10",
+        "00:15"
+      ]
+    },
+    {
       "movieId": "by-any-means",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "18:25",
         "23:30"
+      ]
+    },
+    {
+      "movieId": "by-any-means",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "13:15",
+        "15:40"
       ]
     },
     {
@@ -672,7 +834,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:30"
+        "11:00",
+        "13:15"
       ]
     },
     {
