@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:57:02.693Z",
+  "generatedAt": "2026-09-11T02:51:49.331Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -90,14 +90,14 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
+      "id": "hanuman-ansh-hindi",
+      "title": "Hanuman Ansh (Hindi)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 100,
+      "runtime": 165,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
       }
     },
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "hanuman-ansh-hindi",
-      "title": "Hanuman Ansh (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
-      }
-    },
-    {
       "id": "resident-evil",
       "title": "Resident Evil",
       "genre": "",
@@ -131,6 +120,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
+      }
+    },
+    {
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -457,45 +457,6 @@
       ]
     },
     {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "18:55",
-        "21:10",
-        "22:30",
-        "23:20",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "12:30",
-        "14:45",
-        "17:00",
-        "19:15",
-        "20:30",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "12:20",
-        "14:30",
-        "16:05",
-        "17:30"
-      ]
-    },
-    {
       "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -547,6 +508,32 @@
       ]
     },
     {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "20:30",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "12:20",
+        "14:30",
+        "16:05",
+        "17:30"
+      ]
+    },
+    {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
@@ -558,6 +545,19 @@
         "19:30",
         "21:30",
         "23:30",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:45",
+        "18:55",
+        "21:10",
+        "22:30",
+        "23:20",
         "01:30"
       ]
     },
@@ -710,15 +710,6 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:40",
-        "23:00"
-      ]
-    },
-    {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -747,6 +738,15 @@
         "11:40",
         "12:50",
         "13:45"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:40",
+        "23:00"
       ]
     },
     {
