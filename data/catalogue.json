@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-12T02:59:42.913Z",
+  "generatedAt": "2026-09-12T07:49:43.871Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 48,
-    "showtimes": 199
+    "showtimeGroups": 49,
+    "showtimes": 183
   },
   "cinemas": [
     {
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "practical-magic-2",
-      "title": "Practical Magic 2",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005687/practical-magic-2"
-      }
-    },
-    {
       "id": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint",
       "genre": "",
@@ -65,6 +54,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005479/fall-2-deadpoint"
+      }
+    },
+    {
+      "id": "practical-magic-2",
+      "title": "Practical Magic 2",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005687/practical-magic-2"
       }
     },
     {
@@ -178,14 +178,14 @@
       }
     },
     {
-      "id": "the-bay",
-      "title": "The Bay",
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 90,
+      "runtime": 110,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005707/the-bay"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -200,14 +200,14 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
+      "id": "haiwaan-hindi",
+      "title": "Haiwaan (Hindi)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 110,
+      "runtime": 175,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005697/haiwaan-hindi"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "haiwaan-hindi",
-      "title": "Haiwaan (Hindi)",
+      "id": "the-bay",
+      "title": "The Bay",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 175,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005697/haiwaan-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005707/the-bay"
       }
     }
   ],
@@ -243,7 +243,9 @@
         "13:00",
         "15:15",
         "16:00",
+        "18:00",
         "19:00",
+        "20:00",
         "22:00",
         "01:00"
       ]
@@ -253,8 +255,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "11:15",
         "13:00",
         "14:00",
         "20:40",
@@ -280,11 +280,46 @@
       ]
     },
     {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:30",
+        "15:15",
+        "16:45",
+        "17:45",
+        "20:15",
+        "21:30",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "21:30",
+        "22:30",
+        "00:40"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:45"
+      ]
+    },
+    {
       "movieId": "practical-magic-2",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "13:30",
         "16:00",
         "18:15",
@@ -297,7 +332,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
+        "13:20",
         "23:00",
         "00:15"
       ]
@@ -307,7 +342,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:15",
         "13:00",
         "15:45",
         "20:45",
@@ -329,45 +363,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:25",
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "fall-2-deadpoint",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "11:30",
-        "15:15",
-        "16:45",
-        "17:45",
-        "20:15",
-        "21:30",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "fall-2-deadpoint",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "12:30",
-        "14:45",
-        "17:00",
-        "19:15",
-        "21:30",
-        "22:30",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "fall-2-deadpoint",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:45"
+        "19:25"
       ]
     },
     {
@@ -423,7 +419,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "12:45",
         "14:40",
         "16:40",
@@ -436,7 +431,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:25",
         "15:45"
       ]
     },
@@ -445,7 +439,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "17:15",
         "18:45",
         "22:45",
@@ -466,7 +459,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "11:30",
         "14:45",
         "16:00",
@@ -483,7 +475,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:20",
         "14:25",
         "15:30",
@@ -499,10 +490,10 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30",
         "15:05",
         "18:40",
-        "21:50"
+        "21:50",
+        "22:00"
       ]
     },
     {
@@ -523,11 +514,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "12:30",
         "14:45",
         "17:00",
-        "19:15",
         "20:30",
         "22:45"
       ]
@@ -567,6 +556,17 @@
     },
     {
       "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "12:20",
+        "16:20",
+        "20:20",
+        "00:20"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
@@ -581,7 +581,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "15:00",
         "23:05"
       ]
@@ -621,7 +620,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "19:15"
       ]
     },
@@ -661,29 +659,17 @@
         "18:30",
         "20:35",
         "22:40",
-        "00:00",
         "01:20"
       ]
     },
     {
-      "movieId": "the-bay",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "17:30",
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "the-bay",
+      "movieId": "el-gawahergy-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "14:05",
-        "18:10",
-        "22:15",
-        "02:20"
+        "20:40",
+        "23:00",
+        "00:00"
       ]
     },
     {
@@ -691,7 +677,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "12:30",
         "14:30",
         "16:30"
@@ -713,18 +698,30 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:45",
         "12:50"
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
+      "movieId": "haiwaan-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:40",
-        "23:00",
-        "00:00"
+        "12:30",
+        "13:45",
+        "17:15",
+        "19:15",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "haiwaan-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "14:00",
+        "20:30",
+        "23:50",
+        "00:30"
       ]
     },
     {
@@ -748,25 +745,19 @@
       ]
     },
     {
-      "movieId": "haiwaan-hindi",
+      "movieId": "the-bay",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Premium",
       "times": [
-        "12:30",
-        "13:45",
-        "17:15",
-        "22:15"
+        "17:30"
       ]
     },
     {
-      "movieId": "haiwaan-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "the-bay",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:00",
-        "20:30",
-        "23:50",
-        "00:30"
+        "01:10"
       ]
     }
   ]
