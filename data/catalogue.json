@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-11T22:58:42.798Z",
+  "generatedAt": "2026-09-12T02:59:42.913Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 48,
-    "showtimes": 201
+    "showtimes": 199
   },
   "cinemas": [
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "el-gawahergy-arabic",
-      "title": "El Gawahergy (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 110,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
-      }
-    },
-    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "el-gawahergy-arabic",
+      "title": "El Gawahergy (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005655/el-gawahergy-arabic"
       }
     },
     {
@@ -321,8 +321,7 @@
       "times": [
         "11:45",
         "14:30",
-        "18:05",
-        "00:30"
+        "18:05"
       ]
     },
     {
@@ -368,8 +367,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:45",
-        "22:25"
+        "18:45"
       ]
     },
     {
@@ -689,16 +687,6 @@
       ]
     },
     {
-      "movieId": "el-gawahergy-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:40",
-        "23:00",
-        "00:00"
-      ]
-    },
-    {
       "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -727,6 +715,16 @@
       "times": [
         "10:45",
         "12:50"
+      ]
+    },
+    {
+      "movieId": "el-gawahergy-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:40",
+        "23:00",
+        "00:00"
       ]
     },
     {
