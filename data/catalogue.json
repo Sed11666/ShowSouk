@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-13T17:56:00.085Z",
+  "generatedAt": "2026-09-13T20:16:43.331Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 106
+    "showtimeGroups": 41,
+    "showtimes": 116
   },
   "cinemas": [
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "hanuman-ansh-hindi",
-      "title": "Hanuman Ansh (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
-      }
-    },
-    {
       "id": "coyote-vs-acme",
       "title": "Coyote VS Acme",
       "genre": "",
@@ -131,6 +120,17 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "hanuman-ansh-hindi",
+      "title": "Hanuman Ansh (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "haiwaan-hindi",
-      "title": "Haiwaan (Hindi)",
+      "id": "batman-begins-2005",
+      "title": "Batman Begins (2005)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 175,
+      "runtime": 140,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005697/haiwaan-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00004357/batman-begins-2005"
       }
     }
   ],
@@ -287,7 +287,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:00",
         "01:00"
       ]
     },
@@ -296,7 +295,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:20",
         "02:00"
       ]
     },
@@ -309,14 +307,6 @@
       ]
     },
     {
-      "movieId": "the-uprising",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:30"
-      ]
-    },
-    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -329,8 +319,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:30",
-        "23:45",
         "00:45",
         "02:00"
       ]
@@ -340,16 +328,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "22:25",
         "00:55"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:15"
       ]
     },
     {
@@ -357,16 +336,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "23:00",
         "00:15"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:30"
       ]
     },
     {
@@ -375,14 +345,6 @@
       "format": "Standard",
       "times": [
         "00:30"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:00"
       ]
     },
     {
@@ -404,8 +366,8 @@
       "format": "Standard",
       "times": [
         "10:30",
-        "12:30",
-        "14:30",
+        "11:45",
+        "13:50",
         "16:10"
       ]
     },
@@ -415,7 +377,7 @@
       "format": "Junior",
       "times": [
         "11:15",
-        "13:45",
+        "13:35",
         "19:50"
       ]
     },
@@ -435,9 +397,33 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:30",
-        "23:20",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "20:30",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "12:20",
+        "14:30",
+        "15:15",
+        "16:50"
       ]
     },
     {
@@ -445,8 +431,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "22:45",
-        "23:45",
         "00:45"
       ]
     },
@@ -459,34 +443,13 @@
       ]
     },
     {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "21:50"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:45"
-      ]
-    },
-    {
       "movieId": "mirzapur-the-movie-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:00",
+        "13:00",
+        "14:30",
         "22:15"
       ]
     },
@@ -495,15 +458,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "11:45",
+        "15:45",
+        "19:45",
         "23:45"
-      ]
-    },
-    {
-      "movieId": "mirzapur-the-movie-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:15"
       ]
     },
     {
@@ -511,7 +469,39 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "23:45"
+        "15:15",
+        "19:20"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "12:30",
+        "15:00",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "mirzapur-the-movie-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "15:45",
+        "19:45",
+        "20:30"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "12:00",
+        "14:00",
+        "21:00"
       ]
     },
     {
@@ -519,6 +509,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "13:45",
         "22:20"
       ]
     },
@@ -548,14 +539,6 @@
       "format": "Standard",
       "times": [
         "01:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:00"
       ]
     },
     {
@@ -593,7 +576,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:40",
         "00:00",
         "01:20"
       ]
@@ -603,7 +585,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:00",
         "00:00"
       ]
     },
@@ -639,20 +620,21 @@
       ]
     },
     {
-      "movieId": "haiwaan-hindi",
+      "movieId": "batman-begins-2005",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Premium",
       "times": [
-        "22:15",
-        "01:40"
+        "12:00",
+        "01:15"
       ]
     },
     {
-      "movieId": "haiwaan-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "batman-begins-2005",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:50"
+        "10:15",
+        "19:25"
       ]
     }
   ]
