@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-14T21:26:10.795Z",
+  "generatedAt": "2026-09-15T03:15:44.965Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 53,
-    "showtimes": 205
+    "showtimeGroups": 58,
+    "showtimes": 247
   },
   "cinemas": [
     {
@@ -347,9 +347,51 @@
     {
       "movieId": "the-uprising",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:00",
+        "13:00",
+        "15:15",
+        "16:00",
+        "19:00",
+        "22:00",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "11:15",
+        "13:00",
+        "14:00",
+        "17:00",
+        "19:45",
+        "22:30",
         "01:15"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "13:35",
+        "19:50",
+        "21:55",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "17:40",
+        "21:35"
       ]
     },
     {
@@ -446,9 +488,39 @@
     {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:30",
+        "15:15",
+        "16:45",
+        "17:45",
+        "20:15",
+        "21:30",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "21:30",
+        "23:45",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "22:25",
+        "00:30"
       ]
     },
     {
@@ -608,6 +680,11 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "16:45",
+        "18:55",
+        "21:10",
+        "22:30",
+        "23:20",
         "01:30"
       ]
     },
