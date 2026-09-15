@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-15T03:15:44.965Z",
+  "generatedAt": "2026-09-15T11:01:08.672Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 58,
-    "showtimes": 247
+    "showtimeGroups": 59,
+    "showtimes": 212
   },
   "cinemas": [
     {
@@ -38,7 +38,7 @@
       "id": "resident-evil",
       "title": "Resident Evil",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
       "runtime": 90,
       "links": {
@@ -46,14 +46,14 @@
       }
     },
     {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
+      "id": "heart-of-the-beast",
+      "title": "Heart of the Beast",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
       "runtime": 105,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005533/heart-of-the-beast"
       }
     },
     {
@@ -68,10 +68,21 @@
       }
     },
     {
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
       "id": "the-uprising",
       "title": "The Uprising",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
       "runtime": 130,
       "links": {
@@ -112,6 +123,17 @@
       }
     },
     {
+      "id": "daayra-hindi",
+      "title": "Daayra (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005698/daayra-hindi"
+      }
+    },
+    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -120,17 +142,6 @@
       "runtime": 190,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
-      }
-    },
-    {
-      "id": "daayra-hindi",
-      "title": "Daayra (Hindi)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005698/daayra-hindi"
       }
     },
     {
@@ -145,17 +156,6 @@
       }
     },
     {
-      "id": "the-odyssey",
-      "title": "The Odyssey",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 175,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
-      }
-    },
-    {
       "id": "pressure",
       "title": "Pressure",
       "genre": "",
@@ -164,6 +164,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005328/pressure"
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
       }
     },
     {
@@ -178,17 +189,6 @@
       }
     },
     {
-      "id": "practical-magic-2",
-      "title": "Practical Magic 2",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005687/practical-magic-2"
-      }
-    },
-    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -200,10 +200,21 @@
       }
     },
     {
+      "id": "practical-magic-2",
+      "title": "Practical Magic 2",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005687/practical-magic-2"
+      }
+    },
+    {
       "id": "mirzapur-the-movie-hindi",
       "title": "Mirzapur: The Movie (Hindi)",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
       "runtime": 210,
       "links": {
@@ -219,17 +230,6 @@
       "runtime": 170,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
-      }
-    },
-    {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     }
   ],
@@ -312,11 +312,61 @@
       ]
     },
     {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "12:30",
+        "15:00",
+        "17:30",
+        "20:00",
+        "22:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "21:30",
+        "23:45",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "13:15",
+        "15:30",
+        "17:45",
+        "20:00",
+        "22:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day-dawn-screening",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "20:00"
+      ]
+    },
+    {
       "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
         "14:45",
         "17:00",
         "19:15",
@@ -329,19 +379,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:35",
-        "12:20",
-        "14:30",
         "15:20",
         "16:35"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day-dawn-screening",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "20:00"
       ]
     },
     {
@@ -349,8 +388,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
-        "13:00",
         "15:15",
         "16:00",
         "19:00",
@@ -363,10 +400,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "11:15",
-        "13:00",
-        "14:00",
         "17:00",
         "19:45",
         "22:30",
@@ -378,8 +411,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:35",
         "19:50",
         "21:55",
         "00:15"
@@ -410,8 +441,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "13:45",
         "14:45",
         "18:00",
         "21:15",
@@ -423,7 +452,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "15:45",
         "18:45",
         "19:00",
@@ -436,7 +464,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30",
         "18:05",
         "21:15"
       ]
@@ -490,7 +517,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
         "15:15",
         "16:45",
         "17:45",
@@ -504,8 +530,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "19:15",
@@ -521,39 +545,6 @@
       "times": [
         "22:25",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "11:45",
-        "15:25",
-        "19:05",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "12:30",
-        "16:15",
-        "20:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "12:10",
-        "15:50",
-        "19:30",
-        "23:10"
       ]
     },
     {
@@ -602,13 +593,52 @@
       ]
     },
     {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:30",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:45",
+        "15:25",
+        "19:05",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "12:30",
+        "16:15",
+        "20:00",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:10",
+        "15:50",
+        "19:30",
+        "23:10"
+      ]
+    },
+    {
       "movieId": "cats-in-the-museum-treasures-of-egypt",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "12:45",
-        "14:40",
         "16:40",
         "18:40",
         "19:45"
@@ -619,9 +649,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "12:30",
-        "14:30",
         "16:10"
       ]
     },
@@ -630,8 +657,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:35",
-        "13:40",
         "19:50"
       ]
     },
@@ -640,29 +665,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:20",
-        "11:15",
-        "13:15",
         "16:10"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "12:00",
-        "14:00",
-        "21:00"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:45",
-        "22:20"
       ]
     },
     {
@@ -673,6 +676,22 @@
         "21:25",
         "23:35",
         "01:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:20"
       ]
     },
     {
@@ -689,66 +708,10 @@
       ]
     },
     {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "10:30",
-        "13:30",
-        "16:00",
-        "18:15",
-        "19:45",
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "11:00",
-        "23:00",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "10:15",
-        "13:00",
-        "15:45",
-        "20:45",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:45",
-        "14:30",
-        "18:05",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "practical-magic-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "19:25",
-        "22:00"
-      ]
-    },
-    {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "19:15"
       ]
     },
@@ -757,7 +720,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:00"
       ]
     },
@@ -766,7 +728,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:45",
         "23:45"
       ]
     },
@@ -788,13 +749,58 @@
       ]
     },
     {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:00",
+        "18:15",
+        "19:45",
+        "23:15"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "23:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "15:45",
+        "20:45",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:05",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "practical-magic-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:25",
+        "22:00"
+      ]
+    },
+    {
       "movieId": "mirzapur-the-movie-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "13:00",
-        "14:30",
         "22:15"
       ]
     },
@@ -803,7 +809,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:45",
         "15:45",
         "19:45",
         "23:45"
@@ -849,42 +854,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "14:20",
         "17:40",
         "21:00",
         "00:20"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "12:30",
-        "14:30",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "15:40",
-        "17:45",
-        "21:55"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:10",
-        "12:15",
-        "13:45"
       ]
     }
   ]
