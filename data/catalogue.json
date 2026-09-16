@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T23:24:22.686Z",
+  "generatedAt": "2026-09-16T03:11:51.332Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -90,17 +90,6 @@
       }
     },
     {
-      "id": "the-uprising",
-      "title": "The Uprising",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
-      }
-    },
-    {
       "id": "hanuman-ansh-hindi",
       "title": "Hanuman Ansh (Hindi)",
       "genre": "",
@@ -109,6 +98,17 @@
       "runtime": 165,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
+      }
+    },
+    {
+      "id": "the-uprising",
+      "title": "The Uprising",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
-      }
-    },
-    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
       }
     },
     {
@@ -432,6 +432,51 @@
       ]
     },
     {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "17:15",
+        "18:45",
+        "23:45",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "11:30",
+        "13:45",
+        "14:45",
+        "18:00",
+        "21:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:45",
+        "19:00",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "18:10",
+        "21:20"
+      ]
+    },
+    {
       "movieId": "the-uprising",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -478,51 +523,6 @@
       "times": [
         "17:45",
         "22:00"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "17:15",
-        "18:45",
-        "23:45",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "11:30",
-        "13:45",
-        "14:45",
-        "18:00",
-        "21:15",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:45",
-        "19:00",
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "18:10",
-        "21:20"
       ]
     },
     {
@@ -753,18 +753,6 @@
       ]
     },
     {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "18:55",
-        "21:10",
-        "22:30",
-        "23:20"
-      ]
-    },
-    {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -798,6 +786,18 @@
       "times": [
         "16:40",
         "19:15"
+      ]
+    },
+    {
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:45",
+        "18:55",
+        "21:10",
+        "22:30",
+        "23:20"
       ]
     },
     {
