@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T20:52:13.459Z",
+  "generatedAt": "2026-09-16T23:32:57.618Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 188
+    "showtimeGroups": 50,
+    "showtimes": 228
   },
   "cinemas": [
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "the-uprising",
-      "title": "The Uprising",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
-      }
-    },
-    {
       "id": "hanuman-ansh-hindi",
       "title": "Hanuman Ansh (Hindi)",
       "genre": "",
@@ -131,6 +120,17 @@
       "runtime": 165,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
+      }
+    },
+    {
+      "id": "the-uprising",
+      "title": "The Uprising",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
       }
     },
     {
@@ -509,27 +509,83 @@
       ]
     },
     {
-      "movieId": "the-uprising",
+      "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Platinum Suites",
       "times": [
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "the-uprising",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "01:15"
+        "10:00",
+        "17:15",
+        "18:45"
       ]
     },
     {
       "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "14:45",
+        "18:00",
+        "21:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "12:15",
+        "14:05",
+        "16:40",
+        "17:20",
+        "19:30",
+        "20:35"
+      ]
+    },
+    {
+      "movieId": "hanuman-ansh-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:00",
+        "15:10",
+        "18:20",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "13:30",
+        "19:30",
         "00:45"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:30",
+        "12:45",
+        "14:30",
+        "16:00",
+        "17:45",
+        "19:00",
+        "20:30",
+        "23:30"
       ]
     },
     {
@@ -590,9 +646,28 @@
     {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "17:45"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "10:15",
+        "11:15",
+        "12:30",
+        "13:30",
+        "14:45",
+        "15:45",
+        "17:00",
+        "18:00",
+        "19:15",
+        "21:30",
+        "23:25",
+        "01:35"
       ]
     },
     {
