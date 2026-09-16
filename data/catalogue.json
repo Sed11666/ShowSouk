@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T10:48:54.400Z",
+  "generatedAt": "2026-09-16T16:04:47.269Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 52,
-    "showtimes": 205
+    "showtimeGroups": 44,
+    "showtimes": 161
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
-      }
-    },
-    {
       "id": "tad-and-the-magic-lamp",
       "title": "Tad And The Magic Lamp",
       "genre": "",
@@ -90,14 +79,14 @@
       }
     },
     {
-      "id": "hanuman-ansh-hindi",
-      "title": "Hanuman Ansh (Hindi)",
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG",
       "language": "",
-      "runtime": 165,
+      "runtime": 105,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
       }
     },
     {
@@ -112,6 +101,17 @@
       }
     },
     {
+      "id": "the-uprising",
+      "title": "The Uprising",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
+      }
+    },
+    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -123,14 +123,14 @@
       }
     },
     {
-      "id": "the-uprising",
-      "title": "The Uprising",
+      "id": "hanuman-ansh-hindi",
+      "title": "Hanuman Ansh (Hindi)",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 130,
+      "runtime": 165,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
       }
     },
     {
@@ -145,6 +145,17 @@
       }
     },
     {
+      "id": "pressure",
+      "title": "Pressure",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005328/pressure"
+      }
+    },
+    {
       "id": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint",
       "genre": "",
@@ -156,14 +167,14 @@
       }
     },
     {
-      "id": "pressure",
-      "title": "Pressure",
+      "id": "cats-in-the-museum-treasures-of-egypt",
+      "title": "Cats In The Museum: Treasures Of Egypt",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG",
       "language": "",
-      "runtime": 100,
+      "runtime": 90,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005328/pressure"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005646/cats-in-the-museum-treasures-of-egypt"
       }
     },
     {
@@ -178,14 +189,14 @@
       }
     },
     {
-      "id": "cats-in-the-museum-treasures-of-egypt",
-      "title": "Cats In The Museum: Treasures Of Egypt",
+      "id": "interstellar-2014",
+      "title": "Interstellar (2014)",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG13",
       "language": "",
-      "runtime": 90,
+      "runtime": 170,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005646/cats-in-the-museum-treasures-of-egypt"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
       }
     },
     {
@@ -208,17 +219,6 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
-      "id": "interstellar-2014",
-      "title": "Interstellar (2014)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
       }
     },
     {
@@ -363,28 +363,6 @@
       ]
     },
     {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:45",
-        "17:00",
-        "19:15",
-        "20:30",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "15:30",
-        "17:00"
-      ]
-    },
-    {
       "movieId": "tad-and-the-magic-lamp",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -429,43 +407,12 @@
       ]
     },
     {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "17:15",
-        "18:45",
-        "23:45",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
+      "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "18:00",
-        "21:15",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "19:00",
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "hanuman-ansh-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:10",
-        "21:20"
+        "20:30",
+        "22:45"
       ]
     },
     {
@@ -492,6 +439,41 @@
         "19:05",
         "21:30",
         "23:55"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "22:00",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:45",
+        "22:30",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "19:50"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "22:00"
       ]
     },
     {
@@ -537,44 +519,37 @@
       ]
     },
     {
-      "movieId": "the-uprising",
+      "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Platinum Suites",
       "times": [
-        "15:15",
-        "16:00",
-        "19:00",
-        "22:00",
-        "01:00"
+        "23:45",
+        "00:45"
       ]
     },
     {
-      "movieId": "the-uprising",
+      "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
-        "19:45",
-        "22:30",
-        "01:15"
+        "21:15",
+        "00:30"
       ]
     },
     {
-      "movieId": "the-uprising",
+      "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "19:50",
-        "00:15"
+        "22:15"
       ]
     },
     {
-      "movieId": "the-uprising",
+      "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:45",
-        "22:00"
+        "21:20"
       ]
     },
     {
@@ -623,13 +598,20 @@
       ]
     },
     {
+      "movieId": "pressure",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "21:25",
+        "23:35",
+        "01:45"
+      ]
+    },
+    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:15",
-        "16:45",
-        "17:45",
         "20:15",
         "21:30",
         "00:15"
@@ -640,9 +622,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "17:00",
-        "19:15",
         "21:30",
         "23:45",
         "02:00"
@@ -653,19 +632,16 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:45",
         "22:25",
         "00:10"
       ]
     },
     {
-      "movieId": "pressure",
+      "movieId": "cats-in-the-museum-treasures-of-egypt",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:25",
-        "23:35",
-        "01:45"
+        "19:45"
       ]
     },
     {
@@ -685,88 +661,6 @@
       ]
     },
     {
-      "movieId": "cats-in-the-museum-treasures-of-egypt",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:40",
-        "16:40",
-        "18:40",
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "cats-in-the-museum-treasures-of-egypt",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "16:10"
-      ]
-    },
-    {
-      "movieId": "cats-in-the-museum-treasures-of-egypt",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "cats-in-the-museum-treasures-of-egypt",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:15"
-      ]
-    },
-    {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "18:55",
-        "21:10",
-        "22:30",
-        "23:20"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "15:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:05",
-        "21:05"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:40",
-        "19:15"
-      ]
-    },
-    {
       "movieId": "interstellar-2014",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -779,18 +673,26 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:40",
         "21:00",
         "00:20"
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
+      "movieId": "red-flag-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
-        "16:30"
+        "21:10",
+        "22:30",
+        "23:20"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "20:50"
       ]
     },
     {
@@ -798,8 +700,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "15:15",
-        "17:15",
         "21:10"
       ]
     }
