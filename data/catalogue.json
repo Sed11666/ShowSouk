@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-16T23:32:57.618Z",
+  "generatedAt": "2026-09-17T10:56:01.021Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 50,
-    "showtimes": 228
+    "showtimeGroups": 48,
+    "showtimes": 168
   },
   "cinemas": [
     {
@@ -90,17 +90,6 @@
       }
     },
     {
-      "id": "the-weight",
-      "title": "The Weight",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 115,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005581/the-weight"
-      }
-    },
-    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -112,14 +101,14 @@
       }
     },
     {
-      "id": "hanuman-ansh-hindi",
-      "title": "Hanuman Ansh (Hindi)",
+      "id": "the-weight",
+      "title": "The Weight",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 165,
+      "runtime": 115,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005581/the-weight"
       }
     },
     {
@@ -131,6 +120,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005662/the-uprising"
+      }
+    },
+    {
+      "id": "hanuman-ansh-hindi",
+      "title": "Hanuman Ansh (Hindi)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 165,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005714/hanuman-ansh-hindi"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "interstellar-2014",
-      "title": "Interstellar (2014)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
-      }
-    },
-    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
+      "id": "interstellar-2014",
+      "title": "Interstellar (2014)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 170,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
       }
     },
     {
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
-        "11:30",
         "15:15",
         "16:45",
         "20:30",
@@ -254,10 +252,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
-        "12:15",
-        "13:30",
-        "14:20",
         "15:30",
         "16:20",
         "17:30",
@@ -273,8 +267,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "12:50",
         "14:50",
         "16:50",
         "18:50",
@@ -291,9 +283,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:30",
-        "12:30",
-        "14:30",
         "16:30",
         "18:30",
         "20:30",
@@ -367,9 +356,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:05",
-        "14:10",
         "16:15",
         "18:20"
       ]
@@ -379,8 +365,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:15",
-        "13:15",
         "15:15",
         "17:15",
         "19:15"
@@ -389,19 +373,8 @@
     {
       "movieId": "tad-and-the-magic-lamp",
       "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "14:10"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30",
-        "11:10",
-        "13:15",
         "15:15",
         "17:15"
       ]
@@ -411,8 +384,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "20:30",
@@ -424,7 +395,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "12:00",
         "18:05",
         "20:15"
       ]
@@ -434,36 +404,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:20",
-        "12:30",
-        "14:30",
         "16:35"
-      ]
-    },
-    {
-      "movieId": "the-weight",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15",
-        "21:40",
-        "23:45",
-        "00:15",
-        "01:05"
-      ]
-    },
-    {
-      "movieId": "the-weight",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:50",
-        "11:50",
-        "14:15",
-        "16:40",
-        "19:05",
-        "21:30",
-        "23:55"
       ]
     },
     {
@@ -509,11 +450,54 @@
       ]
     },
     {
+      "movieId": "the-weight",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:15",
+        "21:40",
+        "23:45",
+        "00:15",
+        "01:05"
+      ]
+    },
+    {
+      "movieId": "the-weight",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "19:05",
+        "21:30",
+        "23:55"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:30",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "the-uprising",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "16:00",
+        "17:45",
+        "19:00",
+        "20:30",
+        "23:30"
+      ]
+    },
+    {
       "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "17:15",
         "18:45"
       ]
@@ -531,7 +515,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
         "14:45",
         "18:00",
         "21:15",
@@ -543,9 +526,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:50",
-        "12:15",
-        "14:05",
         "16:40",
         "17:20",
         "19:30",
@@ -557,35 +537,9 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:10",
         "18:20",
         "21:30"
-      ]
-    },
-    {
-      "movieId": "the-uprising",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:30",
-        "19:30",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "the-uprising",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "11:30",
-        "12:45",
-        "14:30",
-        "16:00",
-        "17:45",
-        "19:00",
-        "20:30",
-        "23:30"
       ]
     },
     {
@@ -656,10 +610,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "11:15",
-        "12:30",
-        "13:30",
         "14:45",
         "15:45",
         "17:00",
@@ -675,10 +625,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "11:45",
-        "12:30",
-        "13:45",
         "18:30",
         "19:45"
       ]
@@ -688,8 +634,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
-        "14:00",
         "21:00",
         "22:45"
       ]
@@ -703,56 +647,10 @@
       ]
     },
     {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "10:30",
-        "13:15",
-        "18:15",
-        "21:45",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "11:00",
-        "13:20",
-        "14:20",
-        "16:40",
-        "17:40",
-        "20:00",
-        "21:00",
-        "00:20"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "11:00"
-      ]
-    },
-    {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:00",
         "01:00"
       ]
@@ -776,6 +674,37 @@
       ]
     },
     {
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:00",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "18:15",
+        "21:45",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "17:40",
+        "20:00",
+        "21:00",
+        "00:20"
+      ]
+    },
+    {
       "movieId": "red-flag-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -788,7 +717,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
         "16:30"
       ]
     },
@@ -805,8 +733,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:30",
         "15:05",
         "16:40",
         "18:45"
