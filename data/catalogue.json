@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T22:40:01.973Z",
+  "generatedAt": "2026-09-20T03:14:36.667Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -123,17 +123,6 @@
       }
     },
     {
-      "id": "fall-2-deadpoint",
-      "title": "Fall 2: Deadpoint",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005479/fall-2-deadpoint"
-      }
-    },
-    {
       "id": "the-weight",
       "title": "The Weight",
       "genre": "",
@@ -142,6 +131,17 @@
       "runtime": 115,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005581/the-weight"
+      }
+    },
+    {
+      "id": "fall-2-deadpoint",
+      "title": "Fall 2: Deadpoint",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005479/fall-2-deadpoint"
       }
     },
     {
@@ -593,27 +593,6 @@
       ]
     },
     {
-      "movieId": "fall-2-deadpoint",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "17:45"
-      ]
-    },
-    {
-      "movieId": "fall-2-deadpoint",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "12:30",
-        "14:45",
-        "17:00",
-        "19:15",
-        "21:30"
-      ]
-    },
-    {
       "movieId": "the-weight",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -633,6 +612,27 @@
         "16:40",
         "17:20",
         "23:40"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "17:45"
+      ]
+    },
+    {
+      "movieId": "fall-2-deadpoint",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "21:30"
       ]
     },
     {
