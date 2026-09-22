@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-22T20:52:06.152Z",
+  "generatedAt": "2026-09-22T23:29:07.558Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 55,
-    "showtimes": 216
+    "showtimeGroups": 60,
+    "showtimes": 252
   },
   "cinemas": [
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
-      }
-    },
-    {
       "id": "shish-dou-arabic",
       "title": "Shish Dou (Arabic)",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005578/shish-dou-arabic"
+      }
+    },
+    {
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
       }
     },
     {
@@ -310,10 +310,79 @@
     {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "11:30",
+        "15:15",
+        "16:45",
+        "20:30",
+        "21:30",
+        "23:15",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "11:30",
+        "12:30",
+        "13:30",
+        "14:30",
+        "15:30",
+        "16:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "23:30",
         "00:45",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "18:30",
+        "20:30",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:30",
+        "12:30",
+        "14:30",
+        "16:30",
+        "18:30",
+        "20:30",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "17:15"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:25",
+        "20:20",
+        "22:15"
       ]
     },
     {
@@ -693,20 +762,20 @@
       ]
     },
     {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "20:25"
-      ]
-    },
-    {
       "movieId": "shish-dou-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "20:00",
         "00:45"
+      ]
+    },
+    {
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:25"
       ]
     },
     {
@@ -832,6 +901,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "21:25",
+        "23:35",
         "01:45"
       ]
     }
