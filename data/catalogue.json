@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-22T03:10:11.957Z",
+  "generatedAt": "2026-09-22T10:56:24.732Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 59,
-    "showtimes": 268
+    "showtimeGroups": 58,
+    "showtimes": 211
   },
   "cinemas": [
     {
@@ -123,6 +123,17 @@
       }
     },
     {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -134,14 +145,14 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
+      "id": "crawlers",
+      "title": "Crawlers",
       "genre": "",
       "rating": "PG13",
       "language": "",
-      "runtime": 140,
+      "runtime": 85,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005710/crawlers"
       }
     },
     {
@@ -167,14 +178,14 @@
       }
     },
     {
-      "id": "tad-and-the-magic-lamp",
-      "title": "Tad And The Magic Lamp",
+      "id": "shish-dou-arabic",
+      "title": "Shish Dou (Arabic)",
       "genre": "",
-      "rating": "G",
+      "rating": "PG15",
       "language": "",
       "runtime": 95,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005578/shish-dou-arabic"
       }
     },
     {
@@ -189,25 +200,14 @@
       }
     },
     {
-      "id": "the-odyssey",
-      "title": "The Odyssey",
+      "id": "tad-and-the-magic-lamp",
+      "title": "Tad And The Magic Lamp",
       "genre": "",
-      "rating": "PG13",
+      "rating": "G",
       "language": "",
-      "runtime": 175,
+      "runtime": 95,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
-      }
-    },
-    {
-      "id": "daayra-hindi",
-      "title": "Daayra (Hindi)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 165,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005698/daayra-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "sacrifice",
-      "title": "Sacrifice",
+      "id": "the-odyssey",
+      "title": "The Odyssey",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 100,
+      "runtime": 175,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005723/sacrifice"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
       }
     }
   ],
@@ -289,6 +289,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
+        "12:40",
         "15:00",
         "17:15",
         "19:30",
@@ -301,7 +302,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:20",
+        "17:40",
         "20:00",
         "22:35"
       ]
@@ -311,8 +312,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
-        "11:30",
         "15:15",
         "16:45",
         "20:30",
@@ -326,10 +325,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
-        "12:30",
-        "13:30",
-        "14:30",
         "15:30",
         "16:30",
         "17:30",
@@ -345,7 +340,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
         "18:30",
         "20:30",
         "22:30"
@@ -356,9 +350,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:30",
-        "12:30",
-        "14:30",
         "16:30",
         "18:30",
         "20:30",
@@ -370,7 +361,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:15",
         "17:15"
       ]
     },
@@ -497,7 +487,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:40",
+        "10:50",
         "11:40",
         "13:30",
         "15:20",
@@ -533,8 +523,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "20:30",
@@ -555,11 +543,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:05",
-        "10:30",
-        "13:05",
-        "14:15",
-        "14:35",
         "15:15"
       ]
     },
@@ -597,10 +580,9 @@
         "12:00",
         "14:45",
         "17:15",
-        "18:40",
-        "20:00",
+        "20:30",
         "21:45",
-        "22:45"
+        "23:40"
       ]
     },
     {
@@ -609,7 +591,6 @@
       "format": "Standard",
       "times": [
         "19:30",
-        "21:15",
         "22:00"
       ]
     },
@@ -618,8 +599,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:30",
-        "13:15",
         "18:15",
         "21:45",
         "23:00"
@@ -630,8 +609,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "14:20",
         "17:40",
         "21:00"
       ]
@@ -642,35 +619,6 @@
       "format": "Standard",
       "times": [
         "20:25"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "11:30",
-        "15:20",
-        "21:40"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:15",
-        "16:25",
-        "17:25"
       ]
     },
     {
@@ -686,7 +634,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:00",
         "00:30"
       ]
@@ -700,11 +647,67 @@
       ]
     },
     {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "15:20",
+        "21:40"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:25",
+        "17:25"
+      ]
+    },
+    {
+      "movieId": "crawlers",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:30",
+        "20:30",
+        "22:30",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "crawlers",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:35",
+        "20:30",
+        "22:25",
+        "00:20"
+      ]
+    },
+    {
+      "movieId": "crawlers",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:50",
+        "21:45"
+      ]
+    },
+    {
       "movieId": "hanuman-ansh-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "17:15",
         "18:45"
       ]
@@ -722,7 +725,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
         "14:45",
         "18:00",
         "21:15",
@@ -734,7 +736,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:15",
         "15:30",
         "19:35",
         "21:30"
@@ -745,8 +746,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:35",
-        "13:45",
         "16:55",
         "20:05"
       ]
@@ -764,8 +763,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "19:15",
@@ -773,37 +770,12 @@
       ]
     },
     {
-      "movieId": "tad-and-the-magic-lamp",
+      "movieId": "shish-dou-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:05",
-        "14:10",
-        "16:15",
-        "18:20"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "12:05",
-        "13:20",
-        "15:20"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "14:00",
-        "16:00"
+        "20:00",
+        "00:45"
       ]
     },
     {
@@ -811,7 +783,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:30",
         "19:30",
         "00:45"
       ]
@@ -821,9 +792,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:30",
-        "12:45",
-        "14:30",
         "16:00",
         "17:45",
         "19:00",
@@ -832,68 +800,28 @@
       ]
     },
     {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "12:00",
-        "14:00",
-        "21:00",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "16:45"
-      ]
-    },
-    {
-      "movieId": "daayra-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "daayra-hindi",
+      "movieId": "tad-and-the-magic-lamp",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:00",
-        "13:30",
-        "15:15",
-        "16:45",
-        "20:00",
-        "23:15",
-        "00:20",
-        "00:30"
+        "16:15",
+        "18:20"
       ]
     },
     {
-      "movieId": "daayra-hindi",
+      "movieId": "tad-and-the-magic-lamp",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:10",
-        "16:20",
-        "19:30",
-        "22:45"
+        "15:20"
       ]
     },
     {
-      "movieId": "daayra-hindi",
+      "movieId": "tad-and-the-magic-lamp",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:00",
-        "21:10",
-        "21:35"
+        "16:00"
       ]
     },
     {
@@ -907,12 +835,20 @@
       ]
     },
     {
-      "movieId": "sacrifice",
+      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Platinum Suites",
       "times": [
-        "22:05",
-        "00:15"
+        "21:00",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "16:45"
       ]
     }
   ]
