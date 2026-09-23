@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-22T23:29:07.558Z",
+  "generatedAt": "2026-09-23T03:10:06.561Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 60,
-    "showtimes": 252
+    "showtimes": 251
   },
   "cinemas": [
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "pressure",
-      "title": "Pressure",
+      "id": "sacrifice",
+      "title": "Sacrifice",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
       "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005328/pressure"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005723/sacrifice"
       }
     }
   ],
@@ -897,13 +897,12 @@
       ]
     },
     {
-      "movieId": "pressure",
+      "movieId": "sacrifice",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:25",
-        "23:35",
-        "01:45"
+        "22:05",
+        "00:15"
       ]
     }
   ]
