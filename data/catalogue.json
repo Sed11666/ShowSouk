@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T03:10:06.561Z",
+  "generatedAt": "2026-09-23T10:44:06.345Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 60,
-    "showtimes": 251
+    "showtimeGroups": 58,
+    "showtimes": 206
   },
   "cinemas": [
     {
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "resident-evil",
-      "title": "Resident Evil",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
-      }
-    },
-    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -65,6 +54,17 @@
       "runtime": 190,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
+      }
+    },
+    {
+      "id": "resident-evil",
+      "title": "Resident Evil",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
       }
     },
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "tad-and-the-magic-lamp",
-      "title": "Tad And The Magic Lamp",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
-      }
-    },
-    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -178,6 +167,17 @@
       }
     },
     {
+      "id": "tad-and-the-magic-lamp",
+      "title": "Tad And The Magic Lamp",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
+      }
+    },
+    {
       "id": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint",
       "genre": "",
@@ -200,17 +200,6 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
       "id": "the-odyssey",
       "title": "The Odyssey",
       "genre": "",
@@ -219,6 +208,17 @@
       "runtime": 175,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -305,84 +305,6 @@
         "17:40",
         "20:00",
         "22:35"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "10:30",
-        "11:30",
-        "15:15",
-        "16:45",
-        "20:30",
-        "21:30",
-        "23:15",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "11:30",
-        "12:30",
-        "13:30",
-        "14:30",
-        "15:30",
-        "16:30",
-        "17:30",
-        "19:30",
-        "21:30",
-        "23:30",
-        "00:45",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "18:30",
-        "20:30",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "10:30",
-        "12:30",
-        "14:30",
-        "16:30",
-        "18:30",
-        "20:30",
-        "22:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "17:15"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:25",
-        "20:20",
-        "22:15"
       ]
     },
     {
@@ -479,6 +401,75 @@
       ]
     },
     {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "15:15",
+        "16:45",
+        "20:30",
+        "21:30",
+        "23:15",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "14:30",
+        "15:30",
+        "16:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "23:30",
+        "00:45",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:30",
+        "20:30",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "14:30",
+        "16:30",
+        "18:30",
+        "20:30",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:15"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:25",
+        "20:20",
+        "22:15"
+      ]
+    },
+    {
       "movieId": "the-smurf-timeless-adventure-volume-2",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -530,8 +521,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "20:30",
@@ -552,10 +541,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:05",
-        "10:30",
-        "13:05",
-        "14:15",
         "14:35",
         "15:15"
       ]
@@ -644,7 +629,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "20:00"
       ]
     },
@@ -653,7 +637,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "15:00",
         "00:30"
       ]
@@ -680,8 +663,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:30",
-        "13:15",
         "18:15",
         "21:45",
         "23:00"
@@ -692,44 +673,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "14:20",
         "17:40",
         "21:00"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:05",
-        "14:10",
-        "16:15",
-        "18:20"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "12:05",
-        "13:20",
-        "15:20"
-      ]
-    },
-    {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "14:00",
-        "16:00"
       ]
     },
     {
@@ -746,7 +691,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:30",
         "15:20",
         "21:40"
       ]
@@ -756,7 +700,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:15",
         "16:25",
         "17:25"
       ]
@@ -779,6 +722,31 @@
       ]
     },
     {
+      "movieId": "tad-and-the-magic-lamp",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:15",
+        "18:20"
+      ]
+    },
+    {
+      "movieId": "tad-and-the-magic-lamp",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "15:20"
+      ]
+    },
+    {
+      "movieId": "tad-and-the-magic-lamp",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:00"
+      ]
+    },
+    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -791,8 +759,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "19:15",
@@ -804,7 +770,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
         "17:15",
         "18:45"
       ]
@@ -822,7 +787,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
         "14:45",
         "18:00",
         "21:15",
@@ -834,7 +798,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:30",
         "14:40",
         "17:50",
         "19:15"
@@ -845,36 +808,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:35",
-        "13:45",
         "16:55",
         "20:05"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "13:25"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:05",
-        "12:40",
-        "16:50"
       ]
     },
     {
@@ -882,8 +817,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
-        "14:00",
         "21:00",
         "22:45"
       ]
@@ -894,6 +827,14 @@
       "format": "Premium",
       "times": [
         "16:45"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:50"
       ]
     },
     {
