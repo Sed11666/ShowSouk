@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T21:03:13.576Z",
+  "generatedAt": "2026-09-24T03:00:35.006Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 46,
-    "showtimes": 179
+    "showtimeGroups": 49,
+    "showtimes": 206
   },
   "cinemas": [
     {
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "sacrifice",
-      "title": "Sacrifice",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005723/sacrifice"
-      }
-    },
-    {
       "id": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint",
       "genre": "",
@@ -189,14 +178,14 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
+      "id": "sacrifice",
+      "title": "Sacrifice",
       "genre": "",
-      "rating": "PG",
+      "rating": "PG15",
       "language": "",
-      "runtime": 90,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005723/sacrifice"
       }
     },
     {
@@ -208,6 +197,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -403,10 +403,58 @@
     {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Platinum Suites",
       "times": [
-        "00:45",
+        "11:00",
+        "13:00",
+        "15:30",
+        "17:00",
+        "18:30",
+        "20:30",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "13:30",
+        "15:30",
+        "16:30",
+        "17:30",
+        "18:30",
+        "19:30",
+        "20:30",
+        "21:30",
+        "22:30",
+        "23:30",
+        "00:30",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "14:45",
+        "16:50",
+        "22:50",
+        "00:50"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:45",
+        "20:40",
+        "22:10",
+        "22:50"
       ]
     },
     {
@@ -652,15 +700,6 @@
       ]
     },
     {
-      "movieId": "sacrifice",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:05",
-        "00:15"
-      ]
-    },
-    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -671,13 +710,12 @@
       ]
     },
     {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
+      "movieId": "sacrifice",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:10",
-        "12:40",
-        "16:45"
+        "22:05",
+        "00:15"
       ]
     },
     {
@@ -696,6 +734,16 @@
         "10:35",
         "13:10",
         "14:40"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:10",
+        "12:40",
+        "16:45"
       ]
     },
     {
