@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-24T23:46:36.931Z",
+  "generatedAt": "2026-09-25T11:05:21.690Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 48,
-    "showtimes": 199
+    "showtimeGroups": 49,
+    "showtimes": 146
   },
   "cinemas": [
     {
@@ -101,6 +101,17 @@
       }
     },
     {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
       "id": "crawlers",
       "title": "Crawlers",
       "genre": "",
@@ -109,28 +120,6 @@
       "runtime": 85,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005710/crawlers"
-      }
-    },
-    {
-      "id": "interstellar-2014",
-      "title": "Interstellar (2014)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
-      }
-    },
-    {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -145,17 +134,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
       "id": "sb19-wakas-at-simula-the-trilogy-concert",
       "title": "SB19 Wakas At Simula: The Trilogy Concert",
       "genre": "",
@@ -164,6 +142,28 @@
       "runtime": 120,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "interstellar-2014",
+      "title": "Interstellar (2014)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 170,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "sacrifice",
-      "title": "Sacrifice",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005723/sacrifice"
-      }
-    },
-    {
       "id": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint",
       "genre": "",
@@ -222,6 +211,17 @@
       }
     },
     {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
+      }
+    },
+    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "11:30",
-        "12:30",
-        "14:00",
         "15:00",
         "16:00",
         "17:30",
@@ -257,8 +253,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:15",
-        "12:30",
         "14:45",
         "17:00",
         "19:15",
@@ -272,10 +266,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "11:45",
-        "13:15",
-        "14:00",
         "15:30",
         "16:15",
         "17:45",
@@ -289,12 +279,11 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:10",
-        "12:30",
         "15:00",
         "16:10",
         "17:35",
         "21:05",
+        "23:15",
         "00:30"
       ]
     },
@@ -314,8 +303,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
-        "14:30",
         "18:00",
         "19:30",
         "22:00",
@@ -327,7 +314,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
         "17:10",
         "22:30",
         "00:00"
@@ -338,7 +324,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:45",
         "15:25",
         "19:05",
         "22:45"
@@ -349,7 +334,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "12:30",
         "16:15",
         "20:00",
         "23:45"
@@ -360,10 +344,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "13:40",
         "17:20",
+        "18:30",
         "21:00",
+        "22:15",
         "00:40"
       ]
     },
@@ -372,7 +356,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:10",
         "15:50",
         "19:30",
         "23:10"
@@ -383,8 +366,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "14:10",
         "17:50",
         "21:30"
       ]
@@ -404,7 +385,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
         "15:30",
         "18:30",
         "20:30",
@@ -416,8 +396,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "13:30",
         "15:30",
         "17:30",
         "19:30",
@@ -454,9 +432,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:50",
-        "13:35",
         "15:25"
       ]
     },
@@ -465,9 +440,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:05",
-        "13:55",
         "15:45"
       ]
     },
@@ -476,8 +448,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:40",
-        "13:35",
         "22:30"
       ]
     },
@@ -486,9 +456,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:00",
-        "13:50",
         "15:50",
         "17:40"
       ]
@@ -498,7 +465,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:30",
         "17:00",
         "21:00",
         "00:00"
@@ -509,9 +475,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "12:00",
-        "13:05",
         "15:55",
         "18:45",
         "21:35",
@@ -523,8 +486,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:05",
-        "12:00",
         "14:45",
         "17:15",
         "20:30",
@@ -546,7 +507,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:45",
         "17:00",
         "20:30",
         "22:45"
@@ -565,10 +525,25 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:20",
-        "13:30",
         "15:40",
         "18:45"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "15:05"
       ]
     },
     {
@@ -576,10 +551,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:30",
-        "20:30",
-        "22:30",
-        "00:30"
+        "18:00",
+        "22:10",
+        "02:00"
       ]
     },
     {
@@ -587,8 +561,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "18:40",
-        "23:15"
+        "18:40"
       ]
     },
     {
@@ -600,24 +573,25 @@
       ]
     },
     {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "10:30",
-        "12:30",
-        "16:00",
-        "19:30",
-        "21:45"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
+      "movieId": "shish-dou-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:45",
-        "16:15"
+        "20:00",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "11:15",
+        "13:45",
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
       ]
     },
     {
@@ -625,7 +599,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
         "16:30"
       ]
     },
@@ -642,51 +615,26 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:00",
         "15:00",
         "16:55"
       ]
     },
     {
-      "movieId": "shish-dou-arabic",
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "16:00",
+        "19:30",
+        "21:45"
+      ]
+    },
+    {
+      "movieId": "interstellar-2014",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
-        "00:45"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:00",
-        "16:30",
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "15:05"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "11:15",
-        "13:45",
-        "16:15",
-        "18:45",
-        "21:15",
-        "23:45"
+        "16:15"
       ]
     },
     {
@@ -723,15 +671,6 @@
       ]
     },
     {
-      "movieId": "sacrifice",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:05",
-        "00:15"
-      ]
-    },
-    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -754,9 +693,26 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:35",
-        "11:45",
-        "14:40"
+        "11:10",
+        "13:05",
+        "15:15"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "16:45",
+        "20:25"
       ]
     },
     {
@@ -764,8 +720,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:40",
-        "13:50",
         "16:45"
       ]
     }
