@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-26T20:37:57.294Z",
+  "generatedAt": "2026-09-26T23:23:17.681Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 34,
-    "showtimes": 88
+    "showtimeGroups": 47,
+    "showtimes": 196
   },
   "cinemas": [
     {
@@ -239,6 +239,16 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:00",
+        "11:30",
+        "12:30",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:30",
+        "19:00",
+        "20:00",
+        "22:30",
         "01:00"
       ]
     },
@@ -247,6 +257,13 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
+        "10:15",
+        "12:30",
+        "14:45",
+        "17:00",
+        "19:15",
+        "21:30",
+        "23:45",
         "02:00"
       ]
     },
@@ -255,7 +272,87 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "11:45",
+        "13:15",
+        "14:00",
+        "15:30",
+        "16:15",
+        "17:45",
+        "20:00",
+        "22:15",
         "00:30"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "12:30",
+        "15:00",
+        "16:10",
+        "17:35",
+        "18:45",
+        "21:05",
+        "23:25"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "17:50",
+        "18:50",
+        "21:10",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "14:30",
+        "18:00",
+        "19:30",
+        "22:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:00",
+        "17:10",
+        "22:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:45",
+        "15:25",
+        "19:05",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "12:30",
+        "16:15",
+        "20:00",
+        "23:45"
       ]
     },
     {
@@ -263,7 +360,45 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:00",
+        "13:40",
+        "17:20",
+        "18:30",
+        "21:00",
+        "22:15",
         "00:40"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:10",
+        "15:50",
+        "19:30",
+        "23:10"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "14:10",
+        "17:50",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "15:35",
+        "19:10",
+        "21:00"
       ]
     },
     {
@@ -271,6 +406,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "11:00",
+        "15:30",
+        "18:30",
+        "20:30",
         "00:30"
       ]
     },
@@ -279,6 +418,14 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:30",
+        "13:30",
+        "15:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "22:30",
+        "23:30",
         "00:30",
         "01:30"
       ]
@@ -288,7 +435,20 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "00:30"
+        "14:45",
+        "16:45",
+        "19:55",
+        "21:55",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:00",
+        "22:45"
       ]
     },
     {
@@ -335,9 +495,47 @@
     {
       "movieId": "the-vvaan-force-of-the-forrest-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "13:30",
+        "17:00",
+        "21:00",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "13:05",
+        "15:55",
+        "18:45",
+        "21:35",
         "00:25"
+      ]
+    },
+    {
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:00",
+        "14:45",
+        "17:15",
+        "21:45",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:30",
+        "22:00"
       ]
     },
     {
@@ -492,6 +690,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "20:00",
         "00:45"
       ]
     },
