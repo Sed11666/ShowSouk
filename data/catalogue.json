@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-26T10:46:46.315Z",
+  "generatedAt": "2026-09-26T15:43:17.465Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 45,
-    "showtimes": 142
+    "showtimeGroups": 39,
+    "showtimes": 89
   },
   "cinemas": [
     {
@@ -134,17 +134,6 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "crawlers",
       "title": "Crawlers",
       "genre": "",
@@ -153,17 +142,6 @@
       "runtime": 85,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005710/crawlers"
-      }
-    },
-    {
-      "id": "interstellar-2014",
-      "title": "Interstellar (2014)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 170,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
       }
     },
     {
@@ -178,6 +156,17 @@
       }
     },
     {
+      "id": "interstellar-2014",
+      "title": "Interstellar (2014)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 170,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
+      }
+    },
+    {
       "id": "red-flag-arabic",
       "title": "Red Flag (Arabic)",
       "genre": "",
@@ -186,6 +175,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     },
     {
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:00",
-        "16:00",
-        "17:30",
-        "19:00",
         "20:00",
         "22:30",
         "01:00"
@@ -253,9 +249,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:45",
-        "17:00",
-        "19:15",
         "21:30",
         "23:45",
         "02:00"
@@ -266,9 +259,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:30",
-        "16:15",
-        "17:45",
         "20:00",
         "22:15",
         "00:30"
@@ -279,15 +269,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:00",
-        "16:10",
-        "17:35",
-        "19:00",
         "21:05",
         "21:25",
         "21:55",
-        "23:50",
-        "00:30"
+        "23:50"
       ]
     },
     {
@@ -295,8 +280,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:50",
-        "18:50",
         "21:00",
         "22:00"
       ]
@@ -306,8 +289,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:30",
-        "18:00",
         "19:30",
         "22:00",
         "23:30"
@@ -318,7 +299,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:10",
         "22:30",
         "00:00"
       ]
@@ -328,8 +308,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:25",
-        "19:05",
         "22:45"
       ]
     },
@@ -338,7 +316,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:15",
         "20:00",
         "23:45"
       ]
@@ -348,8 +325,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:20",
-        "18:30",
         "21:00",
         "22:15",
         "00:40"
@@ -360,7 +335,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:50",
         "19:30",
         "23:10"
       ]
@@ -370,7 +344,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "17:50",
         "21:30"
       ]
     },
@@ -379,8 +352,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:20",
-        "19:10",
         "21:00"
       ]
     },
@@ -389,8 +360,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:30",
-        "18:30",
         "20:30",
         "00:30"
       ]
@@ -400,8 +369,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:30",
-        "17:30",
         "19:30",
         "21:30",
         "22:30",
@@ -415,10 +382,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "16:45",
         "19:55",
-        "00:10"
+        "00:30"
       ]
     },
     {
@@ -432,27 +397,10 @@
     },
     {
       "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "15:25"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
         "21:45"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "15:50",
-        "17:40"
       ]
     },
     {
@@ -469,8 +417,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:55",
-        "18:45",
         "21:35",
         "00:25"
       ]
@@ -480,8 +426,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "17:15",
         "21:45",
         "23:40"
       ]
@@ -499,7 +443,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:00",
         "20:30",
         "22:45"
       ]
@@ -507,18 +450,8 @@
     {
       "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "15:10",
-        "17:25"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "15:40",
         "19:30"
       ]
     },
@@ -565,42 +498,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "16:30",
         "21:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "15:05"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:40"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "15:00",
-        "16:55"
       ]
     },
     {
@@ -608,26 +506,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:00",
         "22:10"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "16:00",
-        "19:30",
-        "21:45"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:15"
       ]
     },
     {
@@ -640,6 +519,15 @@
       ]
     },
     {
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "19:30",
+        "21:45"
+      ]
+    },
+    {
       "movieId": "red-flag-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -648,11 +536,18 @@
       ]
     },
     {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "19:40"
+      ]
+    },
+    {
       "movieId": "fall-2-deadpoint",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:15",
         "19:25",
         "21:40"
       ]
@@ -670,7 +565,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:45",
         "20:25"
       ]
     },
@@ -679,8 +573,18 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "15:10",
-        "17:10"
+        "12:40",
+        "13:50",
+        "14:40",
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "tad-and-the-magic-lamp",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:00"
       ]
     },
     {
@@ -688,7 +592,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "15:15"
+        "10:35",
+        "11:45"
       ]
     }
   ]
