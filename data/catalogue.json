@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-27T16:21:38.037Z",
+  "generatedAt": "2026-09-27T20:50:49.102Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 38,
-    "showtimes": 77
+    "showtimes": 105
   },
   "cinemas": [
     {
@@ -239,7 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "22:30",
         "01:00"
       ]
     },
@@ -248,8 +247,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "21:30",
-        "23:45",
         "02:00"
       ]
     },
@@ -258,27 +255,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "21:05",
-        "23:25"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "20:10",
-        "21:10",
-        "22:30"
       ]
     },
     {
@@ -286,7 +263,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "20:30",
         "00:30"
       ]
     },
@@ -295,96 +271,38 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:30",
-        "22:30",
-        "23:30",
         "00:30",
         "01:30"
       ]
     },
     {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "21:55",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:00",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "22:30",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "23:45"
-      ]
-    },
-    {
       "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:00",
-        "22:15",
         "00:40"
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
       "times": [
-        "23:10"
+        "10:00",
+        "11:50",
+        "13:35",
+        "15:25"
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
+      "movieId": "the-smurf-timeless-adventure-volume-2",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "21:00"
+        "10:15",
+        "12:05",
+        "13:55",
+        "15:45"
       ]
     },
     {
@@ -392,7 +310,20 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "22:50"
+        "11:20",
+        "13:15",
+        "21:40"
+      ]
+    },
+    {
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "12:00",
+        "13:50",
+        "15:50",
+        "17:40"
       ]
     },
     {
@@ -400,8 +331,30 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "12:45",
+        "17:00",
         "20:30",
         "22:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "15:10",
+        "17:20"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:20",
+        "13:30",
+        "15:40",
+        "18:45"
       ]
     },
     {
@@ -409,8 +362,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "21:00",
-        "00:00"
+        "13:30",
+        "17:00"
       ]
     },
     {
@@ -418,6 +371,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "13:05",
+        "15:55",
+        "18:45",
         "21:35",
         "00:25"
       ]
@@ -427,8 +384,12 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "21:45",
-        "23:40"
+        "10:00",
+        "12:00",
+        "14:25",
+        "17:15",
+        "20:30",
+        "22:25"
       ]
     },
     {
@@ -436,7 +397,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "21:35"
+        "22:00"
       ]
     },
     {
@@ -490,6 +451,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "13:00",
+        "16:45",
         "20:25"
       ]
     },
@@ -498,7 +461,19 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "13:00",
+        "16:30",
         "21:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:30",
+        "15:05"
       ]
     },
     {
@@ -514,7 +489,25 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "18:00",
         "22:10"
+      ]
+    },
+    {
+      "movieId": "crawlers",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "18:40",
+        "23:15"
+      ]
+    },
+    {
+      "movieId": "crawlers",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:35"
       ]
     },
     {
@@ -530,7 +523,29 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "10:30",
+        "12:30",
+        "16:00",
+        "19:30",
         "21:45"
+      ]
+    },
+    {
+      "movieId": "interstellar-2014",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "09:45",
+        "16:15"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:30",
+        "16:30"
       ]
     },
     {
@@ -538,7 +553,18 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "20:45"
+        "19:40"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "13:00",
+        "15:00",
+        "16:55"
       ]
     },
     {
@@ -546,6 +572,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "17:15",
+        "19:25",
         "21:40"
       ]
     },
