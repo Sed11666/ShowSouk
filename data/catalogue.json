@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-28T03:28:30.041Z",
+  "generatedAt": "2026-09-28T12:50:47.088Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 49,
-    "showtimes": 187
+    "showtimeGroups": 54,
+    "showtimes": 196
   },
   "cinemas": [
     {
@@ -46,17 +46,6 @@
       }
     },
     {
-      "id": "resident-evil",
-      "title": "Resident Evil",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
-      }
-    },
-    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -68,47 +57,36 @@
       }
     },
     {
-      "id": "the-smurf-timeless-adventure-volume-2",
-      "title": "The Smurf Timeless Adventure Volume 2",
+      "id": "digger",
+      "title": "Digger",
       "genre": "",
-      "rating": "G",
+      "rating": "PG13",
       "language": "",
-      "runtime": 80,
+      "runtime": 130,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
       }
     },
     {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
-      }
-    },
-    {
-      "id": "the-vvaan-force-of-the-forrest-hindi",
-      "title": "The Vvaan: Force Of The Forrest (Hindi)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005650/the-vvaan-force-of-the-forrest-hindi"
-      }
-    },
-    {
-      "id": "sb19-wakas-at-simula-the-trilogy-concert",
-      "title": "SB19 Wakas At Simula: The Trilogy Concert",
+      "id": "verity",
+      "title": "Verity",
       "genre": "",
       "rating": "PG13",
       "language": "",
       "runtime": 120,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005362/verity"
+      }
+    },
+    {
+      "id": "resident-evil",
+      "title": "Resident Evil",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
       }
     },
     {
@@ -123,47 +101,36 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG",
       "language": "",
-      "runtime": 140,
+      "runtime": 105,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
       }
     },
     {
-      "id": "the-odyssey",
-      "title": "The Odyssey",
+      "id": "the-smurf-timeless-adventure-volume-2",
+      "title": "The Smurf Timeless Adventure Volume 2",
       "genre": "",
-      "rating": "PG13",
+      "rating": "G",
       "language": "",
-      "runtime": 175,
+      "runtime": 80,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
       }
     },
     {
-      "id": "crawlers",
-      "title": "Crawlers",
+      "id": "the-crystal-planet",
+      "title": "The Crystal Planet",
       "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 85,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005710/crawlers"
-      }
-    },
-    {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
-      "genre": "",
-      "rating": "PG15",
+      "rating": "PG",
       "language": "",
       "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005713/the-crystal-planet"
       }
     },
     {
@@ -178,47 +145,14 @@
       }
     },
     {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
-      "id": "fall-2-deadpoint",
-      "title": "Fall 2: Deadpoint",
+      "id": "the-vvaan-force-of-the-forrest-hindi",
+      "title": "The Vvaan: Force Of The Forrest (Hindi)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 100,
+      "runtime": 140,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005479/fall-2-deadpoint"
-      }
-    },
-    {
-      "id": "shish-dou-arabic",
-      "title": "Shish Dou (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005578/shish-dou-arabic"
-      }
-    },
-    {
-      "id": "tad-and-the-magic-lamp",
-      "title": "Tad And The Magic Lamp",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005576/tad-and-the-magic-lamp"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005650/the-vvaan-force-of-the-forrest-hindi"
       }
     },
     {
@@ -231,6 +165,72 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
+      "id": "prem-keetanu-hindi",
+      "title": "Prem Keetanu (Hindi)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 150,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005711/prem-keetanu-hindi"
+      }
+    },
+    {
+      "id": "sb19-wakas-at-simula-the-trilogy-concert",
+      "title": "SB19 Wakas At Simula: The Trilogy Concert",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
+      }
+    },
+    {
+      "id": "sigma-tamil",
+      "title": "Sigma (Tamil)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005740/sigma-tamil"
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 175,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
+      }
     }
   ],
   "showtimes": [
@@ -239,12 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "11:30",
-        "12:30",
-        "14:00",
-        "15:00",
-        "16:00",
         "17:30",
         "19:00",
         "20:00",
@@ -257,9 +251,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:15",
-        "12:30",
-        "14:45",
         "17:00",
         "19:15",
         "21:30",
@@ -272,12 +263,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "11:45",
-        "13:15",
-        "14:00",
-        "15:30",
-        "16:15",
         "17:45",
         "20:00",
         "22:15",
@@ -289,9 +274,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:00",
-        "15:00",
-        "16:10",
         "17:35"
       ]
     },
@@ -307,11 +289,247 @@
       ]
     },
     {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "18:00",
+        "19:30",
+        "22:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "17:10",
+        "22:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "19:05",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "20:00",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "17:20",
+        "18:30",
+        "21:00",
+        "22:15",
+        "00:40"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "19:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:50",
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "19:10",
+        "21:00"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "12:00",
+        "13:30",
+        "19:30",
+        "20:30",
+        "21:30",
+        "23:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:30",
+        "14:30",
+        "17:30",
+        "20:30",
+        "23:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:45",
+        "13:30",
+        "16:15",
+        "19:00",
+        "21:45",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:45",
+        "14:30",
+        "17:15",
+        "20:00",
+        "22:45",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:00",
+        "13:40",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "14:50",
+        "17:50",
+        "20:25",
+        "22:30"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:15",
+        "19:30",
+        "21:15",
+        "22:05"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:15",
+        "13:00",
+        "14:00",
+        "16:00",
+        "17:00",
+        "21:00",
+        "22:30",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "15:30",
+        "19:00",
+        "22:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "12:00",
+        "13:30",
+        "14:30",
+        "16:00",
+        "17:00",
+        "18:30",
+        "19:30",
+        "21:00",
+        "22:00",
+        "23:30",
+        "00:30",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:00",
+        "12:40",
+        "13:30",
+        "15:10",
+        "16:00",
+        "17:30",
+        "18:30",
+        "20:00",
+        "21:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:45",
+        "22:10"
+      ]
+    },
+    {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:00",
+        "18:30",
         "20:30",
         "00:30"
       ]
@@ -321,9 +539,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "13:30",
-        "15:30",
         "17:30",
         "19:30",
         "21:30",
@@ -338,7 +553,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:45",
         "16:45",
         "17:15",
         "19:55",
@@ -355,220 +569,12 @@
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:30",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
+      "movieId": "drishyam-the-conclusion-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
-        "17:10",
-        "22:30",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "11:45",
-        "15:25",
-        "19:05",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "12:30",
-        "16:15",
-        "20:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "13:40",
-        "17:20",
-        "18:30",
         "21:00",
-        "22:15",
-        "00:40"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "12:10",
-        "15:50",
-        "19:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "14:10",
-        "17:50",
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "15:35",
-        "19:10",
-        "21:00"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "11:50",
-        "13:35",
-        "15:25"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "12:05",
-        "13:55",
-        "15:45"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "11:20",
-        "13:15",
-        "21:40"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "13:50",
-        "15:50",
-        "17:40"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:45",
-        "17:00",
-        "20:30",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "15:10",
-        "17:20"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:20",
-        "13:30",
-        "15:40",
-        "18:45"
-      ]
-    },
-    {
-      "movieId": "the-vvaan-force-of-the-forrest-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:30",
-        "17:00"
-      ]
-    },
-    {
-      "movieId": "the-vvaan-force-of-the-forrest-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:15",
-        "13:05",
-        "15:55",
-        "18:45",
-        "21:35",
-        "00:25"
-      ]
-    },
-    {
-      "movieId": "the-vvaan-force-of-the-forrest-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "14:25",
-        "17:15",
-        "20:30",
-        "22:25"
-      ]
-    },
-    {
-      "movieId": "the-vvaan-force-of-the-forrest-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "11:15",
-        "13:45",
-        "16:15",
-        "18:45",
-        "21:15",
-        "23:45"
+        "00:30"
       ]
     },
     {
@@ -577,10 +583,15 @@
       "format": "Standard",
       "times": [
         "10:00",
+        "11:30",
         "13:10",
+        "14:40",
         "16:20",
+        "17:55",
         "19:30",
+        "21:05",
         "22:40",
+        "00:15",
         "01:50"
       ]
     },
@@ -597,75 +608,78 @@
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
       "times": [
-        "13:00",
-        "16:30",
-        "21:30"
+        "19:00",
+        "20:15"
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "17:00",
+        "20:30",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "17:20"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:45"
+      ]
+    },
+    {
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "21:40"
+      ]
+    },
+    {
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "17:40"
+      ]
+    },
+    {
+      "movieId": "the-crystal-planet",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "10:00",
-        "12:30",
-        "15:05"
+        "12:10",
+        "13:30",
+        "14:20",
+        "15:45",
+        "16:30",
+        "20:10"
       ]
     },
     {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "the-odyssey",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:00",
-        "16:45",
-        "20:25"
-      ]
-    },
-    {
-      "movieId": "crawlers",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "18:00",
-        "22:10"
-      ]
-    },
-    {
-      "movieId": "crawlers",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:40",
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "crawlers",
+      "movieId": "the-crystal-planet",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:35"
-      ]
-    },
-    {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15"
+        "10:15",
+        "14:05",
+        "16:10"
       ]
     },
     {
@@ -673,29 +687,54 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "10:30",
-        "12:30",
-        "16:00",
         "19:30",
         "21:45"
       ]
     },
     {
-      "movieId": "interstellar-2014",
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Platinum Suites",
       "times": [
-        "09:45",
-        "16:15"
+        "17:00",
+        "21:00",
+        "00:00"
       ]
     },
     {
-      "movieId": "paw-patrol-the-dino-movie",
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
-        "16:30"
+        "18:45",
+        "21:35",
+        "00:25"
+      ]
+    },
+    {
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:15",
+        "20:30",
+        "22:25"
+      ]
+    },
+    {
+      "movieId": "the-vvaan-force-of-the-forrest-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:45"
       ]
     },
     {
@@ -711,57 +750,62 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:00",
-        "15:00",
         "16:55"
       ]
     },
     {
-      "movieId": "fall-2-deadpoint",
+      "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Platinum Suites",
       "times": [
-        "17:15",
-        "19:25",
-        "21:40"
+        "21:30"
       ]
     },
     {
-      "movieId": "shish-dou-arabic",
+      "movieId": "prem-keetanu-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "15:00"
+      ]
+    },
+    {
+      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "11:15",
+        "13:45",
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "sigma-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "20:00",
+        "10:30",
         "00:45"
       ]
     },
     {
-      "movieId": "tad-and-the-magic-lamp",
+      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
+      "format": "Platinum Suites",
       "times": [
-        "13:00"
+        "23:00"
       ]
     },
     {
-      "movieId": "tad-and-the-magic-lamp",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
       "times": [
-        "10:35",
-        "11:45",
-        "14:40"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:40",
-        "13:50",
-        "16:45"
+        "16:45",
+        "20:25"
       ]
     }
   ]
