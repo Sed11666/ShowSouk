@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T23:37:38.844Z",
+  "generatedAt": "2026-09-28T03:28:30.041Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -145,17 +145,6 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
-      }
-    },
-    {
       "id": "crawlers",
       "title": "Crawlers",
       "genre": "",
@@ -164,6 +153,17 @@
       "runtime": 85,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005710/crawlers"
+      }
+    },
+    {
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 100,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
       }
     },
     {
@@ -635,14 +635,6 @@
       ]
     },
     {
-      "movieId": "red-flag-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15"
-      ]
-    },
-    {
       "movieId": "crawlers",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -666,6 +658,14 @@
       "format": "Standard",
       "times": [
         "19:35"
+      ]
+    },
+    {
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:15"
       ]
     },
     {
