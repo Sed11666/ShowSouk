@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-30T09:18:14.350Z",
+  "generatedAt": "2026-09-30T17:34:19.962Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 58,
-    "showtimes": 242
+    "showtimeGroups": 51,
+    "showtimes": 182
   },
   "cinemas": [
     {
@@ -101,17 +101,6 @@
       }
     },
     {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
-      }
-    },
-    {
       "id": "the-crystal-planet",
       "title": "The Crystal Planet",
       "genre": "",
@@ -120,6 +109,17 @@
       "runtime": 100,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005713/the-crystal-planet"
+      }
+    },
+    {
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
       }
     },
     {
@@ -167,28 +167,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
-      "id": "paw-patrol-the-dino-movie",
-      "title": "Paw Patrol: The Dino Movie",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
-      }
-    },
-    {
       "id": "sb19-wakas-at-simula-the-trilogy-concert",
       "title": "SB19 Wakas At Simula: The Trilogy Concert",
       "genre": "",
@@ -211,10 +189,21 @@
       }
     },
     {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
       "id": "yezhu-kadal-yezhu-malai-tamil",
       "title": "Yezhu Kadal Yezhu Malai (Tamil)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
       "runtime": 145,
       "links": {
@@ -222,14 +211,25 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
+      "id": "sigma-tamil",
+      "title": "Sigma (Tamil)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 100,
+      "runtime": 155,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005740/sigma-tamil"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
     }
   ],
@@ -239,11 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:00",
-        "15:00",
-        "16:00",
-        "17:30",
-        "18:30",
         "01:00"
       ]
     },
@@ -252,9 +247,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:45",
-        "17:00",
-        "19:15",
         "21:30",
         "23:45",
         "02:00"
@@ -265,12 +257,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "14:00",
-        "15:30",
-        "16:15",
-        "17:45",
-        "20:00",
         "22:15",
         "00:30"
       ]
@@ -280,21 +266,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "15:00",
-        "16:10",
-        "17:35",
-        "21:05",
         "23:15"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:50",
-        "18:50",
-        "22:15"
       ]
     },
     {
@@ -302,7 +274,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "12:00",
         "13:30",
         "19:30",
@@ -457,9 +428,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:30",
-        "18:00",
-        "19:30",
         "22:00",
         "23:30"
       ]
@@ -469,7 +437,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "17:10",
         "22:30",
         "00:15"
       ]
@@ -479,8 +446,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:25",
-        "19:05",
         "22:45"
       ]
     },
@@ -489,7 +454,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:15",
         "00:00"
       ]
     },
@@ -498,10 +462,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:40",
-        "17:20",
-        "18:30",
-        "21:00",
         "22:15",
         "00:45"
       ]
@@ -511,8 +471,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:10",
-        "18:50",
         "22:30"
       ]
     },
@@ -521,19 +479,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:10",
-        "17:50",
         "21:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "15:35",
-        "19:10",
-        "21:00"
       ]
     },
     {
@@ -541,7 +487,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:30",
         "00:30"
       ]
     },
@@ -550,10 +495,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "15:30",
-        "17:30",
-        "19:30",
         "21:30",
         "22:30",
         "23:30",
@@ -566,9 +507,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "16:45",
-        "19:55",
         "21:55",
         "00:00"
       ]
@@ -578,7 +516,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "20:00",
         "22:45"
       ]
     },
@@ -633,35 +570,6 @@
       ]
     },
     {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "20:30",
-        "22:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "15:10",
-        "17:20"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:30",
-        "15:40",
-        "18:45"
-      ]
-    },
-    {
       "movieId": "the-crystal-planet",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -683,6 +591,14 @@
         "10:15",
         "14:05",
         "16:10"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:45"
       ]
     },
     {
@@ -728,28 +644,22 @@
     {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
+      "format": "Junior",
       "times": [
-        "13:50",
-        "16:45"
+        "11:15",
+        "13:15",
+        "15:15"
       ]
     },
     {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-dubai-mall",
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:35",
-        "15:25"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:55",
-        "15:45"
+        "10:15",
+        "12:10",
+        "14:05",
+        "16:00"
       ]
     },
     {
@@ -757,18 +667,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:15",
         "21:40"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:50",
-        "15:50",
-        "17:40"
       ]
     },
     {
@@ -776,61 +675,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:00",
-        "19:30",
         "21:45"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "16:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:00",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "15:05"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:30",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:40"
-      ]
-    },
-    {
-      "movieId": "paw-patrol-the-dino-movie",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:00",
-        "15:00",
-        "16:55"
       ]
     },
     {
@@ -855,6 +700,25 @@
       ]
     },
     {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "14:00",
+        "22:45",
+        "01:45"
+      ]
+    },
+    {
       "movieId": "yezhu-kadal-yezhu-malai-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -875,11 +739,38 @@
       ]
     },
     {
-      "movieId": "red-flag-arabic",
+      "movieId": "sigma-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:15"
+        "10:30",
+        "00:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "17:15"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "12:30",
+        "14:30"
       ]
     }
   ]
