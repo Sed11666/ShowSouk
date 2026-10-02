@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T00:31:15.946Z",
+  "generatedAt": "2026-10-02T09:21:18.597Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 55,
-    "showtimes": 211
+    "showtimeGroups": 54,
+    "showtimes": 169
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "avengers-endgame-encore",
-      "title": "Avengers Endgame : Encore",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 190,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
-      }
-    },
-    {
       "id": "resident-evil",
       "title": "Resident Evil",
       "genre": "",
@@ -98,6 +87,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
+      }
+    },
+    {
+      "id": "avengers-endgame-encore",
+      "title": "Avengers Endgame : Encore",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 190,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
       }
     },
     {
@@ -178,17 +178,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
       "id": "prem-keetanu-hindi",
       "title": "Prem Keetanu (Hindi)",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 150,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005711/prem-keetanu-hindi"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
       }
     },
     {
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "yezhu-kadal-yezhu-malai-tamil",
-      "title": "Yezhu Kadal Yezhu Malai (Tamil)",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 145,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005741/yezhu-kadal-yezhu-malai-tamil"
-      }
-    },
-    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -231,6 +220,17 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
       }
+    },
+    {
+      "id": "yezhu-kadal-yezhu-malai-tamil",
+      "title": "Yezhu Kadal Yezhu Malai (Tamil)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 145,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005741/yezhu-kadal-yezhu-malai-tamil"
+      }
     }
   ],
   "showtimes": [
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "12:30",
         "13:30",
         "15:00",
         "17:30",
@@ -255,9 +253,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:15",
-        "11:00",
-        "12:30",
         "13:15",
         "14:45",
         "15:30",
@@ -277,8 +272,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:35",
-        "11:50",
         "14:00",
         "18:40",
         "21:00"
@@ -298,7 +291,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:15",
         "13:00",
         "14:00",
         "16:00",
@@ -315,7 +307,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:00",
         "15:30",
         "17:40",
         "19:00",
@@ -329,7 +320,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "13:15",
         "15:45",
         "18:15",
@@ -341,11 +331,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:20",
         "13:45",
         "16:10",
         "20:20",
-        "00:10"
+        "00:30"
       ]
     },
     {
@@ -372,7 +361,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:30",
         "14:30",
         "20:30"
       ]
@@ -391,7 +379,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:00",
         "13:40"
       ]
     },
@@ -439,8 +426,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:30",
         "13:10",
         "14:40",
         "16:20",
@@ -465,7 +450,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "13:25",
         "14:00",
         "16:35",
@@ -473,6 +457,7 @@
         "17:50",
         "19:45",
         "20:55",
+        "21:20",
         "22:55"
       ]
     },
@@ -488,11 +473,34 @@
       ]
     },
     {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:30",
+        "15:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "22:25",
+        "23:30",
+        "00:30",
+        "01:30"
+      ]
+    },
+    {
       "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "14:30"
       ]
     },
@@ -501,7 +509,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:00",
         "17:00"
       ]
     },
@@ -510,8 +517,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:45",
-        "11:45",
         "15:25",
         "19:05",
         "22:45"
@@ -522,7 +527,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "12:30",
         "16:15",
         "20:00",
         "23:45"
@@ -542,7 +546,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:15",
         "22:50"
       ]
     },
@@ -555,37 +558,10 @@
       ]
     },
     {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "13:30",
-        "15:30",
-        "17:30",
-        "19:30",
-        "21:30",
-        "22:25",
-        "23:30",
-        "00:30",
-        "01:30"
-      ]
-    },
-    {
       "movieId": "the-crystal-planet",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:10",
         "13:30",
         "14:20",
         "15:45",
@@ -598,7 +574,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:15",
         "13:30",
         "15:45"
       ]
@@ -608,7 +583,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:45",
         "17:00",
         "20:30"
       ]
@@ -618,7 +592,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:00",
         "19:15"
       ]
     },
@@ -627,8 +600,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:00",
-        "13:00",
         "15:10",
         "17:20"
       ]
@@ -647,8 +618,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:00",
-        "12:10",
         "14:15",
         "16:20"
       ]
@@ -704,7 +673,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:30",
         "13:25",
         "15:15",
         "17:05",
@@ -716,7 +684,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "13:45",
         "16:00",
         "19:30"
@@ -727,27 +694,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "09:45",
         "16:15",
         "19:40",
         "23:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "14:00"
       ]
     },
     {
@@ -775,33 +724,29 @@
       ]
     },
     {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:00"
+      ]
+    },
+    {
       "movieId": "sigma-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "22:45",
         "00:45",
         "01:50"
-      ]
-    },
-    {
-      "movieId": "yezhu-kadal-yezhu-malai-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:55"
-      ]
-    },
-    {
-      "movieId": "yezhu-kadal-yezhu-malai-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "12:45",
-        "15:40",
-        "21:20"
       ]
     },
     {
@@ -825,9 +770,15 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:50",
-        "12:45",
         "14:40"
+      ]
+    },
+    {
+      "movieId": "yezhu-kadal-yezhu-malai-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "15:40"
       ]
     }
   ]
