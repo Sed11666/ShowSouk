@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-01T20:10:47.755Z",
+  "generatedAt": "2026-10-02T00:31:15.946Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 43,
-    "showtimes": 130
+    "showtimeGroups": 55,
+    "showtimes": 211
   },
   "cinemas": [
     {
@@ -237,8 +237,37 @@
     {
       "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "12:30",
+        "13:30",
+        "15:00",
+        "17:30",
+        "19:00",
+        "20:00",
+        "23:00",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "11:00",
+        "12:30",
+        "13:15",
+        "14:45",
+        "15:30",
+        "17:00",
+        "17:45",
+        "19:15",
+        "20:00",
+        "21:30",
+        "22:15",
+        "23:45",
         "00:30",
         "02:00"
       ]
@@ -248,7 +277,20 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "00:00"
+        "10:35",
+        "11:50",
+        "14:00",
+        "18:40",
+        "21:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "19:30"
       ]
     },
     {
@@ -256,7 +298,16 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "00:00"
+        "11:15",
+        "13:00",
+        "14:00",
+        "16:00",
+        "17:00",
+        "20:30",
+        "21:00",
+        "22:30",
+        "23:30",
+        "00:30"
       ]
     },
     {
@@ -264,6 +315,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
+        "11:00",
+        "15:30",
+        "17:40",
+        "19:00",
+        "22:00",
+        "23:00",
         "01:00"
       ]
     },
@@ -272,9 +329,33 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "00:30",
-        "01:30",
-        "02:00"
+        "10:45",
+        "13:15",
+        "15:45",
+        "18:15",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:20",
+        "13:45",
+        "16:10",
+        "20:20",
+        "00:10"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:50",
+        "22:15",
+        "23:40"
       ]
     },
     {
@@ -409,9 +490,76 @@
     {
       "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "14:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:00",
+        "17:00"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "00:30"
+        "11:45",
+        "11:45",
+        "15:25",
+        "19:05",
+        "22:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "12:30",
+        "16:15",
+        "20:00",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "16:20",
+        "20:00"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:15",
+        "22:50"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "18:30"
       ]
     },
     {
@@ -419,6 +567,14 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:30",
+        "13:30",
+        "15:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "22:25",
+        "23:30",
         "00:30",
         "01:30"
       ]
@@ -580,9 +736,18 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:45"
+        "10:30",
+        "14:00"
       ]
     },
     {
