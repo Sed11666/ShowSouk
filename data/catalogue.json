@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T09:21:18.597Z",
+  "generatedAt": "2026-10-02T17:25:08.370Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 54,
-    "showtimes": 169
+    "showtimeGroups": 42,
+    "showtimes": 100
   },
   "cinemas": [
     {
@@ -178,6 +178,17 @@
       }
     },
     {
+      "id": "sigma-tamil",
+      "title": "Sigma (Tamil)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005740/sigma-tamil"
+      }
+    },
+    {
       "id": "prem-keetanu-hindi",
       "title": "Prem Keetanu (Hindi)",
       "genre": "",
@@ -200,17 +211,6 @@
       }
     },
     {
-      "id": "sigma-tamil",
-      "title": "Sigma (Tamil)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 155,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005740/sigma-tamil"
-      }
-    },
-    {
       "id": "paw-patrol-the-dino-movie",
       "title": "Paw Patrol: The Dino Movie",
       "genre": "",
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "yezhu-kadal-yezhu-malai-tamil",
-      "title": "Yezhu Kadal Yezhu Malai (Tamil)",
+      "id": "red-flag-arabic",
+      "title": "Red Flag (Arabic)",
       "genre": "",
-      "rating": "PG13",
+      "rating": "PG15",
       "language": "",
-      "runtime": 145,
+      "runtime": 100,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005741/yezhu-kadal-yezhu-malai-tamil"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
       }
     }
   ],
@@ -239,11 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:30",
-        "15:00",
-        "17:30",
-        "19:00",
-        "20:00",
         "23:00",
         "00:00"
       ]
@@ -253,13 +248,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "14:45",
-        "15:30",
-        "17:00",
-        "17:45",
-        "19:15",
-        "20:00",
         "21:30",
         "22:15",
         "23:45",
@@ -272,18 +260,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:00",
-        "18:40",
-        "21:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:40",
-        "19:30"
+        "00:05"
       ]
     },
     {
@@ -291,12 +268,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:00",
-        "14:00",
-        "16:00",
-        "17:00",
-        "20:30",
-        "21:00",
         "22:30",
         "23:30",
         "00:30"
@@ -307,9 +278,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "15:30",
-        "17:40",
-        "19:00",
         "22:00",
         "23:00",
         "01:00"
@@ -320,9 +288,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:45",
-        "18:15",
         "00:30"
       ]
     },
@@ -331,9 +296,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:45",
-        "16:10",
-        "20:20",
         "00:30"
       ]
     },
@@ -342,7 +304,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "18:50",
         "22:15",
         "23:40"
       ]
@@ -352,54 +313,23 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "19:30",
         "21:30"
       ]
     },
     {
       "movieId": "digger",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "14:30",
-        "20:30"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:00",
         "21:45"
       ]
     },
     {
       "movieId": "digger",
       "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "13:40"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "16:10",
-        "18:45",
-        "21:50",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:00",
-        "20:45"
+        "21:50"
       ]
     },
     {
@@ -407,7 +337,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:00",
         "23:30",
         "00:30"
       ]
@@ -417,7 +346,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:30",
         "00:45"
       ]
     },
@@ -426,11 +354,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:10",
-        "14:40",
-        "16:20",
-        "17:55",
-        "19:30",
         "21:05",
         "22:40",
         "00:15",
@@ -450,15 +373,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:25",
-        "14:00",
-        "16:35",
-        "17:10",
-        "17:50",
-        "19:45",
-        "20:55",
         "21:20",
-        "22:55"
+        "22:55",
+        "23:20",
+        "00:30"
       ]
     },
     {
@@ -466,8 +384,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "19:00",
-        "20:15",
         "21:40",
         "23:25"
       ]
@@ -475,20 +391,8 @@
     {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "15:30",
-        "17:30",
-        "19:30",
         "21:30",
         "22:25",
         "23:30",
@@ -499,26 +403,8 @@
     {
       "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "14:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "17:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:25",
-        "19:05",
         "22:45"
       ]
     },
@@ -527,18 +413,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "16:15",
-        "20:00",
         "23:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "16:20",
-        "20:00"
       ]
     },
     {
@@ -562,6 +437,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:00",
+        "12:10",
         "13:30",
         "14:20",
         "15:45",
@@ -574,6 +451,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "11:15",
         "13:30",
         "15:45"
       ]
@@ -583,6 +461,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:45",
         "17:00",
         "20:30"
       ]
@@ -592,6 +471,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
+        "10:45",
         "19:15"
       ]
     },
@@ -600,6 +480,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:00",
+        "14:10",
         "15:10",
         "17:20"
       ]
@@ -609,8 +491,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:15",
-        "15:15"
+        "13:00"
       ]
     },
     {
@@ -618,7 +499,9 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:15",
+        "11:00",
+        "12:10",
+        "13:05",
         "16:20"
       ]
     },
@@ -669,42 +552,21 @@
       ]
     },
     {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "13:25",
-        "15:15",
-        "17:05",
-        "18:25"
-      ]
-    },
-    {
-      "movieId": "interstellar-2014",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:45",
-        "16:00",
-        "19:30"
-      ]
-    },
-    {
       "movieId": "interstellar-2014",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:15",
-        "19:40",
         "23:00"
       ]
     },
     {
-      "movieId": "prem-keetanu-hindi",
+      "movieId": "sigma-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Standard",
       "times": [
-        "17:20"
+        "22:45",
+        "00:45",
+        "01:50"
       ]
     },
     {
@@ -713,14 +575,6 @@
       "format": "Standard",
       "times": [
         "00:15"
-      ]
-    },
-    {
-      "movieId": "prem-keetanu-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "14:50"
       ]
     },
     {
@@ -736,17 +590,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
         "14:00"
-      ]
-    },
-    {
-      "movieId": "sigma-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:45",
-        "00:45",
-        "01:50"
       ]
     },
     {
@@ -770,15 +615,17 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:50",
+        "12:45",
         "14:40"
       ]
     },
     {
-      "movieId": "yezhu-kadal-yezhu-malai-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "red-flag-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:40"
+        "19:20"
       ]
     }
   ]
