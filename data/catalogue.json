@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T21:47:58.595Z",
+  "generatedAt": "2026-10-03T03:40:27.745Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 44,
-    "showtimes": 132
+    "showtimeGroups": 55,
+    "showtimes": 211
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "resident-evil",
-      "title": "Resident Evil",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
-      }
-    },
-    {
       "id": "avengers-endgame-encore",
       "title": "Avengers Endgame : Encore",
       "genre": "",
@@ -98,6 +87,17 @@
       "runtime": 190,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
+      }
+    },
+    {
+      "id": "resident-evil",
+      "title": "Resident Evil",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005373/resident-evil"
       }
     },
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "the-smurf-timeless-adventure-volume-2",
-      "title": "The Smurf Timeless Adventure Volume 2",
-      "genre": "",
-      "rating": "G",
-      "language": "",
-      "runtime": 80,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
-      }
-    },
-    {
       "id": "interstellar-2014",
       "title": "Interstellar (2014)",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 170,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00001804/interstellar-2014"
+      }
+    },
+    {
+      "id": "the-smurf-timeless-adventure-volume-2",
+      "title": "The Smurf Timeless Adventure Volume 2",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 80,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
       }
     },
     {
@@ -222,14 +222,14 @@
       }
     },
     {
-      "id": "red-flag-arabic",
-      "title": "Red Flag (Arabic)",
+      "id": "yezhu-kadal-yezhu-malai-tamil",
+      "title": "Yezhu Kadal Yezhu Malai (Tamil)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 100,
+      "runtime": 145,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005704/red-flag-arabic"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005741/yezhu-kadal-yezhu-malai-tamil"
       }
     }
   ],
@@ -237,9 +237,60 @@
     {
       "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "12:30",
+        "15:00",
+        "17:30",
+        "19:00",
+        "20:00",
+        "23:00",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:15",
+        "11:00",
+        "12:30",
+        "13:15",
+        "14:45",
+        "15:30",
+        "17:00",
+        "17:45",
+        "19:15",
+        "20:00",
+        "21:30",
+        "22:15",
+        "23:45",
+        "00:30",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:35",
+        "11:50",
+        "14:00",
+        "18:35",
+        "21:05",
+        "01:15"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:40",
+        "19:30"
       ]
     },
     {
@@ -368,17 +419,76 @@
     {
       "movieId": "drishyam-the-conclusion-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "19:00",
+        "22:10",
+        "01:20"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:00",
+        "11:30",
+        "13:10",
+        "14:40",
+        "16:20",
+        "17:55",
+        "19:30",
+        "21:05",
+        "22:40",
+        "00:15",
         "01:50"
       ]
     },
     {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "01:30"
+        "10:15",
+        "11:30",
+        "12:45",
+        "13:25",
+        "14:00",
+        "14:40",
+        "16:35",
+        "17:55",
+        "19:45",
+        "20:45",
+        "22:00",
+        "22:55"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "16:45",
+        "19:00",
+        "20:15",
+        "22:10",
+        "23:25"
       ]
     },
     {
@@ -450,6 +560,32 @@
       ]
     },
     {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "15:30",
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "13:30",
+        "15:30",
+        "17:30",
+        "19:30",
+        "21:30",
+        "22:25",
+        "23:30",
+        "00:30",
+        "01:30"
+      ]
+    },
+    {
       "movieId": "the-crystal-planet",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -469,7 +605,6 @@
       "format": "Standard",
       "times": [
         "11:15",
-        "13:30",
         "15:45"
       ]
     },
@@ -560,25 +695,6 @@
       ]
     },
     {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "13:25",
-        "15:15",
-        "17:05"
-      ]
-    },
-    {
       "movieId": "interstellar-2014",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -596,6 +712,25 @@
         "16:15",
         "19:40",
         "23:00"
+      ]
+    },
+    {
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "21:30"
+      ]
+    },
+    {
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "13:25",
+        "15:15",
+        "17:05"
       ]
     },
     {
@@ -637,7 +772,18 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "22:45",
+        "00:45",
         "01:50"
+      ]
+    },
+    {
+      "movieId": "sigma-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:15"
       ]
     },
     {
@@ -663,15 +809,25 @@
       "times": [
         "10:50",
         "12:45",
+        "13:40",
         "14:40"
       ]
     },
     {
-      "movieId": "red-flag-arabic",
+      "movieId": "yezhu-kadal-yezhu-malai-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:20"
+        "10:00",
+        "12:55"
+      ]
+    },
+    {
+      "movieId": "yezhu-kadal-yezhu-malai-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "15:50"
       ]
     }
   ]
