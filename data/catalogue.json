@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-06T12:43:38.207Z",
+  "generatedAt": "2026-10-06T19:59:00.934Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 59,
-    "showtimes": 175
+    "showtimeGroups": 44,
+    "showtimes": 121
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "heart-of-the-beast",
-      "title": "Heart of the Beast",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005533/heart-of-the-beast"
-      }
-    },
-    {
       "id": "matloub-3a2eleyain-arabic",
       "title": "Matloub 3a2eleyain (Arabic)",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
+      }
+    },
+    {
+      "id": "heart-of-the-beast",
+      "title": "Heart of the Beast",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005533/heart-of-the-beast"
       }
     },
     {
@@ -112,17 +112,6 @@
       }
     },
     {
-      "id": "digger",
-      "title": "Digger",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
-      }
-    },
-    {
       "id": "coyote-vs-acme",
       "title": "Coyote VS Acme",
       "genre": "",
@@ -131,6 +120,17 @@
       "runtime": 105,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "digger",
+      "title": "Digger",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
       }
     },
     {
@@ -239,52 +239,15 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:00",
-        "21:00",
-        "22:30",
         "00:30"
       ]
     },
     {
       "movieId": "verity",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "17:30",
-        "19:00",
-        "20:30",
-        "22:00",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "18:30",
-        "21:00",
-        "23:30",
         "02:00"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:20",
-        "23:15"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:50",
-        "19:30",
-        "22:15"
       ]
     },
     {
@@ -347,8 +310,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "21:00",
-        "23:30",
         "00:30"
       ]
     },
@@ -357,77 +318,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:55",
-        "19:30",
-        "21:05",
-        "22:40",
         "00:15",
         "01:50"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "16:35",
-        "19:45",
-        "22:55"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "19:00",
-        "20:15",
-        "20:50"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "17:30",
-        "19:00",
-        "20:00",
-        "21:30",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "17:45",
-        "19:15",
-        "20:00",
-        "22:15",
-        "00:30",
-        "02:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:40",
-        "21:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "16:45",
-        "21:25"
       ]
     },
     {
@@ -472,11 +364,27 @@
       ]
     },
     {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "00:30",
+        "02:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "23:45"
+      ]
+    },
+    {
       "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "18:30",
         "00:00"
       ]
     },
@@ -485,10 +393,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "19:15",
-        "21:15",
-        "23:15",
-        "01:15"
+        "01:30"
       ]
     },
     {
@@ -496,35 +401,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:30",
-        "22:25",
         "00:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:00",
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "17:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "19:05",
-        "22:45"
       ]
     },
     {
@@ -532,42 +409,38 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "20:00",
         "23:45"
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "20:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:50"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "19:30",
+        "11:45",
+        "17:00",
         "20:30",
-        "23:30"
+        "22:45"
       ]
     },
     {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
       "times": [
-        "16:30"
+        "11:00",
+        "19:15"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "13:00",
+        "15:10",
+        "17:20"
       ]
     },
     {
@@ -575,8 +448,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "19:30",
-        "22:15",
         "01:00"
       ]
     },
@@ -586,49 +457,6 @@
       "format": "Dolby Cinema",
       "times": [
         "23:40"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "18:45",
-        "21:50"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:00",
-        "21:55"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "20:30"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "19:15"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:20"
       ]
     },
     {
@@ -771,6 +599,9 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "11:30",
+        "13:25",
+        "15:15",
         "17:05",
         "18:25"
       ]
@@ -801,9 +632,9 @@
     {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "format": "Standard",
       "times": [
-        "16:30"
+        "01:15"
       ]
     },
     {
@@ -820,6 +651,16 @@
       "format": "Junior",
       "times": [
         "17:15"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "12:45",
+        "14:40"
       ]
     }
   ]
