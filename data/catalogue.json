@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-11T03:48:53.191Z",
+  "generatedAt": "2026-10-11T12:04:30.300Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 52,
-    "showtimes": 210
+    "showtimeGroups": 50,
+    "showtimes": 134
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "heart-of-the-beast",
-      "title": "Heart of the Beast",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005533/heart-of-the-beast"
-      }
-    },
-    {
       "id": "jailer-2-tamil",
       "title": "Jailer 2 (Tamil)",
       "genre": "",
@@ -98,6 +87,17 @@
       "runtime": 180,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005715/jailer-2-tamil"
+      }
+    },
+    {
+      "id": "heart-of-the-beast",
+      "title": "Heart of the Beast",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005533/heart-of-the-beast"
       }
     },
     {
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "sb19-wakas-at-simula-the-trilogy-concert",
-      "title": "SB19 Wakas At Simula: The Trilogy Concert",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
-      }
-    },
-    {
       "id": "digger",
       "title": "Digger",
       "genre": "",
@@ -186,6 +175,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
+      }
+    },
+    {
+      "id": "sb19-wakas-at-simula-the-trilogy-concert",
+      "title": "SB19 Wakas At Simula: The Trilogy Concert",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
       }
     },
     {
@@ -211,6 +211,17 @@
       }
     },
     {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
       "id": "linkin-park-unshatter",
       "title": "Linkin Park: Unshatter",
       "genre": "",
@@ -220,17 +231,6 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005761/linkin-park-unshatter"
       }
-    },
-    {
-      "id": "the-beast",
-      "title": "The Beast",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 100,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005739/the-beast"
-      }
     }
   ],
   "showtimes": [
@@ -239,10 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:15",
-        "12:00",
-        "13:00",
-        "14:00",
         "16:00",
         "17:00",
         "21:00",
@@ -255,7 +251,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:45",
         "17:30",
         "20:15",
         "22:00",
@@ -267,13 +262,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:30",
         "16:00",
         "18:30",
         "21:00",
-        "23:30",
-        "02:00"
+        "00:10"
       ]
     },
     {
@@ -281,7 +273,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "16:10",
         "17:05",
         "18:40",
@@ -305,8 +296,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:45",
-        "15:30",
         "21:30",
         "00:00"
       ]
@@ -316,14 +305,22 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
-        "13:35",
-        "15:40",
         "17:45",
         "19:50",
         "21:55",
-        "00:00",
-        "02:05"
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "16:50",
+        "19:00",
+        "21:10",
+        "23:20",
+        "00:30"
       ]
     },
     {
@@ -331,7 +328,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:15",
         "16:00"
       ]
     },
@@ -340,9 +336,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:00",
-        "15:05",
         "00:35"
       ]
     },
@@ -371,15 +364,13 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:00",
         "17:10",
         "17:55",
         "19:15",
         "21:20",
         "22:15",
         "22:50",
-        "23:25",
-        "01:30"
+        "23:25"
       ]
     },
     {
@@ -421,17 +412,12 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:45",
-        "13:10",
-        "14:55",
         "16:20",
         "18:05",
         "19:30",
         "21:15",
         "22:40",
-        "00:25",
-        "01:50"
+        "23:35"
       ]
     },
     {
@@ -439,10 +425,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:50",
-        "13:00",
-        "14:00",
-        "15:00",
         "16:15",
         "17:10",
         "18:10",
@@ -458,47 +440,10 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:00",
-        "15:10",
         "17:15",
         "18:20",
         "20:45",
         "21:30"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "10:00",
-        "12:30",
-        "15:00",
-        "19:00",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:00",
-        "13:15",
-        "15:35",
-        "20:00",
-        "00:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "13:15",
-        "17:55"
       ]
     },
     {
@@ -532,6 +477,33 @@
       "format": "Standard",
       "times": [
         "03:00"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "19:00",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "20:00",
+        "00:30",
+        "00:50"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:55"
       ]
     },
     {
@@ -572,13 +544,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:00",
-        "14:00",
         "20:15",
-        "22:15",
-        "00:15",
-        "02:15"
+        "22:15"
       ]
     },
     {
@@ -586,8 +553,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
-        "14:30",
         "22:00"
       ]
     },
@@ -596,7 +561,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
         "16:00"
       ]
     },
@@ -605,8 +569,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:40",
         "19:20",
+        "20:30",
         "23:00"
       ]
     },
@@ -615,7 +579,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:15",
         "18:00",
         "21:40"
       ]
@@ -625,10 +588,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
         "20:15",
-        "22:45",
-        "01:15"
+        "22:45"
       ]
     },
     {
@@ -636,9 +597,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:20",
-        "13:50",
-        "15:30",
         "21:20",
         "00:20"
       ]
@@ -662,16 +620,9 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:45"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "13:30"
+        "12:45",
+        "15:00",
+        "00:05"
       ]
     },
     {
@@ -679,40 +630,7 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "13:20",
         "17:35"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:50",
-        "12:30",
-        "14:00",
-        "14:45"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "11:15",
-        "13:45",
-        "16:15",
-        "18:45",
-        "21:15",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:45"
       ]
     },
     {
@@ -720,7 +638,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:30",
         "19:30",
         "20:30"
       ]
@@ -730,9 +647,18 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:15",
-        "14:00",
         "16:45"
+      ]
+    },
+    {
+      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
       ]
     },
     {
@@ -748,10 +674,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30",
-        "13:05",
-        "15:10",
-        "15:40",
         "17:40"
       ]
     },
@@ -760,8 +682,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "11:15",
-        "15:40",
         "19:55"
       ]
     },
@@ -770,9 +690,15 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:10",
-        "12:15",
         "16:55"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30"
       ]
     },
     {
@@ -780,9 +706,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "16:45",
         "19:15",
-        "21:45",
         "00:15"
       ]
     },
@@ -791,21 +715,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "13:05",
-        "15:25",
-        "17:45",
-        "20:10"
-      ]
-    },
-    {
-      "movieId": "the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:30",
-        "00:45",
-        "01:50"
+        "17:45"
       ]
     }
   ]
