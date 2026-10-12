@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-12T00:13:04.242Z",
+  "generatedAt": "2026-10-12T10:11:55.342Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 55,
-    "showtimes": 217
+    "showtimeGroups": 63,
+    "showtimes": 232
   },
   "cinemas": [
     {
@@ -46,6 +46,28 @@
       }
     },
     {
+      "id": "whalefall",
+      "title": "Whalefall",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 110,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005531/whalefall"
+      }
+    },
+    {
+      "id": "street-fighter",
+      "title": "Street Fighter",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005320/street-fighter"
+      }
+    },
+    {
       "id": "other-mommy",
       "title": "Other Mommy",
       "genre": "",
@@ -54,17 +76,6 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005664/other-mommy"
-      }
-    },
-    {
-      "id": "matloub-3a2eleyain-arabic",
-      "title": "Matloub 3a2eleyain (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
       }
     },
     {
@@ -79,14 +90,14 @@
       }
     },
     {
-      "id": "drishyam-the-conclusion-hindi",
-      "title": "Drishyam - The Conclusion (Hindi)",
+      "id": "matloub-3a2eleyain-arabic",
+      "title": "Matloub 3a2eleyain (Arabic)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 160,
+      "runtime": 95,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005752/drishyam-the-conclusion-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
       }
     },
     {
@@ -101,14 +112,25 @@
       }
     },
     {
-      "id": "whalefall",
-      "title": "Whalefall",
+      "id": "drishyam-the-conclusion-hindi",
+      "title": "Drishyam - The Conclusion (Hindi)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 110,
+      "runtime": 160,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005531/whalefall"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005752/drishyam-the-conclusion-hindi"
+      }
+    },
+    {
+      "id": "nayyi-navelli-hindi",
+      "title": "Nayyi Navelli (Hindi)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 155,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005775/nayyi-navelli-hindi"
       }
     },
     {
@@ -123,14 +145,14 @@
       }
     },
     {
-      "id": "the-social-reckoning",
-      "title": "The Social Reckoning",
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG",
       "language": "",
-      "runtime": 115,
+      "runtime": 105,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005721/the-social-reckoning"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
       }
     },
     {
@@ -145,69 +167,14 @@
       }
     },
     {
-      "id": "beware-bouina",
-      "title": "Beware Bouina",
+      "id": "the-shawshank-redemption-re-release",
+      "title": "The Shawshank Redemption (Re Release)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 105,
+      "runtime": 145,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005694/beware-bouina"
-      }
-    },
-    {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
-      }
-    },
-    {
-      "id": "sb19-wakas-at-simula-the-trilogy-concert",
-      "title": "SB19 Wakas At Simula: The Trilogy Concert",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005702/sb19-wakas-at-simula-the-trilogy-concert"
-      }
-    },
-    {
-      "id": "digger",
-      "title": "Digger",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005737/the-shawshank-redemption-re-release"
       }
     },
     {
@@ -222,14 +189,47 @@
       }
     },
     {
-      "id": "linkin-park-unshatter",
-      "title": "Linkin Park: Unshatter",
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "paw-patrol-the-dino-movie",
+      "title": "Paw Patrol: The Dino Movie",
+      "genre": "",
+      "rating": "G",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005312/paw-patrol-the-dino-movie"
+      }
+    },
+    {
+      "id": "ranabaali-telugu",
+      "title": "Ranabaali (Telugu)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 110,
+      "runtime": 195,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005761/linkin-park-unshatter"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005263/ranabaali-telugu"
       }
     }
   ],
@@ -239,9 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:15",
-        "12:00",
-        "13:00",
         "14:00",
         "16:00",
         "17:00",
@@ -255,7 +252,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:00",
         "14:45",
         "17:30",
         "20:15",
@@ -267,12 +263,15 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
-        "13:30",
+        "14:30",
         "16:00",
+        "17:00",
         "18:30",
+        "19:30",
         "21:00",
+        "22:00",
         "23:30",
+        "00:30",
         "02:00"
       ]
     },
@@ -281,7 +280,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "16:10",
         "18:40",
         "19:35",
@@ -300,11 +298,155 @@
       ]
     },
     {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "11:15",
+        "14:00",
+        "17:00",
+        "19:30",
+        "20:30",
+        "22:30",
+        "23:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:00",
+        "15:00",
+        "17:20",
+        "19:45",
+        "22:05"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "13:00",
+        "18:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "12:50",
+        "15:10",
+        "15:55",
+        "17:30",
+        "19:50",
+        "21:15",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "13:15",
+        "15:25",
+        "16:45",
+        "19:05",
+        "20:00",
+        "22:20"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "12:00",
+        "16:30",
+        "18:00",
+        "21:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:25",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "11:15",
+        "13:45",
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:30",
+        "15:20",
+        "20:25",
+        "01:20"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:00"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "13:20",
+        "18:20",
+        "20:50",
+        "23:20"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "11:20",
+        "13:50",
+        "16:20",
+        "17:45",
+        "18:50",
+        "22:00"
+      ]
+    },
+    {
       "movieId": "other-mommy",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:45",
         "15:30",
         "21:30",
         "00:00"
@@ -315,8 +457,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:30",
-        "13:35",
         "15:40",
         "17:45",
         "19:50",
@@ -340,8 +480,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:50",
-        "12:50",
         "22:05"
       ]
     },
@@ -352,6 +490,39 @@
       "times": [
         "18:45",
         "22:15"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "03:00",
+        "03:00"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "03:00"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "03:00"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "03:00"
       ]
     },
     {
@@ -389,36 +560,42 @@
       ]
     },
     {
-      "movieId": "jailer-2-tamil",
+      "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Platinum Suites",
       "times": [
-        "03:00",
-        "03:00"
+        "15:00",
+        "19:00",
+        "23:30"
       ]
     },
     {
-      "movieId": "jailer-2-tamil",
+      "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "03:00"
+        "15:30",
+        "17:45",
+        "20:00",
+        "22:15",
+        "00:30",
+        "01:00"
       ]
     },
     {
-      "movieId": "jailer-2-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "03:00"
-      ]
-    },
-    {
-      "movieId": "jailer-2-tamil",
+      "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "03:00"
+        "17:55"
+      ]
+    },
+    {
+      "movieId": "heart-of-the-beast",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:05"
       ]
     },
     {
@@ -434,7 +611,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "23:30"
       ]
     },
@@ -443,9 +619,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "11:45",
-        "13:10",
         "14:55",
         "16:20",
         "18:05",
@@ -461,8 +634,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:50",
-        "13:00",
         "14:00",
         "15:00",
         "16:15",
@@ -479,8 +650,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:00",
-        "15:10",
         "17:00",
         "18:20",
         "20:30",
@@ -488,63 +657,50 @@
       ]
     },
     {
-      "movieId": "heart-of-the-beast",
+      "movieId": "nayyi-navelli-hindi",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "22:00"
+      ]
+    },
+    {
+      "movieId": "nayyi-navelli-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
         "10:00",
-        "12:30",
+        "11:00",
+        "13:05",
+        "14:05",
         "15:00",
-        "19:00",
+        "16:10",
+        "19:15",
+        "21:15",
+        "22:20",
+        "01:25"
+      ]
+    },
+    {
+      "movieId": "nayyi-navelli-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "14:40",
+        "17:30",
+        "20:35",
         "23:30"
       ]
     },
     {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:00",
-        "13:15",
-        "15:30",
-        "17:45",
-        "20:00",
-        "22:15",
-        "00:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "11:30",
-        "13:15",
-        "17:55"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
+      "movieId": "nayyi-navelli-hindi",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:45",
-        "20:05"
-      ]
-    },
-    {
-      "movieId": "whalefall",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "10:15",
-        "12:40",
-        "15:00",
-        "17:20",
-        "19:45",
-        "22:05",
-        "00:30"
+        "17:05",
+        "19:15",
+        "21:45"
       ]
     },
     {
@@ -571,8 +727,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:00",
-        "12:00",
         "14:00",
         "20:15",
         "22:15",
@@ -581,38 +735,31 @@
       ]
     },
     {
-      "movieId": "the-social-reckoning",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:30",
-        "16:00",
-        "19:40",
-        "21:00",
-        "22:15",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "the-social-reckoning",
+      "movieId": "coyote-vs-acme",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:30",
-        "20:15",
-        "22:45",
-        "00:30",
-        "01:15"
+        "16:55",
+        "20:00",
+        "22:15"
       ]
     },
     {
-      "movieId": "the-social-reckoning",
-      "cinemaId": "reel-reel-dubai-marina-mall",
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "17:50"
+      ]
+    },
+    {
+      "movieId": "coyote-vs-acme",
+      "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:20",
-        "15:30",
-        "21:20"
+        "14:10",
+        "14:50",
+        "16:30"
       ]
     },
     {
@@ -620,7 +767,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "14:30",
         "22:00"
       ]
@@ -639,7 +785,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "12:00",
         "15:40",
         "19:20",
         "23:00"
@@ -650,148 +795,32 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:15",
         "18:00"
       ]
     },
     {
-      "movieId": "beware-bouina",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "14:15",
-        "16:30",
-        "18:45",
-        "21:00",
-        "23:15",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "beware-bouina",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "12:45",
-        "14:55",
-        "00:05"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:45",
-        "16:55"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "13:45",
-        "17:50"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:30",
-        "14:50",
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "12:00",
-        "14:30",
-        "17:00",
-        "19:30",
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "sb19-wakas-at-simula-the-trilogy-concert",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "10:45",
-        "13:45",
-        "17:05"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:30",
-        "19:30",
-        "20:30"
-      ]
-    },
-    {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "11:15",
-        "14:00",
-        "16:45"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "11:45",
-        "21:50"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "10:30",
-        "14:00",
-        "15:40",
-        "17:40"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "the-shawshank-redemption-re-release",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "13:30"
+        "12:00",
+        "14:40",
+        "17:45",
+        "21:00"
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
+      "movieId": "the-shawshank-redemption-re-release",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "11:45",
-        "14:00"
+        "11:15",
+        "14:15",
+        "19:15",
+        "20:30",
+        "22:10",
+        "23:30",
+        "01:05"
       ]
     },
     {
@@ -804,36 +833,78 @@
       ]
     },
     {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:00",
+        "17:00",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "21:50"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:10",
-        "12:15",
-        "13:00",
-        "14:45"
+        "14:00",
+        "15:40",
+        "16:20",
+        "17:40"
       ]
     },
     {
-      "movieId": "linkin-park-unshatter",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "19:15",
-        "21:45",
-        "00:50"
-      ]
-    },
-    {
-      "movieId": "linkin-park-unshatter",
+      "movieId": "paw-patrol-the-dino-movie",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
-        "13:05",
-        "15:25",
-        "17:45",
-        "20:10"
+        "16:45"
+      ]
+    },
+    {
+      "movieId": "paw-patrol-the-dino-movie",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "14:35",
+        "16:00"
+      ]
+    },
+    {
+      "movieId": "ranabaali-telugu",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:45",
+        "15:30",
+        "19:15",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "ranabaali-telugu",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:00",
+        "16:40",
+        "20:20"
       ]
     }
   ]
