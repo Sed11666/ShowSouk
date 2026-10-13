@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T10:05:26.406Z",
+  "generatedAt": "2026-10-13T18:51:14.459Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 64,
-    "showtimes": 228
+    "showtimeGroups": 51,
+    "showtimes": 161
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "matloub-3a2eleyain-arabic",
-      "title": "Matloub 3a2eleyain (Arabic)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
-      }
-    },
-    {
       "id": "other-mommy",
       "title": "Other Mommy",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005664/other-mommy"
+      }
+    },
+    {
+      "id": "matloub-3a2eleyain-arabic",
+      "title": "Matloub 3a2eleyain (Arabic)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
       }
     },
     {
@@ -112,14 +112,14 @@
       }
     },
     {
-      "id": "drishyam-the-conclusion-hindi",
-      "title": "Drishyam - The Conclusion (Hindi)",
+      "id": "nayyi-navelli-hindi",
+      "title": "Nayyi Navelli (Hindi)",
       "genre": "",
-      "rating": "PG15",
+      "rating": "PG13",
       "language": "",
-      "runtime": 160,
+      "runtime": 155,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005752/drishyam-the-conclusion-hindi"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005775/nayyi-navelli-hindi"
       }
     },
     {
@@ -134,25 +134,14 @@
       }
     },
     {
-      "id": "nayyi-navelli-hindi",
-      "title": "Nayyi Navelli (Hindi)",
+      "id": "drishyam-the-conclusion-hindi",
+      "title": "Drishyam - The Conclusion (Hindi)",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 155,
+      "runtime": 160,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005775/nayyi-navelli-hindi"
-      }
-    },
-    {
-      "id": "the-shawshank-redemption-re-release",
-      "title": "The Shawshank Redemption (Re Release)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 145,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005737/the-shawshank-redemption-re-release"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005752/drishyam-the-conclusion-hindi"
       }
     },
     {
@@ -178,17 +167,6 @@
       }
     },
     {
-      "id": "avengers-endgame-encore",
-      "title": "Avengers Endgame : Encore",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 190,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
-      }
-    },
-    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -197,6 +175,17 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
+      }
+    },
+    {
+      "id": "avengers-endgame-encore",
+      "title": "Avengers Endgame : Encore",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 190,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
       }
     },
     {
@@ -211,6 +200,28 @@
       }
     },
     {
+      "id": "the-twilight-saga-new-moon-2009",
+      "title": "The Twilight Saga: New Moon (2009)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005725/the-twilight-saga-new-moon-2009"
+      }
+    },
+    {
+      "id": "twilight-2008",
+      "title": "Twilight (2008)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 125,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005724/twilight-2008"
+      }
+    },
+    {
       "id": "digger",
       "title": "Digger",
       "genre": "",
@@ -219,17 +230,6 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
-      }
-    },
-    {
-      "id": "the-twilight-saga-eclipse-2010",
-      "title": "The Twilight Saga: Eclipse (2010)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 125,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005726/the-twilight-saga-eclipse-2010"
       }
     }
   ],
@@ -269,7 +269,10 @@
       "times": [
         "13:00",
         "18:00",
-        "23:00"
+        "19:10",
+        "21:30",
+        "23:00",
+        "23:50"
       ]
     },
     {
@@ -341,6 +344,8 @@
       "format": "Standard",
       "times": [
         "10:30",
+        "12:00",
+        "14:40",
         "15:20",
         "20:25",
         "01:20"
@@ -384,11 +389,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:00",
-        "16:00",
-        "17:00",
-        "21:00",
-        "22:30",
         "00:30"
       ]
     },
@@ -397,9 +397,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:45",
-        "17:30",
-        "20:15",
         "23:00"
       ]
     },
@@ -408,13 +405,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:30",
-        "16:00",
-        "17:00",
-        "18:30",
-        "19:30",
-        "21:00",
-        "22:00",
         "23:30",
         "00:30",
         "02:00"
@@ -425,21 +415,32 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "16:10",
-        "18:40",
-        "19:40",
         "23:45"
       ]
     },
     {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
       "times": [
-        "18:00",
-        "19:40",
-        "20:45",
-        "22:15"
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "23:30",
+        "01:35"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "23:45"
       ]
     },
     {
@@ -447,8 +448,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:30",
-        "20:00",
         "23:00"
       ]
     },
@@ -457,84 +456,9 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:00",
-        "17:10",
-        "19:15",
-        "21:20",
         "22:50",
         "23:25",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "matloub-3a2eleyain-arabic",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "20:10",
-        "22:15"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "15:30",
-        "21:30",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "16:40",
-        "19:15",
-        "21:45"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "15:10",
-        "17:15",
-        "23:30",
-        "01:35"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "15:45",
-        "17:00",
-        "18:00",
-        "19:10",
-        "21:20"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "16:00",
-        "21:40",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:45",
-        "22:25"
       ]
     },
     {
@@ -575,8 +499,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "15:00",
-        "19:00",
         "23:30"
       ]
     },
@@ -585,118 +507,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "15:30",
-        "17:45",
-        "20:00",
-        "22:15",
         "00:30",
         "01:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "17:55"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "14:50",
-        "20:10"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:00"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:55",
-        "16:20",
-        "18:05",
-        "19:30",
-        "21:15",
-        "22:40",
-        "00:25",
-        "01:50"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "15:00",
-        "16:15",
-        "16:50",
-        "18:10",
-        "19:30",
-        "20:00",
-        "21:10",
-        "22:40",
-        "23:10"
-      ]
-    },
-    {
-      "movieId": "drishyam-the-conclusion-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "17:00",
-        "18:20",
-        "20:30",
-        "21:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "19:30",
-        "21:30",
-        "23:30",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "20:15",
-        "22:15",
-        "00:15",
-        "02:15"
       ]
     },
     {
@@ -745,26 +557,48 @@
       ]
     },
     {
-      "movieId": "the-shawshank-redemption-re-release",
+      "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Dolby Cinema",
       "times": [
-        "12:00",
-        "21:00"
+        "23:30",
+        "01:30"
       ]
     },
     {
-      "movieId": "the-shawshank-redemption-re-release",
+      "movieId": "resident-evil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:15",
-        "14:15",
-        "19:15",
-        "20:30",
-        "22:10",
-        "23:30",
-        "01:05"
+        "00:15",
+        "02:15"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "22:40",
+        "00:25",
+        "01:50"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "22:40",
+        "23:10"
       ]
     },
     {
@@ -772,7 +606,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:55"
+        "11:45",
+        "16:55",
+        "20:00",
+        "22:15"
       ]
     },
     {
@@ -780,7 +617,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "17:15"
+        "13:45",
+        "17:50"
       ]
     },
     {
@@ -788,7 +626,10 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:45",
+        "12:30",
         "14:10",
+        "14:50",
         "16:30"
       ]
     },
@@ -797,25 +638,27 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "19:35"
+        "16:00",
+        "20:05"
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "movieId": "the-smurf-timeless-adventure-volume-2",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
       "times": [
-        "14:30",
-        "22:00"
+        "10:10",
+        "12:15",
+        "13:00",
+        "14:45"
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
+      "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
+      "format": "Standard",
       "times": [
-        "15:30",
-        "17:00"
+        "23:30"
       ]
     },
     {
@@ -823,34 +666,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "15:40",
-        "19:20",
         "23:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "18:00"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:00",
-        "23:30"
       ]
     },
     {
@@ -858,7 +674,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "21:25"
+        "11:45",
+        "21:50"
       ]
     },
     {
@@ -866,6 +683,8 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
+        "10:30",
+        "12:10",
         "14:00",
         "15:40",
         "16:20",
@@ -873,25 +692,28 @@
       ]
     },
     {
-      "movieId": "digger",
+      "movieId": "the-twilight-saga-new-moon-2009",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
+      "format": "Premium",
       "times": [
-        "19:30",
-        "20:30"
+        "13:50",
+        "14:50",
+        "19:50",
+        "21:00"
       ]
     },
     {
-      "movieId": "digger",
+      "movieId": "the-twilight-saga-new-moon-2009",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Standard",
       "times": [
-        "14:00",
-        "16:45"
+        "12:15",
+        "17:35",
+        "22:55"
       ]
     },
     {
-      "movieId": "the-twilight-saga-eclipse-2010",
+      "movieId": "twilight-2008",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
@@ -901,13 +723,33 @@
       ]
     },
     {
-      "movieId": "the-twilight-saga-eclipse-2010",
+      "movieId": "twilight-2008",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "15:00",
         "20:20",
         "01:40"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "13:30",
+        "19:30",
+        "20:30"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:00",
+        "13:40",
+        "16:20"
       ]
     }
   ]
