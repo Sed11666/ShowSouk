@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T08:22:36.785Z",
+  "generatedAt": "2026-10-14T14:19:54.857Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 66,
-    "showtimes": 250
+    "showtimeGroups": 56,
+    "showtimes": 185
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "other-mommy",
-      "title": "Other Mommy",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 95,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005664/other-mommy"
-      }
-    },
-    {
       "id": "matloub-3a2eleyain-arabic",
       "title": "Matloub 3a2eleyain (Arabic)",
       "genre": "",
@@ -98,6 +87,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
+      }
+    },
+    {
+      "id": "other-mommy",
+      "title": "Other Mommy",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 95,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005664/other-mommy"
       }
     },
     {
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "avengers-endgame-encore",
-      "title": "Avengers Endgame : Encore",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 190,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
-      }
-    },
-    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -186,17 +175,6 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -222,14 +200,36 @@
       }
     },
     {
-      "id": "digger",
-      "title": "Digger",
+      "id": "avengers-endgame-encore",
+      "title": "Avengers Endgame : Encore",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 190,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
+      }
+    },
+    {
+      "id": "the-odyssey",
+      "title": "The Odyssey",
       "genre": "",
       "rating": "PG15",
       "language": "",
-      "runtime": 130,
+      "runtime": 175,
       "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005178/the-odyssey"
       }
     }
   ],
@@ -269,10 +269,9 @@
       "times": [
         "13:00",
         "18:00",
-        "19:10",
-        "21:30",
         "23:00",
-        "23:50"
+        "23:20",
+        "01:40"
       ]
     },
     {
@@ -285,7 +284,6 @@
         "15:10",
         "15:55",
         "17:30",
-        "19:50",
         "21:15",
         "23:45"
       ]
@@ -375,8 +373,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "11:20",
-        "13:50",
         "16:20",
         "17:45",
         "18:50",
@@ -388,10 +384,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:00",
-        "14:00",
-        "16:00",
-        "17:00",
         "21:00",
         "22:30",
         "00:30"
@@ -402,8 +394,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:45",
-        "17:30",
         "20:15",
         "23:00",
         "00:30"
@@ -414,10 +404,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "14:30",
-        "16:00",
-        "17:00",
         "18:30",
         "19:30",
         "21:00",
@@ -432,10 +418,10 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "16:10",
         "18:40",
         "19:25",
-        "23:45"
+        "23:45",
+        "00:25"
       ]
     },
     {
@@ -485,75 +471,10 @@
       ]
     },
     {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "15:30",
-        "21:30",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "13:35",
-        "15:40",
-        "17:45",
-        "19:50",
-        "21:10",
-        "21:55",
-        "23:30",
-        "00:00"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "17:10",
-        "18:40",
-        "19:20",
-        "22:20",
-        "00:30"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "17:00",
-        "23:45"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "12:45"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "18:45",
-        "20:15",
-        "22:15"
-      ]
-    },
-    {
       "movieId": "matloub-3a2eleyain-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "17:30",
         "20:00",
         "23:00"
       ]
@@ -581,12 +502,60 @@
       ]
     },
     {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "21:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "19:50",
+        "21:10",
+        "21:55",
+        "23:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "18:40",
+        "19:20",
+        "22:20",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "23:45"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:45",
+        "20:15",
+        "22:15"
+      ]
+    },
+    {
       "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:30",
-        "15:00",
         "19:00",
         "23:30"
       ]
@@ -596,22 +565,10 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:30",
-        "17:45",
         "20:00",
         "22:15",
         "00:30",
         "01:00"
-      ]
-    },
-    {
-      "movieId": "heart-of-the-beast",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "13:15",
-        "17:55"
       ]
     },
     {
@@ -680,7 +637,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:00",
         "20:15",
         "22:15",
         "22:40",
@@ -702,7 +658,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "23:30"
       ]
     },
@@ -711,10 +666,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:00",
-        "14:10",
-        "16:10",
-        "17:20",
         "19:20",
         "20:30",
         "22:30",
@@ -726,11 +677,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "13:00",
-        "14:00",
-        "15:00",
-        "15:50",
-        "17:10",
         "18:10",
         "20:35",
         "21:10",
@@ -743,7 +689,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "17:00",
         "18:20",
         "20:30",
         "21:30"
@@ -758,124 +703,20 @@
       ]
     },
     {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "13:45",
-        "17:50"
-      ]
-    },
-    {
-      "movieId": "coyote-vs-acme",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:30",
-        "14:10",
-        "14:50",
-        "16:30"
-      ]
-    },
-    {
       "movieId": "the-smurf-timeless-adventure-volume-2",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "16:00",
         "20:05"
       ]
     },
     {
-      "movieId": "the-smurf-timeless-adventure-volume-2",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:15",
-        "13:00",
-        "14:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "14:30",
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:00",
-        "15:30",
-        "17:00",
-        "19:45"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "ScreenX",
-      "times": [
-        "15:40",
-        "19:20",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "13:15"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "16:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:30"
-      ]
-    },
-    {
       "movieId": "spider-man-brand-new-day",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:10"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "21:50"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "12:10",
-        "14:00",
-        "15:40",
-        "16:20",
-        "17:40"
+        "11:15",
+        "14:00"
       ]
     },
     {
@@ -920,30 +761,54 @@
       ]
     },
     {
-      "movieId": "digger",
+      "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "13:30",
-        "19:30",
-        "20:30"
+        "22:00"
       ]
     },
     {
-      "movieId": "digger",
+      "movieId": "avengers-endgame-encore",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
+      "format": "Premium",
       "times": [
-        "13:40",
-        "16:20"
+        "19:45"
       ]
     },
     {
-      "movieId": "digger",
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "19:20",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "21:50"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "18:45",
+        "22:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "the-odyssey",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "17:15"
+        "22:30"
       ]
     }
   ]
