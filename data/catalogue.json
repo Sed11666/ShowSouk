@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-14T23:39:44.438Z",
+  "generatedAt": "2026-10-15T03:03:30.116Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 53,
-    "showtimes": 226
+    "showtimes": 225
   },
   "cinemas": [
     {
@@ -480,7 +480,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "06:30",
         "08:45",
         "10:00",
         "12:15",
