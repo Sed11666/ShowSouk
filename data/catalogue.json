@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-15T20:55:28.208Z",
+  "generatedAt": "2026-10-15T23:32:42.139Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 33,
-    "showtimes": 91
+    "showtimeGroups": 54,
+    "showtimes": 208
   },
   "cinemas": [
     {
@@ -178,17 +178,6 @@
       }
     },
     {
-      "id": "twilight-2008",
-      "title": "Twilight (2008)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 125,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005724/twilight-2008"
-      }
-    },
-    {
       "id": "the-twilight-saga-new-moon-2009",
       "title": "The Twilight Saga: New Moon (2009)",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 130,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005725/the-twilight-saga-new-moon-2009"
+      }
+    },
+    {
+      "id": "twilight-2008",
+      "title": "Twilight (2008)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 125,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005724/twilight-2008"
       }
     },
     {
@@ -211,17 +211,6 @@
       }
     },
     {
-      "id": "avengers-endgame-encore",
-      "title": "Avengers Endgame : Encore",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 190,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
-      }
-    },
-    {
       "id": "ranabaali-telugu",
       "title": "Ranabaali (Telugu)",
       "genre": "",
@@ -231,6 +220,17 @@
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005263/ranabaali-telugu"
       }
+    },
+    {
+      "id": "avengers-endgame-encore",
+      "title": "Avengers Endgame : Encore",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 190,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005709/avengers-endgame-encore"
+      }
     }
   ],
   "showtimes": [
@@ -239,7 +239,27 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
+        "10:00",
+        "11:15",
+        "14:00",
+        "17:00",
+        "19:30",
+        "20:30",
+        "22:30",
+        "23:30",
         "01:00"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "10:00",
+        "15:00",
+        "17:20",
+        "19:45",
+        "22:05"
       ]
     },
     {
@@ -247,7 +267,76 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "01:40"
+        "13:00",
+        "18:00",
+        "19:10",
+        "21:30",
+        "23:00",
+        "23:50"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "11:30",
+        "16:30"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:40",
+        "13:20",
+        "18:10",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "20:05",
+        "22:15"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:30",
+        "12:00",
+        "16:30",
+        "18:00",
+        "21:30",
+        "00:00"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "12:25",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "ScreenX",
+      "times": [
+        "11:15",
+        "13:45",
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
       ]
     },
     {
@@ -255,7 +344,61 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "15:20",
+        "20:25",
         "01:20"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "13:55",
+        "23:50"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "10:50",
+        "15:40",
+        "20:30"
+      ]
+    },
+    {
+      "movieId": "street-fighter",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "18:50",
+        "22:20"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "11:30",
+        "13:00",
+        "16:00",
+        "21:00",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "14:15",
+        "17:15",
+        "20:15",
+        "23:00"
       ]
     },
     {
@@ -263,7 +406,45 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "11:00",
+        "13:30",
+        "16:00",
+        "18:30",
+        "21:00",
+        "23:30",
         "02:00"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "17:45",
+        "23:40"
+      ]
+    },
+    {
+      "movieId": "verity",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "17:20",
+        "18:50",
+        "19:25",
+        "21:15"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Dolby Cinema",
+      "times": [
+        "09:00",
+        "12:30",
+        "16:00",
+        "19:30",
+        "23:00"
       ]
     },
     {
@@ -271,7 +452,47 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "08:00",
+        "11:30",
+        "15:00",
+        "18:30",
+        "22:00",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "09:15",
+        "10:20",
+        "12:45",
+        "13:50",
+        "16:15",
+        "17:20",
+        "19:45",
+        "20:50",
+        "23:15",
+        "00:20"
+      ]
+    },
+    {
+      "movieId": "jailer-2-tamil",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Standard",
+      "times": [
+        "21:20"
+      ]
+    },
+    {
+      "movieId": "matloub-3a2eleyain-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "17:30",
+        "20:00",
+        "23:00"
       ]
     },
     {
@@ -279,7 +500,31 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "02:00"
+        "17:10",
+        "19:15",
+        "21:20",
+        "23:25",
+        "01:30"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "15:30"
+      ]
+    },
+    {
+      "movieId": "other-mommy",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:30",
+        "16:45",
+        "19:15",
+        "22:00",
+        "00:30"
       ]
     },
     {
@@ -287,6 +532,13 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "10:30",
+        "12:35",
+        "14:40",
+        "16:50",
+        "19:00",
+        "21:10",
+        "23:20",
         "01:30"
       ]
     },
@@ -471,14 +723,6 @@
       ]
     },
     {
-      "movieId": "twilight-2008",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "01:40"
-      ]
-    },
-    {
       "movieId": "the-twilight-saga-new-moon-2009",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -496,6 +740,26 @@
         "12:00",
         "17:25",
         "22:50"
+      ]
+    },
+    {
+      "movieId": "twilight-2008",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "11:30",
+        "17:45",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "twilight-2008",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:45",
+        "20:10",
+        "01:40"
       ]
     },
     {
@@ -519,25 +783,6 @@
       ]
     },
     {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "14:30"
-      ]
-    },
-    {
-      "movieId": "avengers-endgame-encore",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "12:00",
-        "15:45",
-        "19:40",
-        "22:30"
-      ]
-    },
-    {
       "movieId": "ranabaali-telugu",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -554,6 +799,25 @@
         "13:00",
         "16:40",
         "20:20"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "14:30"
+      ]
+    },
+    {
+      "movieId": "avengers-endgame-encore",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "12:00",
+        "15:45",
+        "19:40",
+        "22:30"
       ]
     }
   ]
