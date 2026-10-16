@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:32:42.139Z",
+  "generatedAt": "2026-10-16T03:01:10.638Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -167,17 +167,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
       "id": "the-twilight-saga-new-moon-2009",
       "title": "The Twilight Saga: New Moon (2009)",
       "genre": "",
@@ -197,6 +186,17 @@
       "runtime": 125,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005724/twilight-2008"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
       }
     },
     {
@@ -706,23 +706,6 @@
       ]
     },
     {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "14:00"
-      ]
-    },
-    {
       "movieId": "the-twilight-saga-new-moon-2009",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
@@ -760,6 +743,23 @@
         "14:45",
         "20:10",
         "01:40"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "14:00"
       ]
     },
     {
