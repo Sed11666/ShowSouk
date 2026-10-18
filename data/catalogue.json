@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-18T17:48:50.794Z",
+  "generatedAt": "2026-10-18T20:03:51.080Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 43,
-    "showtimes": 78
+    "showtimeGroups": 30,
+    "showtimes": 56
   },
   "cinemas": [
     {
@@ -79,17 +79,6 @@
       }
     },
     {
-      "id": "jailer-2-tamil",
-      "title": "Jailer 2 (Tamil)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 180,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005715/jailer-2-tamil"
-      }
-    },
-    {
       "id": "other-mommy",
       "title": "Other Mommy",
       "genre": "",
@@ -98,6 +87,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005664/other-mommy"
+      }
+    },
+    {
+      "id": "jailer-2-tamil",
+      "title": "Jailer 2 (Tamil)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 180,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005715/jailer-2-tamil"
       }
     },
     {
@@ -189,17 +189,6 @@
       }
     },
     {
-      "id": "the-twilight-saga-new-moon-2009",
-      "title": "The Twilight Saga: New Moon (2009)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005725/the-twilight-saga-new-moon-2009"
-      }
-    },
-    {
       "id": "twilight-2008",
       "title": "Twilight (2008)",
       "genre": "",
@@ -208,6 +197,17 @@
       "runtime": 125,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005724/twilight-2008"
+      }
+    },
+    {
+      "id": "the-twilight-saga-new-moon-2009",
+      "title": "The Twilight Saga: New Moon (2009)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005725/the-twilight-saga-new-moon-2009"
       }
     },
     {
@@ -239,8 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "22:30",
-        "23:30",
         "01:00"
       ]
     },
@@ -249,18 +247,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "21:30",
-        "23:30",
         "23:50",
         "01:50"
-      ]
-    },
-    {
-      "movieId": "whalefall",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "21:30"
       ]
     },
     {
@@ -269,14 +257,6 @@
       "format": "Standard",
       "times": [
         "00:00"
-      ]
-    },
-    {
-      "movieId": "whalefall",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:15"
       ]
     },
     {
@@ -290,34 +270,9 @@
     {
       "movieId": "verity",
       "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:30",
         "02:00"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "23:40"
-      ]
-    },
-    {
-      "movieId": "verity",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:20"
       ]
     },
     {
@@ -325,7 +280,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "21:30",
         "00:00"
       ]
     },
@@ -334,7 +288,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "22:15",
         "00:45"
       ]
     },
@@ -347,56 +300,11 @@
       ]
     },
     {
-      "movieId": "street-fighter",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "22:20"
-      ]
-    },
-    {
-      "movieId": "matloub-3a2eleyain-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
       "movieId": "matloub-3a2eleyain-arabic",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:25",
         "01:30"
-      ]
-    },
-    {
-      "movieId": "jailer-2-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Dolby Cinema",
-      "times": [
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "jailer-2-tamil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:00",
-        "22:45",
-        "00:50",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "jailer-2-tamil",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "21:40",
-        "23:15"
       ]
     },
     {
@@ -404,7 +312,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "22:00",
         "00:15"
       ]
     },
@@ -413,24 +320,16 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:30",
         "01:30"
       ]
     },
     {
-      "movieId": "nayyi-navelli-hindi",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "22:00"
-      ]
-    },
-    {
-      "movieId": "nayyi-navelli-hindi",
+      "movieId": "jailer-2-tamil",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "23:10"
+        "00:50",
+        "01:30"
       ]
     },
     {
@@ -442,19 +341,10 @@
       ]
     },
     {
-      "movieId": "nayyi-navelli-hindi",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "21:40"
-      ]
-    },
-    {
       "movieId": "heart-of-the-beast",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15",
         "00:30"
       ]
     },
@@ -463,7 +353,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "22:15",
         "00:15"
       ]
     },
@@ -503,7 +392,21 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
+        "12:50",
+        "16:00",
+        "20:30",
         "23:40"
+      ]
+    },
+    {
+      "movieId": "drishyam-the-conclusion-hindi",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "11:30",
+        "14:20",
+        "20:15",
+        "23:00"
       ]
     },
     {
@@ -556,35 +459,19 @@
       ]
     },
     {
-      "movieId": "the-twilight-saga-new-moon-2009",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "00:40"
-      ]
-    },
-    {
-      "movieId": "the-twilight-saga-new-moon-2009",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "22:50"
-      ]
-    },
-    {
-      "movieId": "twilight-2008",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "23:30"
-      ]
-    },
-    {
       "movieId": "twilight-2008",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
         "01:40"
+      ]
+    },
+    {
+      "movieId": "the-twilight-saga-new-moon-2009",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "00:40"
       ]
     },
     {
