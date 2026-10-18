@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-18T07:45:56.542Z",
+  "generatedAt": "2026-10-18T12:59:14.392Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
-    "showtimeGroups": 51,
-    "showtimes": 178
+    "showtimeGroups": 48,
+    "showtimes": 119
   },
   "cinemas": [
     {
@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "jailer-2-tamil",
-      "title": "Jailer 2 (Tamil)",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 180,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005715/jailer-2-tamil"
-      }
-    },
-    {
       "id": "matloub-3a2eleyain-arabic",
       "title": "Matloub 3a2eleyain (Arabic)",
       "genre": "",
@@ -87,6 +76,17 @@
       "runtime": 95,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005759/matloub-3a2eleyain-arabic"
+      }
+    },
+    {
+      "id": "jailer-2-tamil",
+      "title": "Jailer 2 (Tamil)",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 180,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005715/jailer-2-tamil"
       }
     },
     {
@@ -156,17 +156,6 @@
       }
     },
     {
-      "id": "spider-man-brand-new-day",
-      "title": "Spider-Man: Brand New Day",
-      "genre": "",
-      "rating": "PG13",
-      "language": "",
-      "runtime": 140,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
       "id": "the-smurf-timeless-adventure-volume-2",
       "title": "The Smurf Timeless Adventure Volume 2",
       "genre": "",
@@ -175,6 +164,17 @@
       "runtime": 80,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
+      }
+    },
+    {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 140,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
       }
     },
     {
@@ -200,17 +200,6 @@
       }
     },
     {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
-      }
-    },
-    {
       "id": "wala-kan-ala-el-bal-arabic",
       "title": "Wala Kan Ala El Bal (Arabic)",
       "genre": "",
@@ -219,6 +208,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005736/wala-kan-ala-el-bal-arabic"
+      }
+    },
+    {
+      "id": "minions-and-monsters",
+      "title": "Minions And Monsters",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     },
     {
@@ -239,7 +239,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "14:00",
         "17:00",
         "19:30",
         "20:30",
@@ -253,7 +252,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "15:00",
         "17:20"
       ]
     },
@@ -262,8 +260,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:55",
-        "16:20",
         "18:45",
         "19:10",
         "21:05",
@@ -278,7 +274,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "11:50",
         "16:40",
         "21:30"
       ]
@@ -296,7 +291,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "14:50",
         "17:35",
         "20:05",
         "22:15"
@@ -307,9 +301,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
-        "13:00",
-        "16:00",
         "21:00",
         "00:30"
       ]
@@ -319,7 +310,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:15",
         "17:15",
         "20:15",
         "23:00"
@@ -330,8 +320,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:30",
-        "16:00",
         "18:30",
         "21:00",
         "23:30",
@@ -361,8 +349,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:00",
-        "16:30",
         "18:00",
         "21:30",
         "00:00"
@@ -373,7 +359,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:25",
         "19:45",
         "22:15",
         "00:45"
@@ -384,8 +369,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "13:45",
-        "16:15",
         "18:45"
       ]
     },
@@ -394,17 +377,8 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Dolby Cinema",
       "times": [
-        "14:10",
         "19:00",
         "23:50"
-      ]
-    },
-    {
-      "movieId": "street-fighter",
-      "cinemaId": "reel-reel-dubai-marina-mall",
-      "format": "Standard",
-      "times": [
-        "15:40"
       ]
     },
     {
@@ -412,10 +386,29 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "12:45",
         "18:50",
         "19:50",
         "22:20"
+      ]
+    },
+    {
+      "movieId": "matloub-3a2eleyain-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "20:00",
+        "23:00"
+      ]
+    },
+    {
+      "movieId": "matloub-3a2eleyain-arabic",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "19:15",
+        "21:20",
+        "23:25",
+        "01:30"
       ]
     },
     {
@@ -423,8 +416,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "12:30",
-        "16:00",
         "19:30",
         "23:00"
       ]
@@ -434,11 +425,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
-        "12:15",
-        "12:40",
-        "15:00",
-        "15:45",
         "16:40",
         "18:30",
         "19:15",
@@ -455,10 +441,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "12:10",
-        "12:45",
-        "13:50",
-        "16:15",
         "17:20",
         "18:10",
         "19:45",
@@ -476,40 +458,10 @@
       ]
     },
     {
-      "movieId": "matloub-3a2eleyain-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "17:30",
-        "20:00",
-        "23:00"
-      ]
-    },
-    {
-      "movieId": "matloub-3a2eleyain-arabic",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "19:15",
-        "21:20",
-        "23:25",
-        "01:30"
-      ]
-    },
-    {
-      "movieId": "other-mommy",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "15:30"
-      ]
-    },
-    {
       "movieId": "other-mommy",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "12:30",
         "16:45",
         "19:15",
         "22:00",
@@ -521,8 +473,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:35",
-        "14:40",
         "23:30",
         "01:30"
       ]
@@ -540,7 +490,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "16:10",
         "23:10"
       ]
     },
@@ -549,7 +498,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "14:55",
         "17:30",
         "20:35",
         "23:45"
@@ -570,8 +518,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "12:30",
-        "15:00",
         "19:00"
       ]
     },
@@ -580,8 +526,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "13:15",
-        "15:30",
         "17:45",
         "20:00",
         "22:15",
@@ -601,8 +545,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
-        "14:00",
         "19:10",
         "20:15",
         "21:10",
@@ -623,7 +565,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
       "times": [
-        "15:20",
         "21:15"
       ]
     },
@@ -632,8 +573,6 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:20",
-        "14:05",
         "17:05"
       ]
     },
@@ -642,8 +581,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:50",
-        "16:00",
         "20:30",
         "23:40"
       ]
@@ -653,25 +590,7 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:45",
-        "14:20",
         "20:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "13:30"
-      ]
-    },
-    {
-      "movieId": "spider-man-brand-new-day",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "14:00"
       ]
     },
     {
@@ -687,9 +606,24 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "13:40",
-        "15:25",
         "17:15"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "13:30"
+      ]
+    },
+    {
+      "movieId": "spider-man-brand-new-day",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "14:00"
       ]
     },
     {
@@ -697,7 +631,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "11:30",
         "17:45",
         "23:30"
       ]
@@ -707,7 +640,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:45",
         "20:10",
         "01:40"
       ]
@@ -717,7 +649,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Premium",
       "times": [
-        "14:45",
         "00:40"
       ]
     },
@@ -726,27 +657,8 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "12:00",
         "17:25",
         "22:50"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "13:25",
-        "17:30"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "15:35",
-        "16:25"
       ]
     },
     {
@@ -759,6 +671,14 @@
         "21:30",
         "23:30",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "minions-and-monsters",
+      "cinemaId": "reel-reel-the-springs-souk",
+      "format": "Junior",
+      "times": [
+        "17:30"
       ]
     },
     {
