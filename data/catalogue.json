@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:52:44.351Z",
+  "generatedAt": "2026-10-18T02:54:33.238Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -200,17 +200,6 @@
       }
     },
     {
-      "id": "digger",
-      "title": "Digger",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 130,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
-      }
-    },
-    {
       "id": "minions-and-monsters",
       "title": "Minions And Monsters",
       "genre": "",
@@ -230,6 +219,17 @@
       "runtime": 90,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005736/wala-kan-ala-el-bal-arabic"
+      }
+    },
+    {
+      "id": "digger",
+      "title": "Digger",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 130,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005177/digger"
       }
     }
   ],
@@ -761,14 +761,6 @@
       ]
     },
     {
-      "movieId": "digger",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "13:30"
-      ]
-    },
-    {
       "movieId": "minions-and-monsters",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
@@ -796,6 +788,14 @@
         "21:30",
         "23:30",
         "01:30"
+      ]
+    },
+    {
+      "movieId": "digger",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "13:30"
       ]
     }
   ]
