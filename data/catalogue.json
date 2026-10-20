@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-20T00:06:54.169Z",
+  "generatedAt": "2026-10-20T08:10:43.599Z",
   "source": "reel",
   "counts": {
     "movies": 18,
     "cinemas": 3,
     "showtimeGroups": 58,
-    "showtimes": 227
+    "showtimes": 213
   },
   "cinemas": [
     {
@@ -145,6 +145,17 @@
       }
     },
     {
+      "id": "treasure-trekkers",
+      "title": "Treasure Trekkers",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 90,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005770/treasure-trekkers"
+      }
+    },
+    {
       "id": "resident-evil",
       "title": "Resident Evil",
       "genre": "",
@@ -167,17 +178,6 @@
       }
     },
     {
-      "id": "treasure-trekkers",
-      "title": "Treasure Trekkers",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005770/treasure-trekkers"
-      }
-    },
-    {
       "id": "the-smurf-timeless-adventure-volume-2",
       "title": "The Smurf Timeless Adventure Volume 2",
       "genre": "",
@@ -186,17 +186,6 @@
       "runtime": 80,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005708/the-smurf-timeless-adventure-volume-2"
-      }
-    },
-    {
-      "id": "coyote-vs-acme",
-      "title": "Coyote VS Acme",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 105,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
       }
     },
     {
@@ -211,6 +200,28 @@
       }
     },
     {
+      "id": "coyote-vs-acme",
+      "title": "Coyote VS Acme",
+      "genre": "",
+      "rating": "PG",
+      "language": "",
+      "runtime": 105,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005519/coyote-vs-acme"
+      }
+    },
+    {
+      "id": "titans-malayalam",
+      "title": "Titans (Malayalam)",
+      "genre": "",
+      "rating": "PG13",
+      "language": "",
+      "runtime": 135,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005776/titans-malayalam"
+      }
+    },
+    {
       "id": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day",
       "genre": "",
@@ -219,17 +230,6 @@
       "runtime": 140,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005307/spider-man-brand-new-day"
-      }
-    },
-    {
-      "id": "minions-and-monsters",
-      "title": "Minions And Monsters",
-      "genre": "",
-      "rating": "PG",
-      "language": "",
-      "runtime": 90,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005236/minions-and-monsters"
       }
     }
   ],
@@ -313,8 +313,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:00",
-        "11:15",
         "14:00",
         "17:00",
         "19:30",
@@ -328,7 +326,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Dolby Cinema",
       "times": [
-        "10:30",
         "12:55",
         "15:20",
         "17:40",
@@ -342,7 +339,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:30",
         "13:55",
         "16:20",
         "18:45",
@@ -368,7 +364,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:40",
         "13:20",
         "18:10",
         "00:00"
@@ -391,7 +386,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "11:30",
         "13:00",
         "16:00",
         "21:00",
@@ -414,7 +408,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "13:30",
         "16:00",
         "18:30",
@@ -446,7 +439,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
       "times": [
-        "10:30",
         "12:00",
         "16:30",
         "18:00",
@@ -472,7 +464,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "ScreenX",
       "times": [
-        "11:15",
         "13:45",
         "16:15",
         "18:45",
@@ -494,7 +485,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "10:50",
         "15:40",
         "20:30"
       ]
@@ -516,7 +506,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
         "14:00",
         "17:30",
         "21:00",
@@ -528,7 +517,6 @@
       "cinemaId": "reel-reel-dubai-marina-mall",
       "format": "Standard",
       "times": [
-        "11:45",
         "12:45",
         "15:15",
         "16:15",
@@ -562,7 +550,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:00",
         "13:15",
         "15:30",
         "17:45",
@@ -660,7 +647,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:45",
         "12:50",
         "14:55",
         "17:05",
@@ -703,38 +689,6 @@
       ]
     },
     {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "18:30"
-      ]
-    },
-    {
-      "movieId": "resident-evil",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:00",
-        "14:00",
-        "20:15",
-        "22:15",
-        "00:15"
-      ]
-    },
-    {
-      "movieId": "klara-and-the-sun",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "11:15",
-        "13:50",
-        "16:25",
-        "18:55"
-      ]
-    },
-    {
       "movieId": "treasure-trekkers",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
@@ -764,6 +718,37 @@
       ]
     },
     {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "18:30"
+      ]
+    },
+    {
+      "movieId": "resident-evil",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "12:00",
+        "14:00",
+        "20:15",
+        "22:15",
+        "00:15"
+      ]
+    },
+    {
+      "movieId": "klara-and-the-sun",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "11:15",
+        "13:50",
+        "16:25",
+        "18:55"
+      ]
+    },
+    {
       "movieId": "the-smurf-timeless-adventure-volume-2",
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Junior",
@@ -776,11 +761,28 @@
       "cinemaId": "reel-reel-the-springs-souk",
       "format": "Standard",
       "times": [
-        "10:30",
-        "11:45",
         "13:35",
         "15:25",
         "17:15"
+      ]
+    },
+    {
+      "movieId": "twilight-2008",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Premium",
+      "times": [
+        "17:45",
+        "23:30"
+      ]
+    },
+    {
+      "movieId": "twilight-2008",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "14:45",
+        "20:10",
+        "01:40"
       ]
     },
     {
@@ -788,8 +790,6 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "10:30",
-        "11:45",
         "16:55"
       ]
     },
@@ -812,23 +812,29 @@
       ]
     },
     {
-      "movieId": "twilight-2008",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Premium",
-      "times": [
-        "11:30",
-        "17:45",
-        "23:30"
-      ]
-    },
-    {
-      "movieId": "twilight-2008",
+      "movieId": "titans-malayalam",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "14:45",
-        "20:10",
-        "01:40"
+        "10:45",
+        "13:30",
+        "16:15",
+        "19:00",
+        "21:45",
+        "23:45",
+        "00:30"
+      ]
+    },
+    {
+      "movieId": "titans-malayalam",
+      "cinemaId": "reel-reel-dubai-marina-mall",
+      "format": "Standard",
+      "times": [
+        "13:05",
+        "14:30",
+        "17:15",
+        "20:00",
+        "22:45"
       ]
     },
     {
@@ -844,27 +850,7 @@
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Standard",
       "times": [
-        "11:15",
         "14:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Junior",
-      "times": [
-        "15:00"
-      ]
-    },
-    {
-      "movieId": "minions-and-monsters",
-      "cinemaId": "reel-reel-the-springs-souk",
-      "format": "Standard",
-      "times": [
-        "11:00",
-        "13:05",
-        "14:15",
-        "16:40"
       ]
     }
   ]
