@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T23:46:29.383Z",
+  "generatedAt": "2026-10-24T03:09:37.112Z",
   "source": "reel",
   "counts": {
     "movies": 18,
@@ -57,17 +57,6 @@
       }
     },
     {
-      "id": "verity",
-      "title": "Verity",
-      "genre": "",
-      "rating": "PG15",
-      "language": "",
-      "runtime": 120,
-      "links": {
-        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005362/verity"
-      }
-    },
-    {
       "id": "whalefall",
       "title": "Whalefall",
       "genre": "",
@@ -76,6 +65,17 @@
       "runtime": 110,
       "links": {
         "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005531/whalefall"
+      }
+    },
+    {
+      "id": "verity",
+      "title": "Verity",
+      "genre": "",
+      "rating": "PG15",
+      "language": "",
+      "runtime": 120,
+      "links": {
+        "Reel Cinemas": "https://reelcinemas.com/en-ae/movie-details/HO00005362/verity"
       }
     },
     {
@@ -354,6 +354,34 @@
       ]
     },
     {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Platinum Suites",
+      "times": [
+        "10:00",
+        "11:15",
+        "14:00",
+        "17:00",
+        "19:30",
+        "20:30",
+        "23:30",
+        "01:00"
+      ]
+    },
+    {
+      "movieId": "whalefall",
+      "cinemaId": "reel-reel-the-dubai-mall",
+      "format": "Standard",
+      "times": [
+        "10:00",
+        "12:20",
+        "17:10",
+        "19:30",
+        "21:50",
+        "00:15"
+      ]
+    },
+    {
       "movieId": "verity",
       "cinemaId": "reel-reel-the-dubai-mall",
       "format": "Platinum Suites",
@@ -393,34 +421,6 @@
       "times": [
         "17:30",
         "22:30"
-      ]
-    },
-    {
-      "movieId": "whalefall",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Platinum Suites",
-      "times": [
-        "10:00",
-        "11:15",
-        "14:00",
-        "17:00",
-        "19:30",
-        "20:30",
-        "23:30",
-        "01:00"
-      ]
-    },
-    {
-      "movieId": "whalefall",
-      "cinemaId": "reel-reel-the-dubai-mall",
-      "format": "Standard",
-      "times": [
-        "10:00",
-        "12:20",
-        "17:10",
-        "19:30",
-        "21:50",
-        "00:15"
       ]
     },
     {
